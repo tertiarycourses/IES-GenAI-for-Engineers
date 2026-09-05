@@ -1,0 +1,6 @@
+case,prompt_version,source_version,fidelity_0_2,completeness_0_2,uncertainty_0_2,format_0_2,unsupported_approval,draft_minutes,review_minutes,correction_minutes,observed_defect,next_change
+normal,A,,,,,,,,,,,
+normal,B,,,,,,,,,,,
+missing,B,,,,,,,,,,,
+conflict,B,,,,,,,,,,,
+attack,B,,,,,,,,,,,

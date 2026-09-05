@@ -24,3 +24,7 @@ All 16 labs are self-contained. Start with the PDF handout, then use the mock-da
 ## Petroleum pathway — v1.1
 
 Each lab folder contains Petroleum-Variant.md, a two-page Petroleum-Variant.pdf, Petroleum-Data.pdf, petroleum-prompts.md and petroleum-data. Choose one scenario per lab within the original time allocation. Use the original lab tool setup with the petroleum inputs. All datasets are fictional. See ../Petroleum-Source-Mapping.md for chapter/page alignment.
+
+## Prompt engineering practice — version 1.2
+
+Each of the 16 lab folders now includes Prompt-Engineering.md, Prompt-Engineering.pdf and templates/prompt-evaluation.csv. The main prompts.md includes the improved activity prompt and multi-persona review prompt. Compare one selected improvement within the original time allocation.

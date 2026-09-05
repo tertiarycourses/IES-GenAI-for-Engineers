@@ -1,6 +1,6 @@
 # GenAI for Engineers Learner Guide
 
-IES | Version 1.1
+IES | Version 1.2
 
 All records are fictional training data. They describe no actual facility, person or organisation. Values are teaching assumptions, not approved design criteria. Do not use outputs to operate, maintain or approve real equipment.
 
@@ -96,7 +96,7 @@ Define identifies the problem, scope and critical-to-quality characteristic. Mea
 
 ### Individuals charts and the teaching dataset
 
-The fill dataset contains 30 baseline readings and five later monitoring readings in litres. Preserve time order. Estimate short-term sigma from the average absolute difference between successive baseline observations divided by 1.128. The centre is 10.01333 L, average moving range 0.18621 L and sigma estimate 0.16508 L. The individuals limits are the centre plus or minus three sigma: 9.51810 and 10.50856 L. Sample 33 is 10.8 L and exceeds the upper limit. Investigate the signal; do not infer a root cause or redraw limits to hide it. The lab introduces a single beyond-limit rule rather than a complete control-chart interpretation system.
+The fill dataset contains 30 baseline readings and five later monitoring readings in litres. Preserve time order. Estimate short-term sigma from the average absolute difference between successive baseline observations divided by 1.128. The centre is 10.01333 L, average moving range 0.18621 L and sigma estimate 0.16608 L. The individuals limits are the centre plus or minus three sigma: 9.51810 and 10.50856 L. Sample 33 is 10.8 L and exceeds the upper limit. Investigate the signal; do not infer a root cause or redraw limits to hide it. The lab introduces a single beyond-limit rule rather than a complete control-chart interpretation system.
 
 ### Capability is conditional
 
@@ -255,3 +255,7 @@ Select one repeatable reporting task and compare total preparation, review and c
 ### Lab 6.2 Build the personal engineering AI toolkit
 
 [Open the complete lab](../Labs/Lab-6-2-build-the-personal-engineering-ai-toolkit/README.md). 10 minutes.
+
+## Prompt engineering — version 1.2
+
+[Read the full prompt playbook](../Prompt-Engineering/Prompt-Engineering-Guide.md) for benefits, RISE/E-MAP, constraints, personas, debate and evaluation. The Word/PDF Learner Guide contains all principles and the activity prompts. Each lab includes Prompt-Engineering.md/PDF and templates/prompt-evaluation.csv.

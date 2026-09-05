@@ -35,6 +35,10 @@ The petroleum engineering ebook informs 27 new visual slides and deeper explanat
 
 Topics include data quality and units, predictive versus generative AI, equipment reliability, confusion matrices, forecast errors, retrieval provenance and environmental evidence. See the [ebook source mapping](courseware/Petroleum-Source-Mapping.md). The copyrighted ebook is retained locally and is not redistributed.
 
+## Prompt engineering — version 1.2
+
+Added 34 slides with activity prompts, benefits, RISE/E-MAP, concrete constraints, multiple personas, evidence-led debate and prompt evaluation. Every lab includes Prompt-Engineering.md/PDF and a comparison log. The expanded Learner Guide includes principles and per-lab prompt practice. See the [prompt playbook](courseware/Prompt-Engineering/Prompt-Engineering-Playbook.pdf). The one-day schedule is unchanged; select examples within the existing activities.
+
 ## Tools and prerequisites
 
 A corporate Microsoft 365 account, active Microsoft 365 Copilot licence, Word, Excel, PowerPoint, Teams and SharePoint are required for the live labs. Agent creation, reasoning agents, sharing and training-site access depend on tenant policy. Confirm access before class. No prior FMEA, Six Sigma or SPC knowledge is assumed.
@@ -56,7 +60,7 @@ flowchart LR
 
 ```text
 courseware/
-  Slides/             132-slide editable deck and PDF
+  Slides/             166-slide editable deck and PDF
   Learner-Guide/      Detailed Word guide and Markdown overview
   Lesson-Plan/        Timed delivery plan
   Labs/               16 self-contained lab folders
@@ -73,4 +77,4 @@ Expected outputs are illustrative references, not recorded Copilot runs. The int
 
 Learning materials are distributed through this repository; there is no website or GitHub Pages deployment. The repository retains its existing private visibility. IES is the training provider. Engineering illustrations were generated with OpenAI imagegen; prompts and provenance are recorded in [assets/README.md](assets/README.md). Microsoft product names identify the tools taught. See [references](courseware/REFERENCES.md) for current navigation and statistical methods.
 
-Visual corrections: five hub diagrams have connected lines and centered labels; seven conceptual image layouts use aligned cards; three diagrams correctly distinguish parallel streams or alternative verdicts. The 132-slide PPTX and PDF contain the same corrected layouts.
+Visual corrections: five hub diagrams have connected lines and centered labels; seven conceptual image layouts use aligned cards; three diagrams correctly distinguish parallel streams or alternative verdicts. The 166-slide PPTX and PDF contain the same corrected layouts.

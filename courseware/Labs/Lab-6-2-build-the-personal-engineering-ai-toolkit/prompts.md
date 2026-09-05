@@ -19,3 +19,13 @@ Role: engineering specification writer. Input: design-requirements.csv and DES-0
 ## Standalone framework example 2.3
 
 Engineering: planning-stage replacement of the fictional dosing pump. Metrics: cover every hazard in hazard-checklist.csv and expose all missing evidence. Assumptions: no chemical identity, SDS or approved isolation details are available. Parameters: desk exercise only; no work is authorised. Draft a risk assessment and method-statement planning outline. Include hold points and competent review. Do not prescribe chemical-specific PPE, exposure limits or live-work instructions.
+
+## Prompt engineering extension
+
+ROLE: engineering evidence assistant preparing a draft for competent review. INPUT: the named files in this lab's mock-data folder, or petroleum-data when using the petroleum variant; choose one scenario and state it. TASK: Create a RISE prompt and an E-MAP prompt for one recurring engineering task next week. Define their owner and source version. CONSTRAINTS: Include constraints, output schema, four test cases and a stop condition. Measure total effort and factual defects at equal acceptance criteria. OUTPUT: Two reusable prompts, evaluation log and one bounded workplace trial. VERIFICATION: cite source IDs and revisions; check calculations and retain missing fields. If critical evidence is absent, ask up to three focused questions and mark the affected output unresolved. No operational approval.
+
+### Multi-persona review
+
+Simulate three review lenses: reliability engineer, operations lead and data-quality reviewer. First give each an initial position without a shared conclusion. Then run two rounds: one specific challenge and an evidence-backed response per lens. Cite supplied record IDs; state unknowns. Do not invent facts to win or require consensus. A moderator returns: supported conclusions, unresolved disagreements, evidence needed and draft recommendation. These are simulated perspectives from one model, not independent experts or approval.
+
+See Prompt-Engineering.md and Prompt-Engineering.pdf for the practice procedure and evaluation log.

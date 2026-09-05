@@ -21,3 +21,11 @@ Prasad RU (2025), Practical Introduction to AI and GenAI in Petroleum Engineerin
 See [source mapping](Petroleum-Source-Mapping.md). User-provided ebook is not redistributed. All petroleum datasets are original synthetic examples.
 
 Metric definitions: [scikit-learn model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html). Evaluation safeguards: [scikit-learn common pitfalls](https://scikit-learn.org/stable/common_pitfalls.html). Checked 6 September 2026.
+
+## Prompt engineering
+
+- [OpenAI prompt best practices](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)
+- [OpenAI Academy prompting](https://academy.openai.com/en/public/clubs/work-users-ynjqu/resources/prompting)
+- [Anthropic: understanding sycophancy](https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models)
+
+Checked 6 September 2026. Engineering constraints, persona examples, debate protocol and classroom rubric are original IES teaching adaptations. Benefits are potential and must be evaluated; simulated persona agreement is not independent validation.
