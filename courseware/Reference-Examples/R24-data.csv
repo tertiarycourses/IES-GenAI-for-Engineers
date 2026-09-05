@@ -1,0 +1,4 @@
+field,value
+Request,Calculate flow from a collection test
+Given,Collected volume = 2.1 L
+Missing,Collection duration

@@ -1,0 +1,4 @@
+field,value
+Observed condition,Pump delivery is low
+Consequence,Less liquid reaches the intended system
+Hypothesis,A restriction may be present

@@ -1,0 +1,4 @@
+field,value
+Scenario A,Failure is likely to be detected early; D=2
+Scenario B,Failure is difficult to detect early; D=8
+Fixed scores,S=6; O=3

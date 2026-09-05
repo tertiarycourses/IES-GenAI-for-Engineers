@@ -1,0 +1,7 @@
+IES classroom source — CW-401 test record
+Document ID: TR-401. Revision: 1. Status: fictional training extract.
+1. Record the test ID, timestamp, collected volume in litres and collection duration in seconds.
+2. Record the pump setting, the operator role and any observed issue.
+3. Keep the original test record. Mark missing measurements as missing; do not invent replacements.
+4. A reviewer checks the recorded values and calculation before the test summary is shared.
+This extract specifies record fields for a classroom example. It is not an operating or safety procedure.

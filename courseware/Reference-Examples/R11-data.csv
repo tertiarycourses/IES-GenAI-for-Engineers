@@ -1,0 +1,4 @@
+field,value
+FM01,S=7; O=5; D=4; RPN=140
+FM04,S=9; O=2; D=5; RPN=90
+Workshop rule,Flag severity of 9 or above for review

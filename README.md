@@ -1,18 +1,22 @@
 # IES GenAI for Engineers
 
-## v2.2 — Clear explanations, worked examples and one-day delivery
+## Expanded 163-slide PowerPoint
 
 ![Course preview](screenshot.png)
 
-The 38-slide presentation introduces each concept in plain language, uses worked examples and includes trainer speaker notes. The learner and facilitator guides explain the same sequence.
+**42 slides for the one-day teaching route, plus a divider and 120 optional worked-example slides.**
+The six-module lesson plan still runs 09:00–17:00 with 390 teaching minutes and only 65 minutes of guided
+Excel exercises: SPC 25, FMEA 20 and DMAIC 20. The reference section does not add classroom workload.
 
-Six LP modules run from 09:00 to 17:00, with 390 teaching minutes, lunch and two tea breaks. Only **65 minutes** are guided Excel exercises: SPC 25, FMEA 20 and DMAIC 20, all inside Module 3. Agents and SharePoint are trainer demonstrations.
-
-Use one prepared Worked-Reference.xlsx. Starter files and the full prompt bank are optional after-class practice.
-
+- [PowerPoint — 163 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
+- [Slide PDF — 163 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
 - [Lesson Plan](courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf)
-- [PowerPoint](courseware/Slides/IES-GenAI-for-Engineers.pptx)
 - [Learner Guide](courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.pdf)
-- [Three short exercises](courseware/Labs/README.md)
+- [Three guided exercises](courseware/Labs/README.md)
+- [30 worked examples with CSV data and prompts](courseware/Reference-Examples/README.md)
+- [Prepared trainer demonstrations](courseware/Trainer-Demonstrations/README.md)
 
-IES is the provider. All case data are synthetic. Worked examples are independently calculated references, not recorded Copilot executions. Trainer materials are supplied in the complete local package; source references and the ebook are not redistributed.
+The deck explains concepts before using them, includes worked calculations and speaker notes,
+and uses editable text and diagrams. Cover artwork is AI-generated; example data are synthetic.
+Illustrative answers are not recordings of live Copilot executions.
+IES is the provider. Trainer guides are in the complete local package; the source ebook is not redistributed.

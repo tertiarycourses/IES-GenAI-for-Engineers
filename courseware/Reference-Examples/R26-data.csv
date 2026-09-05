@@ -1,0 +1,4 @@
+field,value
+Input,Case records and supplied rating guidance
+Output,One reviewed failure-mode row
+Boundary,No invented ratings or approval
