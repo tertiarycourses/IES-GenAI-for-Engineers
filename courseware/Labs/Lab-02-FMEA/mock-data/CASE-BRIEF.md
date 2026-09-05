@@ -1,4 +1,4 @@
-# CW-401 dosing consistency investigation 
+# CW-401 dosing consistency investigation
 
 Original synthetic IES training case. Fictional assets, people, observations and engineering requirements. No real operating limits or work authorisation. Trainer-authored prompts are included in the workbook.
 
