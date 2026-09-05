@@ -1,0 +1,2 @@
+INS-04 revision 1 | fictional 2026-08-17 inspection
+09:10 P-101 running; flow display 48 m3/h. 09:12 display 32 m3/h; timestamp photo not available. 09:15 gauge 3.1 bar. 09:20 display 47 m3/h. Guard visually present; integrity not verified. Minor liquid on floor near coupling; identity unknown. No injury reported. Maintenance person suggests seal leak, not confirmed. Calibration sticker unreadable. Permit record not supplied. No inspection of energised internals occurred. Missing: suction reading, sensor calibration evidence, work order, sample identification.

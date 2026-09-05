@@ -1,0 +1,9 @@
+statistic,value,note
+n,30,Baseline samples 1-30; teaching example only
+mean,10.013333333333334,Baseline samples 1-30; teaching example only
+mr,0.18620689655172348,Baseline samples 1-30; teaching example only
+sigma,0.16507703595010947,Baseline samples 1-30; teaching example only
+lcl,9.518102225483005,Baseline samples 1-30; teaching example only
+ucl,10.508564441183662,Baseline samples 1-30; teaching example only
+cp,1.2115555555555597,Baseline samples 1-30; teaching example only
+cpk,1.1846320987654348,Baseline samples 1-30; teaching example only

@@ -1,0 +1,7 @@
+discipline,training_component,known_parameter,requires_confirmation
+Civil,Drainage inspection,Three inspection points,Real design rainfall and acceptance criteria
+Mechanical,Pump package,50 m3/h at 30 m head,Materials compatibility
+Electrical,Control panel,Two pump status inputs,Supply protection and real ratings
+Systems,Alarm interface,Four training signals,Failure states and cyber controls
+Manufacturing,Fill process,10.0 plus or minus 0.6 L,Stable process and measurement system
+Water environmental,Dosing skid,Four functional elements,Fluid identity and exposure limits

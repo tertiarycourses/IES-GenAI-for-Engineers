@@ -1,0 +1,8 @@
+hazard,required_evidence,release_gate
+Electrical energy,Approved isolation plan and verification,Competent reviewer
+Pressure and stored energy,Verified depressurisation arrangement,Competent reviewer
+Chemical exposure,Identified substance and current SDS,Chemical risk review
+Unexpected start,Approved lockout and control arrangement,Competent reviewer
+Spill and drainage,Reviewed containment and response plan,Environmental review
+Access and lifting,Site access survey and lifting assessment,Task supervisor
+Restart,Approved test and handback plan,Authorised sign-off

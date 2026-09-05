@@ -1,0 +1,4 @@
+id,function,failure_mode,effect,cause,current_control,S,O,D,RPN,action,owner,due_date,evidence,status
+F01,Deliver controlled dose,No flow,Underdose,Pump failure,Weekly check,8,4,6,,Review redundancy and alarm evidence,Engineer A,2026-09-12,SYS-01 rev1,Proposed
+F02,Prevent reverse flow,Reverse flow,Cross contamination,Valve stuck,Monthly inspection,9,3,7,,Review backflow protection,Engineer B,2026-09-12,SYS-01 rev1,Proposed
+F03,Measure dose,Sensor drift,Incorrect adjustment,Calibration drift,Annual calibration,7,5,5,,Review calibration frequency,Engineer C,2026-09-15,SYS-01 rev1,Proposed

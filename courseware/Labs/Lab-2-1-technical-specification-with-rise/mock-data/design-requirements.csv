@@ -1,0 +1,9 @@
+id,requirement,value,unit,status,source
+R01,Nominal delivery,50,m3/h,confirmed,DES-01 rev2 clause 2
+R02,Duty head,30,m,confirmed,DES-01 rev2 clause 2
+R03,Delivery tolerance,5,percent,training assumption,DES-01 rev2 clause 3
+R04,Wetted material,TBD,,requires compatibility review,DES-01 rev2 clause 4
+R05,Acceptance test,Three readings at agreed duty,,confirmed,DES-01 rev2 clause 3
+R06,Supply voltage,TBD,V,not supplied,requirements gap
+R07,Site ambient,TBD,deg C,not supplied,requirements gap
+R08,Emergency stop interface,Review required,,unconfirmed,requirements gap

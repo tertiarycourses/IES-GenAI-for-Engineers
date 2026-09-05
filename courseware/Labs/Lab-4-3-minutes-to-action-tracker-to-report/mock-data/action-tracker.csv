@@ -1,0 +1,5 @@
+action_id,description,owner,due_date,status,source,blocker
+A01,Consolidate inspection notes,Engineer A,2026-09-02,Complete,INS-04,None
+A02,Obtain calibration evidence,Engineer B,2026-09-04,Open,MIN-36,Certificate missing
+A03,Request fluid identity,Engineer C,2026-09-08,Open,MIN-36,Identity unknown
+A04,Agree test witness,TBD,TBD,Open,MIN-36,Owner not assigned
