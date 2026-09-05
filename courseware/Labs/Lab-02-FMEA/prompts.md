@@ -16,3 +16,11 @@ Review the prepared FMEA_Review. Check the RPN formulas for FM01 and FM04, prese
 ## FMEA3 Challenge with personas
 
 Simulate reliability, operations and safety review lenses. First return one separate evidence-based concern per role. Run two concise challenge/response rounds, citing mode IDs and evidence records. A moderator returns agreed revisions, unresolved disagreement and missing evidence. Do not force consensus or invent approval. Keep residual ratings unassessed until action-effectiveness evidence exists.
+
+## Open Microsoft 365 Copilot
+
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
+
+If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.

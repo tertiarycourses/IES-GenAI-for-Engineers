@@ -20,3 +20,11 @@ Review the existing Analysis and SPC_Summary chart. Keep the prepared formulas a
 ## SPC4 Check capability
 
 Using fictional test specifications 58.9–65.1 L/h, calculate baseline Cp and Cpk from the stated within-process estimator. State assumptions: stable baseline, adequate measurement, suitable distribution and independence. Do not use a good Cp to claim the later monitoring period is stable. Review potential shift/measurement effects and compare with Worked-Reference.xlsx.
+
+## Open Microsoft 365 Copilot
+
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
+
+If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.

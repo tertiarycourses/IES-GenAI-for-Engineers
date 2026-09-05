@@ -17,3 +17,11 @@ Confirm 17 valid monitoring points outside the limits. Save one three-sentence i
 ## Optional after class — not scheduled
 
 Starter.xlsx and the complete prompts.md bank support rebuilding the analysis, chart and extended review later. Only the selected core prompt is required in class.
+
+## Open Microsoft 365 Copilot
+
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
+
+If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.

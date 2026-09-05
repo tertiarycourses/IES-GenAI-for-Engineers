@@ -16,3 +16,11 @@ Create a Pareto table and chart from baseline DefectCounts, including cumulative
 ## DMAIC3 Improve and control
 
 Draft a controlled follow-up trial and ControlPlan table: metric, source, frequency, owner, signal rule, review response and evidence. Link to SPC signals and FMEA actions. Preserve the open removed-strainer review. Do not claim causal proof, savings or operational approval not supported by the source. End with a six-cell management summary and unresolved questions.
+
+## Open Microsoft 365 Copilot
+
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
+
+If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.
