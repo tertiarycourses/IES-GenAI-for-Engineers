@@ -1,8 +1,10 @@
 # IES GenAI for Engineers
 
-## v2.1 — One day structured by the supplied lesson plan
+## v2.2 — Clear explanations, worked examples and one-day delivery
 
 ![Course preview](screenshot.png)
+
+The 38-slide presentation introduces each concept in plain language, uses worked examples and includes trainer speaker notes. The learner and facilitator guides explain the same sequence.
 
 Six LP modules run from 09:00 to 17:00, with 390 teaching minutes, lunch and two tea breaks. Only **65 minutes** are guided Excel exercises: SPC 25, FMEA 20 and DMAIC 20, all inside Module 3. Agents and SharePoint are trainer demonstrations.
 
