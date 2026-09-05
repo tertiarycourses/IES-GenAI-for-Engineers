@@ -1,0 +1,7 @@
+record_id,type,revision,timestamp_or_date,status,content
+DOC-401,DESIGN,2,2026-08-01,Current,Teaching delivery target62 L/h; band58.9–65.1; fixed command and120s collection.
+DOC-401,DESIGN,1,2026-07-01,Obsolete,Teaching target60 L/h; superseded byrev2.
+CAL-401-08,INSTRUMENT,1,2026-08-01,Training evidence,Collection vessel check recorded before baseline; measurement-system adequacy not certified.
+EV-401-01,EVENT,1,2026-08-15T07:00:00+08:00,Observation,Differential pressure increase and reduced test delivery appear in same period; no cause confirmed.
+WO-401-17,MAINTENANCE,1,2026-08-18T05:00:00+08:00,Recorded complete,Strainer replaced and verification check performed beforepilot; two changes confound causal attribution.
+ACT-401-04,ACTION,1,2026-08-24,Open,EngineerR to review removed strainer evidence; no contamination result supplied.

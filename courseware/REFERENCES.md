@@ -1,31 +1,9 @@
-# References
+# References and provenance
 
-Course authority: supplied IES proposal and lesson plan, revised v2 PUB Feedback. Technical sources checked 6 September 2026.
+The latest user direction replaces the earlier16-lab plan with three Copilot-in-Excel labs. Case data and prompts are original IES teaching material. The external Excel prompt file previously mentioned has not been supplied; no attribution to it is made.
 
-- [Microsoft Work Trend Index 2023 task benchmark](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work)
-- [Microsoft Agent Builder](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-build-agents)
-- [SharePoint agent creation](https://support.microsoft.com/en-us/sharepoint/copilot-in-sharepoint/create-an-agent-in-sharepoint)
-- [SharePoint agent access](https://learn.microsoft.com/en-us/sharepoint/manage-access-agents-in-sharepoint)
-- [Agent sharing](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-share-manage-agents)
-- [Researcher](https://learn.microsoft.com/en-us/microsoft-365/copilot/researcher-agent)
-- [Analyst](https://support.microsoft.com/en-US/Microsoft-365-Copilot/get-started-with-analyst-in-microsoft-365-copilot)
-- [NIST individuals charts](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc322.htm)
-- [NIST capability](https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm)
+- [Microsoft Copilot Excel insights](https://support.microsoft.com/en-us/excel/copilot/data-insights-with-copilot-in-excel)
+- [Microsoft Copilot Excel FAQ](https://support.microsoft.com/en-US/Excel/copilot/frequently-asked-questions-about-copilot-in-excel)
+- [NIST individuals control charts](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc322.htm)
 
-DES-01, OM-01, PRJ-01 and the FMEA scale are fictional training references, not published standards.
-
-## Petroleum enrichment
-
-Prasad RU (2025), Practical Introduction to AI and GenAI in Petroleum Engineering, Praveen Publication. Printed pages cited; PDF page = printed page + 8.
-
-See [source mapping](Petroleum-Source-Mapping.md). User-provided ebook is not redistributed. All petroleum datasets are original synthetic examples.
-
-Metric definitions: [scikit-learn model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html). Evaluation safeguards: [scikit-learn common pitfalls](https://scikit-learn.org/stable/common_pitfalls.html). Checked 6 September 2026.
-
-## Prompt engineering
-
-- [OpenAI prompt best practices](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)
-- [OpenAI Academy prompting](https://academy.openai.com/en/public/clubs/work-users-ynjqu/resources/prompting)
-- [Anthropic: understanding sycophancy](https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models)
-
-Checked 6 September 2026. Engineering constraints, persona examples, debate protocol and classroom rubric are original IES teaching adaptations. Benefits are potential and must be evaluated; simulated persona agreement is not independent validation.
+Microsoft features depend on tenant and application availability. Use the Copilot pane; no special AI worksheet function is required. FMEA scales and specifications are teaching assumptions.

@@ -1,0 +1,9 @@
+week,phase,test_opportunities,deviations,definition
+W01,baseline,168,14,Logged collection-test acceptance deviations; no exposure-severity inference
+W02,baseline,168,16,Logged collection-test acceptance deviations; no exposure-severity inference
+W03,baseline,168,13,Logged collection-test acceptance deviations; no exposure-severity inference
+W04,baseline,168,18,Logged collection-test acceptance deviations; no exposure-severity inference
+W05,baseline,168,15,Logged collection-test acceptance deviations; no exposure-severity inference
+W06,baseline,168,17,Logged collection-test acceptance deviations; no exposure-severity inference
+W07,pilot,168,6,Logged collection-test acceptance deviations; no exposure-severity inference
+W08,pilot,168,5,Logged collection-test acceptance deviations; no exposure-severity inference

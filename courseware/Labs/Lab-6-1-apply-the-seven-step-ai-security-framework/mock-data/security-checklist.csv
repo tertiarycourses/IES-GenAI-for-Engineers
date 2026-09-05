@@ -1,8 +1,0 @@
-step,evidence,result,owner,next_action
-1 Data Classification,,,,
-2 Data Governance and Access Control,,,,
-3 Secure Prompting,,,,
-4 Output Verification and Hallucination Detection,,,,
-5 Human in the Loop Sign Off,,,,
-6 Traceability and Audit,,,,
-7 Security Awareness and Incident Response,,,,

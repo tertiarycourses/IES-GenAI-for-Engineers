@@ -1,6 +1,0 @@
-IES TRAINING FMEA SCALE revision 1
-This is a simplified classroom scale, not an industry or company standard. Use integer ratings 1-10.
-Severity: 1 negligible training impact; 4 local rework; 7 major functional loss; 10 potentially catastrophic consequence. Intermediate ratings need written justification.
-Occurrence: 1 remote; 4 occasional; 7 frequent; 10 persistent. These are qualitative classroom anchors, not probabilities.
-Detection: 1 almost certain detection before the effect; 4 likely; 7 unlikely; 10 no effective detection. A larger D means poorer detectability.
-RPN = S x O x D. Review high-severity scenarios separately even when RPN is lower. Proposed actions do not reduce ratings until their effectiveness has been verified.

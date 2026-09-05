@@ -1,2 +1,0 @@
-DELIBERATELY FLAWED TRAINING DRAFT - DO NOT USE OPERATIONALLY
-The pump is confirmed defective because flow fell once. DES-01 revision 1 requires 45 m3/h and is the current standard. All wetted parts must be stainless steel 316; compatibility is guaranteed. The FMEA row S=9 O=3 D=7 has RPN 27. Proposed training will immediately reduce severity to 2. Cp proves the process is stable. The missing calibration certificate has been completed. The report is approved and replacement can start without further review.
