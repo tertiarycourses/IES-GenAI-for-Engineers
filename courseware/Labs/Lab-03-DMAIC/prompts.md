@@ -1,10 +1,13 @@
-# Copilot in Excel: DMAIC and improvement reporting
+# Prompt bank: optional after-class extension
+
+In class use only DMAIC1. Other prompts are reference material and carry no class-time requirement.
+
 
 Prompts are also in Starter.xlsx > Prompts. Use them in the Copilot side pane in Excel.
 
 ## DMAIC1 Define and measure
 
-Use WeeklyEvents, DefectCounts and Evidence. Draft a DMAIC table in Excel: phase, claim, metric, source, limitation, next action. Define the CTQ as delivery-test acceptance deviation, not chemical compliance. Calculate baseline and pilot rates using summed deviations divided by summed opportunities, not a simple average when denominators differ.
+Review the prepared Rate_Comparison, WeeklyEvents and DMAIC tables. Check baseline and pilot rates using summed deviations divided by summed opportunities. Return three cells: measured change, limitation and next evidence. Do not create a full report or a new chart, and do not claim a causal effect from the short pilot.
 
 ## DMAIC2 Analyse
 

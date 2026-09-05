@@ -1,4 +1,7 @@
-# Copilot in Excel: data quality and SPC
+# Prompt bank: optional after-class extension
+
+In class use only SPC3. Other prompts are reference material and carry no class-time requirement.
+
 
 Prompts are also in Starter.xlsx > Prompts. Use them in the Copilot side pane in Excel.
 
@@ -12,7 +15,7 @@ Use ValidTests in time order. In Analysis create delivery_L_h = collected_L*3600
 
 ## SPC3 Plot and interpret
 
-Create an Excel line chart of delivery_L_h by timestamp for baseline, monitoring and pilot, with the fixed baseline mean/UCL/LCL. Flag points outside the limits without refitting them. Report phase counts and affected IDs. Explain the monitoring shift as a signal requiring investigation, not a proven restriction diagnosis. Keep invalid and missing tests visible in QualityAudit.
+Review the existing Analysis and SPC_Summary chart. Keep the prepared formulas and fixed baseline limits unchanged. Identify valid monitoring points outside the limits and check one example against the source row. Return only three sentences: observed signal, supporting evidence, and an unresolved limitation. Do not rebuild the chart or calculate capability.
 
 ## SPC4 Check capability
 

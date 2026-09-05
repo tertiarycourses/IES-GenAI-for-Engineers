@@ -1,4 +1,7 @@
-# Copilot in Excel: FMEA and risk prioritisation
+# Prompt bank: optional after-class extension
+
+In class use only FMEA2. Other prompts are reference material and carry no class-time requirement.
+
 
 Prompts are also in Starter.xlsx > Prompts. Use them in the Copilot side pane in Excel.
 
@@ -8,7 +11,7 @@ Use FMEA_Input and Evidence. Create FMEA_Review with function, mode, effect, pot
 
 ## FMEA2 Calculate and prioritise
 
-Add an Excel formula RPN=S*O*D for every row. Sort a view by RPN descending while preserving mode IDs and source rows. Add a separate high-severity review flag for S>=9. Create an RPN column chart. Do not treat rank or low RPN as evidence of safety acceptance.
+Review the prepared FMEA_Review. Check the RPN formulas for FM01 and FM04, preserving mode IDs and provisional scores. Explain why the severity-9 row still needs review. Return one evidence gap and one proposed action for FM01; keep residual ratings unassessed. Do not rebuild the table or chart.
 
 ## FMEA3 Challenge with personas
 

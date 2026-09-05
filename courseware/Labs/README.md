@@ -1,7 +1,7 @@
-# Three core labs
+# Module 3: 65 minutes of guided Excel practice
 
-1. [SPC](Lab-01-SPC/README.md) —140 minutes.
-2. [FMEA](Lab-02-FMEA/README.md) —100 minutes.
-3. [DMAIC](Lab-03-DMAIC/README.md) —90 minutes.
+- SPC: 25 minutes (11:45–12:10)
+- FMEA: 20 minutes (12:10–12:30)
+- DMAIC: 20 minutes (12:30–12:50)
 
-Use the same CW-401 case throughout. Each folder has a standalone Excel starter and worked reference, source CSVs, PDF and prompts.
+Use one prepared worked workbook. No other labs are required. Starter workbooks and the full prompt bank are optional after-class resources.

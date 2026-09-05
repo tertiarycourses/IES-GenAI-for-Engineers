@@ -1,33 +1,19 @@
-# Copilot in Excel: FMEA and risk prioritisation
+# FMEA — 20-minute guided Excel exercise
 
-100 minutes | IES | Original synthetic CW-401 engineering case. Values and limits are fictional teaching assumptions, not plant operating instructions. Generated references are independently calculated examples, not recorded Copilot executions.
+Module 3 only. Use the prepared Worked-Reference.xlsx; all three exercises use one working copy.
 
-Open Starter.xlsx. Lab-Handout.pdf contains the full procedure; prompts.md and the workbook Prompts sheet contain the prompts. Attempt the lab before opening Worked-Reference.xlsx. All source files are local in mock-data.
+## 4 min · Read the prepared FMEA
 
-## 1 Open the shared case
+Continue with the same workbook. Open FMEA_Review and ScoringNote. The six rows and provisional scores are supplied; do not generate a new system or rescore every row.
 
-Use your previous workbook or this lab's standalone Starter.xlsx. Read Evidence, FMEA_Input and ScoringNote. Reuse the SPC interpretation if available; no completed Lab01 file is required.
+## 10 min · Prompt and check priorities
 
-## 2 Create the review table
+Use FMEA2 to explain or sort a copy by RPN and flag S>=9. Recompute FM01: 7×5×4=140. Check FM04: S=9 and RPN=90 still require severity review. Keep IDs attached to their source rows.
 
-Select FMEA_Input; submit FMEA1. Check all six IDs and columns. FM01 has observed low-delivery evidence but an unconfirmed restriction cause; FM04 is a prospective leakage scenario with no supplied leak event. Keep source status explicit.
+## 6 min · Review one row
 
-## 3 Validate the ratings
+Write one evidence gap for FM01 and one action proposal. Keep residual ratings unassessed. The multi-persona debate is a trainer demonstration in Module 2, not an extra participant task.
 
-Read the supplied provisional scale definitions. Higher D means poorer detectability. Every rating is a workshop judgement and must retain its rationale. Do not recalculate occurrence from 120 tests or treat a missing incident as proof of low risk.
+## Optional after class — not scheduled
 
-## 4 Use formulas and charts
-
-Submit FMEA2. RPNs: FM01=140; FM02=70; FM03=108; FM04=90; FM05=48; FM06=32. Sorted order is01,03,04,02,05,06. Highlight FM04 separately because S=9. Verify formulas remain attached to IDs after sorting and create an RPN column chart.
-
-## 5 Run a short evidence-led debate
-
-Submit FMEA3. Reliability examines mechanism evidence, operations examines practicality, safety examines consequence and approval gaps. Each challenges one claim; moderator retains unresolved gaps. These are simulated roles, not independent experts. The removal of a strainer is not effectiveness evidence for every failure mode.
-
-## 6 Create an action view
-
-Keep proposed actions separate from current controls. Add owner role, due-date proposal, required effectiveness evidence and status. Leave residual S/O/D blank or explicitly unassessed. Do not invent an implementation date or approved work instruction.
-
-## 7 Save and peer review
-
-Save FMEA_Review, priority chart and disagreement/evidence log. Exchange one row with a peer: identify function/mode/effect/cause/control and recompute its RPN. Explain why severity review can outrank the numerical ranking.
+Starter.xlsx and the complete prompts.md bank support rebuilding the analysis, chart and extended review later. Only the selected core prompt is required in class.
