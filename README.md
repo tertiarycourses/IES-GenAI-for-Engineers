@@ -72,3 +72,5 @@ Expected outputs are illustrative references, not recorded Copilot runs. The int
 ## Publication and credits
 
 Learning materials are distributed through this repository; there is no website or GitHub Pages deployment. The repository retains its existing private visibility. IES is the training provider. Engineering illustrations were generated with OpenAI imagegen; prompts and provenance are recorded in [assets/README.md](assets/README.md). Microsoft product names identify the tools taught. See [references](courseware/REFERENCES.md) for current navigation and statistical methods.
+
+Visual corrections: five hub diagrams have connected lines and centered labels; seven conceptual image layouts use aligned cards; three diagrams correctly distinguish parallel streams or alternative verdicts. The 132-slide PPTX and PDF contain the same corrected layouts.
