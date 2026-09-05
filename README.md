@@ -29,6 +29,12 @@ The day runs 09:00–17:00. Excluding lunch and tea breaks, the timetable contai
 - SharePoint grounding, citation checks and controlled handoffs.
 - Seven-step AI security review and a personal engineering AI toolkit.
 
+## Petroleum enrichment — version 1.1
+
+The petroleum engineering ebook informs 27 new visual slides and deeper explanations across all six modules. Every lab includes an alternative petroleum scenario, PDF handout, PDF data pack, original synthetic datasets, prompts and acceptance checks. Choose one scenario within the existing lab time.
+
+Topics include data quality and units, predictive versus generative AI, equipment reliability, confusion matrices, forecast errors, retrieval provenance and environmental evidence. See the [ebook source mapping](courseware/Petroleum-Source-Mapping.md). The copyrighted ebook is retained locally and is not redistributed.
+
 ## Tools and prerequisites
 
 A corporate Microsoft 365 account, active Microsoft 365 Copilot licence, Word, Excel, PowerPoint, Teams and SharePoint are required for the live labs. Agent creation, reasoning agents, sharing and training-site access depend on tenant policy. Confirm access before class. No prior FMEA, Six Sigma or SPC knowledge is assumed.
@@ -50,13 +56,13 @@ flowchart LR
 
 ```text
 courseware/
-  Slides/             105-slide editable deck and PDF
+  Slides/             132-slide editable deck and PDF
   Learner-Guide/      Detailed Word guide and Markdown overview
   Lesson-Plan/        Timed delivery plan
   Labs/               16 self-contained lab folders
   Quick-References/   FMEA, DMAIC and SPC one-page PDFs
   REFERENCES.md       Primary technical sources
-assets/               Three generated engineering illustrations
+assets/               Four generated engineering illustrations
 ```
 
 ## Teaching examples and actual results

@@ -23,3 +23,5 @@ node_modules/
 /*.docx
 /*.pdf
 /courseware/Facilitator-Guide/
+
+/courseware/reference/

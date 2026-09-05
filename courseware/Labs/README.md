@@ -20,3 +20,7 @@ All 16 labs are self-contained. Start with the PDF handout, then use the mock-da
 | [5.2 End to end agent workflow](Lab-5-2-end-to-end-agent-workflow/README.md) | 15 | LO6 |
 | [6.1 Apply the seven step AI Security Framework](Lab-6-1-apply-the-seven-step-ai-security-framework/README.md) | 20 | LO7 |
 | [6.2 Build the personal engineering AI toolkit](Lab-6-2-build-the-personal-engineering-ai-toolkit/README.md) | 10 | LO7 |
+
+## Petroleum pathway — v1.1
+
+Each lab folder contains Petroleum-Variant.md, a two-page Petroleum-Variant.pdf, Petroleum-Data.pdf, petroleum-prompts.md and petroleum-data. Choose one scenario per lab within the original time allocation. Use the original lab tool setup with the petroleum inputs. All datasets are fictional. See ../Petroleum-Source-Mapping.md for chapter/page alignment.

@@ -28,3 +28,9 @@ Open Lab-Handout.pdf, prompts.md and the files in mock-data. Each lab is self-co
 ## If access is unavailable
 
 Use approved paired access or the local source files to prepare a draft and configuration blueprint. Record live agent or permission tests as not executed. Do not use personal accounts to bypass organisational controls.
+
+## Petroleum transfer pathway (v1.1)
+
+Petroleum transfer pathway: choose this scenario instead of the original lab within the same time allocation. Additional explanations are reference reading. All petroleum records, limits, outputs and scores here are original fictional teaching examples; no operating action is authorised.
+
+[Open the petroleum lab variant](Petroleum-Variant.md), [PDF handout](Petroleum-Variant.pdf) and [prompts](petroleum-prompts.md). Inputs are self-contained in petroleum-data.

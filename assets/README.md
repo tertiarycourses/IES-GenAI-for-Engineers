@@ -13,3 +13,7 @@ Prompt: Use case scientific-educational. Wide landscape 16:9 premium engineering
 ## document-security.png
 
 Prompt: Use case productivity-visual. Create a wide 16:9 editorial illustration for an engineering AI security lesson. An engineer's desktop with technical documents inside a transparent secure archive, three distinct layers of document access, a magnifying lens inspecting a highlighted unsupported value, and a human hand holding a review stamp above an unsigned page. Precise sophisticated isometric illustration in navy, teal and restrained amber on a clean white background. Show human review and controlled document access rather than a generic robot or padlock. No words, letters, numbers, logos or watermark. No real organisation information.
+
+## petroleum-facility.png
+
+Generated with OpenAI imagegen, 6 September 2026. Prompt: fictional modern petroleum processing facility, separator, pump skid, pressure instruments, engineers in PPE reviewing evidence, realistic daylight, teal/navy accents, no logos or text. Illustrative equipment, not a real facility or verified engineering drawing.
