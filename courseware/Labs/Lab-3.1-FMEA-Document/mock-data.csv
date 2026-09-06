@@ -1,4 +1,5 @@
-Record_ID,System,Observation,Value,Unit,Source,Status
-CW401-01,Dosing skid,Delivery test result,59.4,L/h,Synthetic classroom case,Needs review
-CW401-02,Dosing skid,Reference target,62.0,L/h,Synthetic classroom case,Training only
-CW401-03,Dosing skid,Approved operating limit,,L/h,Not supplied,Unknown
+ID,Process step,Function / requirement,Failure mode,Effect,S,Cause,O,Prevention control,Detection control,D
+FM-01,Dose chemical,Deliver 60 L/h into the main line,Under-delivery of dosing chemical,Residual falls below the treatment target,7,Pump internal wear reduces displacement,5,"Scheduled overhaul at 8,000 h",Weekly manual delivery test,4
+FM-02,Measure flow,Report delivered flow to the operator,Flow transmitter reads high,Operator believes dosing is correct when it is not,8,Calibration drift between annual checks,4,Annual calibration,Comparison against manual test,6
+FM-03,Isolate line,Prevent backflow into the storage tank,Check valve fails to seat,Chemical returns to tank and dilutes strength,5,Seat erosion from particulate,3,Inlet strainer fitted,Visual inspection at overhaul,7
+FM-04,Contain chemical,Retain chemical within the skid bund,Fitting leaks to the bund,Chemical exposure risk to the operator,9,Vibration loosens the compression fitting,2,Torque specification at assembly,Daily operator walk-round,3
