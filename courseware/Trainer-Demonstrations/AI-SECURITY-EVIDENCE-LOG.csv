@@ -1,0 +1,8 @@
+step,control,evidence,result,owner,date_time,follow_up
+1,Data classification,Synthetic training data only,,, ,
+2,Governance and access,Private site; scoped knowledge folder,,, ,
+3,Secure prompting,No credentials; selected sources only,,, ,
+4,Output verification,Citation opened; formula and units checked,,, ,
+5,Human sign-off,Reviewer and release decision,,, ,
+6,Traceability,Prompt; sources; output; correction; timestamp,,, ,
+7,Awareness and incident response,Trigger and approved reporting route,,, ,

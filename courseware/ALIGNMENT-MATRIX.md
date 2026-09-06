@@ -12,7 +12,7 @@ The six-module Lesson Plan controls the one-day delivery. The PPT, guides and la
 | DMAIC | 66–71 | Module 3 · 20 min | DMAIC explanation and guided check | `Labs/Lab-03-DMAIC` | Measured change, limitation and next evidence |
 | Agents and LO5 reasoning agents | 72–102 | Module 4 · guided activity | Guided FMEA Agent, Researcher and Analyst | `Trainer-Demonstrations` | Agent build evidence, cited comparison and checked data analysis |
 | SharePoint grounding | 103–118 | Module 5 · 45-minute guided activity | Private site, knowledge folder, scoped agent and two tests | `Trainer-Demonstrations` | Site/folder/agent record, cited answer, preserved unknown, permission check |
-| Security and close | 119–126 | Module 6 · review | Seven checks, summary and reusable prompt | `Labs` prompt banks | One prompt and one review rule |
+| Applied AI security and close | 119–134 | Module 6 · 20-minute applied review + 10-minute toolkit | Seven evidence rows, release decision and incident trigger | `Trainer-Demonstrations` | Completed security record, verified citation/calculation and release decision |
 
 The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepared `Worked-Reference.xlsx`. The remaining reference examples are optional after-class material and do not add classroom time.
 
@@ -57,3 +57,11 @@ The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepar
 | Knowledge base | Private site, library, folder and four sources | Exact live route and access boundary | SHAREPOINT-KNOWLEDGE-BASE-SETUP.md |
 | Grounded agent | Create/configure workflow and safe instruction | Detailed creation or inspection route | SHAREPOINT-AGENT-INSTRUCTIONS.md |
 | Verification | Supported fact, preserved unknown, citation and permission checks | Acceptance results and evidence record | SHAREPOINT-AGENT-TESTS.md |
+
+## LO7 applied security alignment
+
+| LO7 evidence | PPT | Learner and facilitator guides | Trainer resources |
+|---|---|---|---|
+| Steps 1–3 | Classification, access and secure-prompt decisions | Exact checks and evidence fields | AI-SECURITY-7-STEP-CHECKLIST.md |
+| Steps 4–6 | Citation/calculation verification, sign-off and audit trail | Applied SharePoint-agent case | AI-SECURITY-CASE.md; AI-SECURITY-EVIDENCE-LOG.csv |
+| Step 7 and release | Trigger, containment, reporting and three-way decision | Timed debrief and expected boundary | Completed evidence log |

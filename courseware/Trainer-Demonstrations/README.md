@@ -37,3 +37,9 @@ This is a guided paired build inside the existing Module 4 time block. It is not
 - `SHAREPOINT-KNOWLEDGE-BASE-SETUP.md` - prepared private site, source folder and 45-minute route.
 - `SHAREPOINT-AGENT-INSTRUCTIONS.md` - copy-paste grounding and stop rules.
 - `SHAREPOINT-AGENT-TESTS.md` - supported, unsupported and workbook-purpose tests.
+
+## LO7 applied AI security
+
+- `AI-SECURITY-7-STEP-CHECKLIST.md` - seven controls and release gate.
+- `AI-SECURITY-CASE.md` - applied SharePoint-agent scenario and expected decision.
+- `AI-SECURITY-EVIDENCE-LOG.csv` - one evidence row per control.

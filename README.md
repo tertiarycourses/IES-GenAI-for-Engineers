@@ -1,15 +1,15 @@
 # IES GenAI for Engineers
 
-## Expanded 247-slide PowerPoint
+## Expanded 257-slide PowerPoint
 
 ![Course preview](screenshot.png)
 
-**126 slides for the one-day teaching route, including the exact LO1–LO7 outcomes, six module topic pages, six module outcome pages, a 15-slide FMEA/Six Sigma-DMAIC/SPC methodology primer, a summary and end page, plus a divider and 120 optional worked-example slides.**
+**136 slides for the one-day teaching route, including the exact LO1–LO7 outcomes, six module topic pages, six module outcome pages, a 15-slide FMEA/Six Sigma-DMAIC/SPC methodology primer, a summary and end page, plus a divider and 120 optional worked-example slides.**
 The six-module lesson plan still runs 09:00–17:00 with 390 teaching minutes and only 65 minutes of guided
 Excel exercises: SPC 25, FMEA 20 and DMAIC 20. The reference section does not add classroom workload.
 
-- [PowerPoint — 247 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
-- [Slide PDF — 247 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
+- [PowerPoint — 257 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
+- [Slide PDF — 257 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
 - [Lesson Plan](courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf)
 - [Learner Guide](courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.pdf)
 - [Three guided exercises](courseware/Labs/README.md)
@@ -32,3 +32,7 @@ Module 4 includes a 20-minute guided activity. Researcher creates a source-cited
 ## LO6 SharePoint knowledge base
 
 Module 5 uses the private `IES GenAI for Engineers` SharePoint site, the `Engineering Knowledge Base` folder and the `IES Engineering Knowledge Assistant`. Learners or pairs inspect the scope, run a supported-fact test and a missing-evidence test, open one citation and record the permission and engineering review checks.
+
+## LO7 applied AI security
+
+Module 6 applies all seven security controls to the SharePoint-agent answer. Learners complete an evidence row for every control, verify a citation and calculation, make a release decision, and state the response to a security trigger.
