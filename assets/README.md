@@ -1,5 +1,11 @@
-# IES visual assets
+# Visual assets
 
-The dosing-skid, pump-station, document-security and petroleum-facility illustrations were generated using OpenAI imagegen for the IES course. They are illustrative, not real equipment drawings. The cw401-spc, cw401-fmea and cw401-pareto plots are generated from the original synthetic CW-401 dataset and independent calculations.
+The deck uses IES-only branding and synthetic engineering imagery. Five widescreen module visuals were generated with imagegen for document automation, quality methods, agents, SharePoint grounding and security. They contain no text, logos or watermarks and leave deliberate negative space for editable slide titles.
 
-The engineering-copilot-cover.png asset is original imagegen conceptual artwork generated for the expanded deck. It illustrates an engineering training setting and is not a technical schematic.
+- `module-2-document-automation.png`
+- `module-3-quality-methods.png`
+- `module-4-agents.png`
+- `module-5-sharepoint.png`
+- `module-6-security.png`
+
+Existing engineering diagrams and product screenshots support the worked examples. Generated scenes are illustrative; they are not evidence of a live Microsoft 365 result.

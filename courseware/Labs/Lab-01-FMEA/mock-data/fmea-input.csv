@@ -1,5 +1,0 @@
-ID,Function,Failure_Mode,Effect,Possible_Cause,Current_Control,Severity,Occurrence,Detection
-FM01,Deliver liquid,Low delivery,Incorrect dose,Restricted strainer,Delivery test,7,5,4
-FM02,Start pump,Pump does not start,No delivery,Power interruption,Start check,8,3,3
-FM03,Measure flow,Incorrect flow reading,Wrong adjustment,Sensor drift,Calibration check,6,4,5
-FM04,Contain liquid,Connection leaks,Exposure and loss of containment,Loose fitting,Visual inspection,9,2,5

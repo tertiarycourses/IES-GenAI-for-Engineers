@@ -1,0 +1,4 @@
+Record_ID,System,Observation,Value,Unit,Source,Status
+CW401-01,Dosing skid,Delivery test result,59.4,L/h,Synthetic classroom case,Needs review
+CW401-02,Dosing skid,Reference target,62.0,L/h,Synthetic classroom case,Training only
+CW401-03,Dosing skid,Approved operating limit,,L/h,Not supplied,Unknown

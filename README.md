@@ -1,38 +1,16 @@
 # IES GenAI for Engineers
 
-## Expanded 259-slide PowerPoint
-
 ![Course preview](screenshot.png)
 
-**138 slides for the one-day teaching route, including the exact LO1–LO7 outcomes, six module topic pages, six module outcome pages, a 15-slide FMEA/Six Sigma-DMAIC/SPC methodology primer, a summary and end page, plus a divider and 120 optional worked-example slides.**
-The six-module lesson plan still runs 09:00–17:00 with 390 teaching minutes and only 65 minutes of guided
-Excel exercises: FMEA 20, DMAIC 20 and SPC 25. The reference section does not add classroom workload.
+A one-day, six-module courseware package aligned to **GenAI for Engineers — Lesson Plan with Hands-On Labs (v2 — PUB Feedback)**. The 186-slide deck contains a 162-slide teaching resource plus 24 optional quick-reference pages. Facilitators select the relevant worked slides within each fixed module time box.
 
-- [PowerPoint — 259 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
-- [Slide PDF — 259 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
-- [Lesson Plan](courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf)
+- [PowerPoint — 186 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
+- [Slide PDF — 186 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
 - [Learner Guide](courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.pdf)
-- [Three guided exercises](courseware/Labs/README.md)
-- [30 worked examples with CSV data and prompts](courseware/Reference-Examples/README.md)
-- [Prepared trainer demonstrations](courseware/Trainer-Demonstrations/README.md)
+- [Lesson Plan](courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf)
+- [Sixteen aligned activity folders](courseware/Labs/README.md)
+- [Alignment matrix](courseware/ALIGNMENT-MATRIX.md)
 
-The deck explains concepts before using them, includes worked calculations and speaker notes,
-and uses editable text and diagrams. Cover artwork is AI-generated; example data are synthetic.
-Illustrative answers are not recordings of live Copilot executions.
-IES is the provider. Trainer guides are in the complete local package; the source ebook is not redistributed.
+The deck explains FMEA, DMAIC and SPC before application, in that classroom-case order. It also teaches prompt engineering through R.I.S.E., E-MAP, constraints, iterative review, multiple personas and structured debate. Microsoft 365 Copilot, Copilot Agents, Researcher, Analyst, SharePoint grounding and the 7-Step AI Security Framework are connected to the same synthetic CW-401 engineering case.
 
-## LO2 simplified Copilot in Excel labs
-
-The three timed exercises now use separate small workbooks: four rows for FMEA, six rows for DMAIC, and 12 rows for SPC. Every lab repeats the same workflow: select the named table, paste one prompt into Copilot in Excel, inspect the generated output, and verify one result independently.
-
-## LO5 Microsoft reasoning agents
-
-Module 4 includes a 20-minute guided activity. Researcher creates a source-cited technical comparison from the fictional TR-401 extract and approved public sources. Analyst calculates and visualises the six-row DMAIC workbook. Learners open one citation and independently verify 9.0%, 3.5%, -5.5 percentage points and 61.1%.
-
-## LO6 SharePoint knowledge base
-
-Module 5 uses the private `IES GenAI for Engineers` SharePoint site, the `Engineering Knowledge Base` folder and the `IES Engineering Knowledge Assistant`. Learners or pairs inspect the scope, run a supported-fact test and a missing-evidence test, open one citation and record the permission and engineering review checks.
-
-## LO7 applied AI security
-
-Module 6 applies all seven security controls to the SharePoint-agent answer. Learners complete an evidence row for every control, verify a citation and calculation, make a release decision, and state the response to a security trigger.
+Every activity folder includes a PDF handout, prompt, realistic synthetic mock data and acceptance checks. Labs 3.1 and 3.2 include editable Excel workbooks. All provider branding is IES.
