@@ -1,15 +1,15 @@
 # IES GenAI for Engineers
 
-## Expanded 184-slide PowerPoint
+## Expanded 185-slide PowerPoint
 
 ![Course preview](screenshot.png)
 
-**63 slides for the one-day teaching route, including learning outcomes, six module topic pages, six plain-language SPC, FMEA and DMAIC explainers, a summary and end page, plus a divider and 120 optional worked-example slides.**
+**64 slides for the one-day teaching route, including learning outcomes, six module topic pages, six plain-language SPC, FMEA and DMAIC explainers, a summary and end page, plus a divider and 120 optional worked-example slides.**
 The six-module lesson plan still runs 09:00–17:00 with 390 teaching minutes and only 65 minutes of guided
 Excel exercises: SPC 25, FMEA 20 and DMAIC 20. The reference section does not add classroom workload.
 
-- [PowerPoint — 184 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
-- [Slide PDF — 184 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
+- [PowerPoint — 185 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
+- [Slide PDF — 185 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
 - [Lesson Plan](courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf)
 - [Learner Guide](courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.pdf)
 - [Three guided exercises](courseware/Labs/README.md)
