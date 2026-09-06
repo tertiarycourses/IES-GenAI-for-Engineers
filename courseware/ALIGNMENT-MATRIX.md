@@ -15,3 +15,11 @@ The six-module Lesson Plan controls the one-day delivery. The PPT, guides and la
 | Security and close | 72–79 | Module 6 · review | Seven checks, summary and reusable prompt | `Labs` prompt banks | One prompt and one review rule |
 
 The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepared `Worked-Reference.xlsx`. The remaining reference examples are optional after-class material and do not add classroom time.
+
+## LO2 practical alignment
+
+| LO2 output | PPT | Learner / trainer guidance | Lab evidence |
+|---|---|---|---|
+| SPC analysis | Copilot workflow and exact SPC prompt | Five-step Excel workflow and T10 check | Lab-01-SPC: 12 readings, formula limits, chart |
+| FMEA document | Exact FMEA prompt and responsibility boundary | Four-row method and FM01/FM04 checks | Lab-02-FMEA: formula RPN, rank, severity flag |
+| DMAIC report | Exact DMAIC prompt and evidence boundary | Six-row rate comparison and causal caution | Lab-03-DMAIC: 9.0% / 3.5% and five-phase summary |

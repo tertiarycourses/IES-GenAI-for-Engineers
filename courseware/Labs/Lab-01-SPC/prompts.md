@@ -1,30 +1,19 @@
-# Prompt bank: optional after-class extension
+# Lab 1 - Use Copilot in Excel to create an SPC review
 
-In class use only SPC3. Other prompts are reference material and carry no class-time requirement.
+## One prompt to use
 
+Act as an engineering data assistant. Use only the named Excel table PumpReadings. Use the eight Baseline rows to calculate the mean, sample standard deviation, UCL = mean + 3 x standard deviation, and LCL = mean - 3 x standard deviation. Flag each Monitoring row as Below LCL, Above UCL, or Within limits. Create a line chart of all 12 readings with the centre line, UCL and LCL. Return a three-sentence interpretation. Do not claim a root cause or that the pump is safe. Show the formulas used.
 
-Prompts are also in Starter.xlsx > Prompts. Use them in the Copilot side pane in Excel.
+## Check one result yourself
 
-## SPC1 Audit the source
+Verify T10 = 59.4 L/h against the calculated LCL. A point below the LCL is a signal to investigate, not a diagnosis.
 
-Using RawTests, audit test_id uniqueness, missing collected_L, duration_s and quality_flag. Do not modify RawTests. Create a QualityAudit table with record ID, issue, inclusion decision and reason. Use one unique record per test, require VALID and 120 seconds, and never discard an excursion solely because it is extreme. Report raw, unique and valid counts.
+## Expected draft
 
-## SPC2 Calculate the baseline
+A baseline mean near 62.0 L/h, calculated limits, three low monitoring signals (T09, T10 and T12), and a short cautious interpretation.
 
-Use ValidTests in time order. In Analysis create delivery_L_h = collected_L*3600/120. Use only the 60 baseline records to calculate mean and successive moving ranges; do not bridge across phases. Estimate sigma = MRbar/1.128 and individuals limits mean +/-3*sigma. Put constants and specifications in Parameters and show formulas, units and referenced rows.
+## Microsoft 365 Copilot links
 
-## SPC3 Plot and interpret
-
-Review the existing Analysis and SPC_Summary chart. Keep the prepared formulas and fixed baseline limits unchanged. Identify valid monitoring points outside the limits and check one example against the source row. Return only three sentences: observed signal, supporting evidence, and an unresolved limitation. Do not rebuild the chart or calculate capability.
-
-## SPC4 Check capability
-
-Using fictional test specifications 58.9–65.1 L/h, calculate baseline Cp and Cpk from the stated within-process estimator. State assumptions: stable baseline, adequate measurement, suitable distribution and independence. Do not use a good Cp to claim the later monitoring period is stable. Review potential shift/measurement effects and compare with Worked-Reference.xlsx.
-
-## Open Microsoft 365 Copilot
-
-- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
-- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
-- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
-
-If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat)
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel)
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps)

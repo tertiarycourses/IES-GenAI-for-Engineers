@@ -1,33 +1,29 @@
-# DMAIC — 20-minute guided Excel exercise
+# Lab 3 - Use Copilot in Excel to create a DMAIC summary
 
-Module 3 only. Use the prepared Worked-Reference.xlsx; all three exercises use one working copy.
+**Time:** 20 minutes
 
-## 4 min · Read the prepared rates
+**Provider:** IES
 
-Open Rate_Comparison, WeeklyEvents, Pareto and DMAIC in the same workbook. This eight-week event log is separate from the 120-test investigation.
+The team compares four baseline weeks with a two-week pilot after a maintenance change. All values are synthetic training data.
 
-## 10 min · Prompt a short summary
+## Files
 
-Use DMAIC1 to review the prepared DMAIC table and rates. Independently check 93/1008=9.22619% and 11/336=3.27381%. Use the supplied Pareto chart; do not build a new chart or a full Word report.
+- `Starter.xlsx` - three simple sheets: Start_Here, Weekly_Data, Copilot_Prompt.
+- `Worked-Reference.xlsx` - the same source plus a formula-based output sheet.
+- `prompts.md` - the one prompt and independent check.
+- `Lab-Handout.pdf` - two-page guided activity.
+- `mock-data/` - the small source CSV and case brief.
 
-## 6 min · State a decision boundary
+## Five steps
 
-Save three cells: measured change, limitation and next evidence. The absolute change is 5.95238 percentage points. Two concurrent changes and a short pilot do not prove a cause or sustained improvement.
+1. Open `Starter.xlsx`.
+2. Select a cell in the named table.
+3. Open Copilot in Excel.
+4. Paste the prompt from `Copilot_Prompt`.
+5. Check one result yourself before saving.
 
-## Optional after class — not scheduled
+## Microsoft 365 Copilot links
 
-Starter.xlsx and the complete prompts.md bank support rebuilding the analysis, chart and extended review later. Only the selected core prompt is required in class.
-
-## Open Microsoft 365 Copilot
-
-- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
-- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
-- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
-
-If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.
-
-## Interface reference screenshots
-
-![Microsoft 365 Copilot](../../assets/copilot365-home.png)
-
-![Excel with Copilot](../../assets/excel-copilot-workbook.png)
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat)
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel)
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps)

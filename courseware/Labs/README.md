@@ -1,21 +1,11 @@
-# Module 3: 65 minutes of guided Excel practice
+# GenAI for Engineers - three guided Copilot in Excel labs
 
-- SPC: 25 minutes (11:45–12:10)
-- FMEA: 20 minutes (12:10–12:30)
-- DMAIC: 20 minutes (12:30–12:50)
+IES | One-day course | 65 minutes total
 
-Use one prepared worked workbook. No other labs are required. Starter workbooks and the full prompt bank are optional after-class resources.
+Each lab has one small source table, one prompt, one independent check, and one worked reference.
 
-## Open Microsoft 365 Copilot
+1. Lab 1 SPC - 12 pump readings - 25 minutes
+2. Lab 2 FMEA - 4 failure modes - 20 minutes
+3. Lab 3 DMAIC - 6 weekly records - 20 minutes
 
-- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
-- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
-- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
-
-If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.
-
-## Interface reference screenshots
-
-![Microsoft 365 Copilot](../../assets/copilot365-home.png)
-
-![Excel with Copilot](../../assets/excel-copilot-workbook.png)
+Use `Starter.xlsx` first. Open `Worked-Reference.xlsx` only after checking your Copilot draft.

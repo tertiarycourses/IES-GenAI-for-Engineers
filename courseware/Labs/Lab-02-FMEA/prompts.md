@@ -1,26 +1,19 @@
-# Prompt bank: optional after-class extension
+# Lab 2 - Use Copilot in Excel to create an FMEA review
 
-In class use only FMEA2. Other prompts are reference material and carry no class-time requirement.
+## One prompt to use
 
+Act as an FMEA facilitator. Use only the named Excel table FMEAInput and preserve every row and supplied rating. Create an FMEA output table, calculate RPN = Severity x Occurrence x Detection, rank the four rows from highest to lowest RPN, and flag any row with Severity 9 or higher. For each row, propose one evidence request and one practical follow-up action. Do not invent incidents, change ratings, or approve the design. Show the RPN formula.
 
-Prompts are also in Starter.xlsx > Prompts. Use them in the Copilot side pane in Excel.
+## Check one result yourself
 
-## FMEA1 Structure the review
+Verify FM01: 7 x 5 x 4 = 140. Also verify that FM04 is flagged because Severity = 9 even though its RPN is lower.
 
-Use FMEA_Input and Evidence. Create FMEA_Review with function, mode, effect, potential cause, current control, evidence, supplied provisional S/O/D, RPN, action, owner and status. Keep the six mode IDs. Separate actual observations from prospective scenarios. Use ScoringNote for definitions and do not infer occurrence ratings from the short test series.
+## Expected draft
 
-## FMEA2 Calculate and prioritise
+Four preserved failure modes, formula-based RPN values, a ranked priority, a severity flag, and evidence-focused actions.
 
-Review the prepared FMEA_Review. Check the RPN formulas for FM01 and FM04, preserving mode IDs and provisional scores. Explain why the severity-9 row still needs review. Return one evidence gap and one proposed action for FM01; keep residual ratings unassessed. Do not rebuild the table or chart.
+## Microsoft 365 Copilot links
 
-## FMEA3 Challenge with personas
-
-Simulate reliability, operations and safety review lenses. First return one separate evidence-based concern per role. Run two concise challenge/response rounds, citing mode IDs and evidence records. A moderator returns agreed revisions, unresolved disagreement and missing evidence. Do not force consensus or invent approval. Keep residual ratings unassessed until action-effectiveness evidence exists.
-
-## Open Microsoft 365 Copilot
-
-- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
-- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
-- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
-
-If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat)
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel)
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps)

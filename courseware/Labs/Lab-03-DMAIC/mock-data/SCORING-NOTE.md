@@ -1,5 +1,0 @@
-# Provisional workshop scoring
-
-Original synthetic IES training case. Fictional assets, people, observations and engineering requirements. No real operating limits or work authorisation. Trainer-authored prompts are included in the workbook.
-
-S/O/D are supplied workshop judgements, not values estimated from the small test dataset. S:1 negligible impact,4 local rework,6 degraded process decision,7 treatment-process impact requiring review,9 potential serious exposure. O:1 remote,2 low,3 occasional,4 recurring administrative/test issue,5 repeatedly observed condition. D:1 near-certain pre-effect detection through validated controls,2 high detectability,3 likely detection,4 periodic test may detect,5 incomplete assurance,6 weak detection assurance. Larger D means poorer detectability. Other values need a documented agreed definition before use. RPN is a teaching prioritisation aid, not a safety acceptance criterion. Severity9 receives review regardless of rank. Do not reduce residual scores for an action that is merely proposed.

@@ -1,33 +1,29 @@
-# FMEA — 20-minute guided Excel exercise
+# Lab 2 - Use Copilot in Excel to create an FMEA review
 
-Module 3 only. Use the prepared Worked-Reference.xlsx; all three exercises use one working copy.
+**Time:** 20 minutes
 
-## 4 min · Read the prepared FMEA
+**Provider:** IES
 
-Continue with the same workbook. Open FMEA_Review and ScoringNote. The six rows and provisional scores are supplied; do not generate a new system or rescore every row.
+The team is reviewing four possible pump-system failures before the next operating campaign. Ratings are supplied classroom judgements, not field evidence.
 
-## 10 min · Prompt and check priorities
+## Files
 
-Use FMEA2 to explain or sort a copy by RPN and flag S>=9. Recompute FM01: 7×5×4=140. Check FM04: S=9 and RPN=90 still require severity review. Keep IDs attached to their source rows.
+- `Starter.xlsx` - three simple sheets: Start_Here, FMEA_Input, Copilot_Prompt.
+- `Worked-Reference.xlsx` - the same source plus a formula-based output sheet.
+- `prompts.md` - the one prompt and independent check.
+- `Lab-Handout.pdf` - two-page guided activity.
+- `mock-data/` - the small source CSV and case brief.
 
-## 6 min · Review one row
+## Five steps
 
-Write one evidence gap for FM01 and one action proposal. Keep residual ratings unassessed. The multi-persona debate is a trainer demonstration in Module 2, not an extra participant task.
+1. Open `Starter.xlsx`.
+2. Select a cell in the named table.
+3. Open Copilot in Excel.
+4. Paste the prompt from `Copilot_Prompt`.
+5. Check one result yourself before saving.
 
-## Optional after class — not scheduled
+## Microsoft 365 Copilot links
 
-Starter.xlsx and the complete prompts.md bank support rebuilding the analysis, chart and extended review later. Only the selected core prompt is required in class.
-
-## Open Microsoft 365 Copilot
-
-- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
-- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
-- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
-
-If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.
-
-## Interface reference screenshots
-
-![Microsoft 365 Copilot](../../assets/copilot365-home.png)
-
-![Excel with Copilot](../../assets/excel-copilot-workbook.png)
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat)
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel)
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps)

@@ -1,1 +1,3 @@
-Save your workbook, chart, prompt log and reviewed interpretation here. Do not record real workplace confidential information.
+# Save your checked output here
+
+Keep your Copilot draft, the independent check, and one correction or limitation. Do not place confidential operating data in this classroom folder.

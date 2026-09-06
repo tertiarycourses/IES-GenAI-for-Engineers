@@ -1,26 +1,19 @@
-# Prompt bank: optional after-class extension
+# Lab 3 - Use Copilot in Excel to create a DMAIC summary
 
-In class use only DMAIC1. Other prompts are reference material and carry no class-time requirement.
+## One prompt to use
 
+Act as a Six Sigma project assistant. Use only the named Excel table WeeklyData. Calculate total opportunities, total deviations, and deviation rate for Baseline and Pilot using deviations divided by opportunities. Create a five-row DMAIC summary: Define, Measure, Analyse, Improve, Control. Clearly separate observed facts from hypotheses. State that the short pilot does not prove the cause of the change. Show the formulas and return one next evidence check.
 
-Prompts are also in Starter.xlsx > Prompts. Use them in the Copilot side pane in Excel.
+## Check one result yourself
 
-## DMAIC1 Define and measure
+Verify Baseline = 36 / 400 = 9.0% and Pilot = 7 / 200 = 3.5%. The lower pilot rate is an observation, not causal proof.
 
-Review the prepared Rate_Comparison, WeeklyEvents and DMAIC tables. Check baseline and pilot rates using summed deviations divided by summed opportunities. Return three cells: measured change, limitation and next evidence. Do not create a full report or a new chart, and do not claim a causal effect from the short pilot.
+## Expected draft
 
-## DMAIC2 Analyse
+Two formula-based rates and a concise DMAIC table that states the problem, evidence, proposed test, and monitoring rule.
 
-Create a Pareto table and chart from baseline DefectCounts, including cumulative percentage. Reconcile the total with baseline WeeklyEvents. Compare the phase rates and express both percentage-point and relative change. Explain that fewer deviations after two concurrent changes do not isolate the cause or establish sustained improvement.
+## Microsoft 365 Copilot links
 
-## DMAIC3 Improve and control
-
-Draft a controlled follow-up trial and ControlPlan table: metric, source, frequency, owner, signal rule, review response and evidence. Link to SPC signals and FMEA actions. Preserve the open removed-strainer review. Do not claim causal proof, savings or operational approval not supported by the source. End with a six-cell management summary and unresolved questions.
-
-## Open Microsoft 365 Copilot
-
-- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) — sign in with your work or school account.
-- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel) — Excel analysis help.
-- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps) — Word, Excel and PowerPoint guidance.
-
-If the Copilot button is missing, use the approved manual-formula fallback and tell the trainer. Availability depends on your organisation’s licence and settings.
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat)
+- [Get started with Copilot in Excel](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel)
+- [How Copilot Chat works in Microsoft 365 apps](https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-in-microsoft-365-apps)

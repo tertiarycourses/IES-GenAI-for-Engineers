@@ -1,7 +1,0 @@
-mode_id,function,failure_mode,effect,potential_cause,current_control,evidence,S_provisional,O_provisional,D_provisional,proposed_action,role_owner
-FM01,Meter delivery,Low delivery,Insufficient treatment feed,Restriction hypothesis,Periodic collection test,EV-401-01; TEST-073–090,7,5,4,Review removed-strainer evidence,Reliability lead
-FM02,Meter delivery,Excess delivery,Excess treatment feed,Wrong setting hypothesis,Setting log review,No occurrence evidence in supplied tests,7,2,5,Review setting change controls,Operations lead
-FM03,Indicate delivery,Misleading reading,Wrong process decision,Instrument or measurement bias,Vessel verification record,CAL-401-08; adequacy not established,6,3,6,Perform approved measurement-system review,Instrumentation lead
-FM04,Maintain containment,External leakage,Exposure and loss of containment,Seal deterioration hypothesis,Visual inspection,No leak event supplied; prospective scenario,9,2,5,Review compatibility and inspection evidence,Safety reviewer
-FM05,Collect comparable tests,Invalid test duration,Biased apparent delivery,Timing error,Duration field and quality flag,TEST-083,4,4,3,Review timing and data-validation controls,Quality lead
-FM06,Retain accurate records,Duplicate event,Biased counts and statistics,Export duplication,Event-key uniqueness check,Duplicate TEST-088,4,4,2,Validate ingestion deduplication ledger,Data owner

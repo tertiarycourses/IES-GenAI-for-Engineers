@@ -1,6 +1,6 @@
 # IES GenAI for Engineers
 
-## Expanded 200-slide PowerPoint
+## Expanded 206-slide PowerPoint
 
 ![Course preview](screenshot.png)
 
@@ -8,7 +8,7 @@
 The six-module lesson plan still runs 09:00–17:00 with 390 teaching minutes and only 65 minutes of guided
 Excel exercises: SPC 25, FMEA 20 and DMAIC 20. The reference section does not add classroom workload.
 
-- [PowerPoint — 200 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
+- [PowerPoint — 206 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
 - [Slide PDF — 200 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
 - [Lesson Plan](courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf)
 - [Learner Guide](courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.pdf)
@@ -20,3 +20,7 @@ The deck explains concepts before using them, includes worked calculations and s
 and uses editable text and diagrams. Cover artwork is AI-generated; example data are synthetic.
 Illustrative answers are not recordings of live Copilot executions.
 IES is the provider. Trainer guides are in the complete local package; the source ebook is not redistributed.
+
+## LO2 simplified Copilot in Excel labs
+
+The three timed exercises now use separate small workbooks: 12 rows for SPC, four rows for FMEA, and six rows for DMAIC. Every lab repeats the same workflow: select the named table, paste one prompt into Copilot in Excel, inspect the generated output, and verify one result independently.
