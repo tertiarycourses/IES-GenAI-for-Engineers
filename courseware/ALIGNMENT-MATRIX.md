@@ -5,14 +5,14 @@ The six-module Lesson Plan controls the one-day delivery. The PPT, guides and la
 | Teaching block | PPT slides | Lesson Plan | Learner / Facilitator Guide | Lab folder | Learner output |
 |---|---:|---|---|---|---|
 | Module 1 | 1–11 | Module 1 · overview | Copilot and engineering task | — | A clear request ready for analysis |
-| Module 2 | 12–22 | Module 2 · overview | Prompt framework and persona challenge | — | A constrained, reviewable prompt |
-| LO1 methodology primer | 25–39 | Module 3 · 15 min primer | FMEA, Six Sigma/DMAIC and SPC concepts | Method quick references | Explain purpose, use, key terms and outputs before practice |
-| SPC | 40–46 | Module 3 · 25 min | SPC explanation and guided check | `Labs/Lab-01-SPC` | Three-sentence chart interpretation |
-| FMEA | 47–51 | Module 3 · 20 min | FMEA explanation and guided check | `Labs/Lab-02-FMEA` | One evidence gap and one proposed action |
-| DMAIC | 52–57 | Module 3 · 20 min | DMAIC explanation and guided check | `Labs/Lab-03-DMAIC` | Measured change, limitation and next evidence |
-| Agents | 58–65 | Module 4 · demonstration | Prepared FMEA/report assistant | `Trainer-Demonstrations` | No independent deployment task |
-| Grounding | 66–71 | Module 5 · demonstration | Approved-library retrieval walkthrough | `Trainer-Demonstrations` | Citation, revision and scope check |
-| Security and close | 72–79 | Module 6 · review | Seven checks, summary and reusable prompt | `Labs` prompt banks | One prompt and one review rule |
+| Module 2 | 12–30 | Module 2 · overview | Prompt framework and persona challenge | — | A constrained, reviewable prompt |
+| LO1 methodology primer | 33–47 | Module 3 · 15 min primer | FMEA, Six Sigma/DMAIC and SPC concepts | Method quick references | Explain purpose, use, key terms and outputs before practice |
+| SPC | 48–60 | Module 3 · 25 min | SPC explanation, Copilot workflow and guided check | `Labs/Lab-01-SPC` | Three-sentence chart interpretation |
+| FMEA | 61–65 | Module 3 · 20 min | FMEA explanation and guided check | `Labs/Lab-02-FMEA` | One evidence gap and one proposed action |
+| DMAIC | 66–71 | Module 3 · 20 min | DMAIC explanation and guided check | `Labs/Lab-03-DMAIC` | Measured change, limitation and next evidence |
+| Agents and LO5 reasoning agents | 72–102 | Module 4 · guided activity | Guided FMEA Agent, Researcher and Analyst | `Trainer-Demonstrations` | Agent build evidence, cited comparison and checked data analysis |
+| Grounding | 103–108 | Module 5 · demonstration | Approved-library retrieval walkthrough | `Trainer-Demonstrations` | Citation, revision and scope check |
+| Security and close | 109–116 | Module 6 · review | Seven checks, summary and reusable prompt | `Labs` prompt banks | One prompt and one review rule |
 
 The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepared `Worked-Reference.xlsx`. The remaining reference examples are optional after-class material and do not add classroom time.
 
@@ -41,3 +41,11 @@ The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepar
 | Multi-step use | Collect, validate, calculate, human gate, report, audit | Ten-step paired activity | FMEA-REPORT-TEMPLATE.md |
 | Test | Complete-row and missing-data tests | Pass/fail criteria and refinement | FMEA-AGENT-TEST-CASES.md |
 | Deploy | Preview, publish/share and audience boundary | Approved training deployment evidence | Trainer-Demonstrations/README.md |
+
+## LO5 reasoning-agent alignment
+
+| LO5 evidence | PPT | Learner and facilitator guides | Guided activity files |
+|---|---|---|---|
+| Researcher | Scope, RISE prompt, cited-report workflow and source checks | 8-minute guided use and citation verification | REASONING-AGENT-PROMPTS.md; TR-401-Training-Extract.pdf |
+| Analyst | File attachment, RISE prompt, calculation and interpretation checks | 8-minute guided use plus 4-minute verification | Lab-03-DMAIC/Starter.xlsx; REASONING-AGENT-CHECKS.md |
+| Engineering review | Tool-selection matrix and LO5 checkpoint | One limitation and one next evidence check | Expected values and cautious conclusion |

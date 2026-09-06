@@ -1,5 +1,7 @@
 # Lab 3 - Use Copilot in Excel to create a DMAIC summary
 
+The same `Starter.xlsx` is reused later in the Module 4 LO5 guided Analyst activity. This reuse does not create an additional lab or extend the 20-minute Lab 3 time box. See `prompts.md` for the Analyst prompt and independent checks.
+
 **Time:** 20 minutes
 
 **Provider:** IES
