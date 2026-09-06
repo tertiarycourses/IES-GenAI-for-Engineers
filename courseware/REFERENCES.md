@@ -15,3 +15,10 @@ Microsoft features depend on tenant and application availability. Use the Copilo
 - [Agents built by Microsoft](https://support.microsoft.com/en-us/Microsoft-365-Copilot/agents-built-by-microsoft)
 
 Checked 6 September 2026.
+
+## SharePoint agents
+
+- [Create an agent in SharePoint](https://support.microsoft.com/en-us/sharepoint/copilot-in-sharepoint/create-an-agent-in-sharepoint)
+- [Manage access to agents in SharePoint](https://learn.microsoft.com/en-us/sharepoint/manage-access-agents-in-sharepoint)
+
+Checked 6 September 2026.

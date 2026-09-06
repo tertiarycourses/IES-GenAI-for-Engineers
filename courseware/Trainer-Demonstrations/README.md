@@ -9,7 +9,7 @@ This is a guided paired build inside the existing Module 4 time block. It is not
 - `FMEA-AGENT-TEST-CASES.md` - complete-row, missing-data and high-severity tests.
 - `REASONING-AGENT-PROMPTS.md` - paste-ready Researcher and Analyst prompts.
 - `REASONING-AGENT-CHECKS.md` - citation and calculation acceptance checks.
-- `TR-401-Training-Extract.pdf` - synthetic source for the separate SharePoint demonstration.
+- `TR-401-Training-Extract.pdf` - synthetic source for the guided SharePoint activity.
 
 ## Learner evidence
 
@@ -31,3 +31,9 @@ This is a guided paired build inside the existing Module 4 time block. It is not
 1. Researcher cited comparison with one opened source.
 2. Analyst result with 9.0%, 3.5%, -5.5 percentage points and 61.1% checked.
 3. One limitation and one next evidence check.
+
+## LO6 SharePoint knowledge base
+
+- `SHAREPOINT-KNOWLEDGE-BASE-SETUP.md` - prepared private site, source folder and 45-minute route.
+- `SHAREPOINT-AGENT-INSTRUCTIONS.md` - copy-paste grounding and stop rules.
+- `SHAREPOINT-AGENT-TESTS.md` - supported, unsupported and workbook-purpose tests.

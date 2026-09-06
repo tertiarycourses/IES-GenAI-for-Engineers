@@ -11,8 +11,8 @@ The six-module Lesson Plan controls the one-day delivery. The PPT, guides and la
 | FMEA | 61–65 | Module 3 · 20 min | FMEA explanation and guided check | `Labs/Lab-02-FMEA` | One evidence gap and one proposed action |
 | DMAIC | 66–71 | Module 3 · 20 min | DMAIC explanation and guided check | `Labs/Lab-03-DMAIC` | Measured change, limitation and next evidence |
 | Agents and LO5 reasoning agents | 72–102 | Module 4 · guided activity | Guided FMEA Agent, Researcher and Analyst | `Trainer-Demonstrations` | Agent build evidence, cited comparison and checked data analysis |
-| Grounding | 103–108 | Module 5 · demonstration | Approved-library retrieval walkthrough | `Trainer-Demonstrations` | Citation, revision and scope check |
-| Security and close | 109–116 | Module 6 · review | Seven checks, summary and reusable prompt | `Labs` prompt banks | One prompt and one review rule |
+| SharePoint grounding | 103–118 | Module 5 · 45-minute guided activity | Private site, knowledge folder, scoped agent and two tests | `Trainer-Demonstrations` | Site/folder/agent record, cited answer, preserved unknown, permission check |
+| Security and close | 119–126 | Module 6 · review | Seven checks, summary and reusable prompt | `Labs` prompt banks | One prompt and one review rule |
 
 The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepared `Worked-Reference.xlsx`. The remaining reference examples are optional after-class material and do not add classroom time.
 
@@ -49,3 +49,11 @@ The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepar
 | Researcher | Scope, RISE prompt, cited-report workflow and source checks | 8-minute guided use and citation verification | REASONING-AGENT-PROMPTS.md; TR-401-Training-Extract.pdf |
 | Analyst | File attachment, RISE prompt, calculation and interpretation checks | 8-minute guided use plus 4-minute verification | Lab-03-DMAIC/Starter.xlsx; REASONING-AGENT-CHECKS.md |
 | Engineering review | Tool-selection matrix and LO5 checkpoint | One limitation and one next evidence check | Expected values and cautious conclusion |
+
+## LO6 SharePoint alignment
+
+| LO6 evidence | PPT | Learner and facilitator guides | Trainer resources |
+|---|---|---|---|
+| Knowledge base | Private site, library, folder and four sources | Exact live route and access boundary | SHAREPOINT-KNOWLEDGE-BASE-SETUP.md |
+| Grounded agent | Create/configure workflow and safe instruction | Detailed creation or inspection route | SHAREPOINT-AGENT-INSTRUCTIONS.md |
+| Verification | Supported fact, preserved unknown, citation and permission checks | Acceptance results and evidence record | SHAREPOINT-AGENT-TESTS.md |
