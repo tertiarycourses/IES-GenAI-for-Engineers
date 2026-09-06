@@ -1,6 +1,13 @@
 # Lab 3 - Use Copilot in Excel to create a DMAIC summary
 
-## One prompt to use
+## RISE breakdown
+
+- **R - Role:** Six Sigma project assistant
+- **I - Input:** Only WeeklyData; four Baseline and two Pilot weeks
+- **S - Steps:** Calculate both rates; create five-row DMAIC summary
+- **E - Expectations:** Show formulas; separate facts from hypotheses; no causal claim
+
+## Complete prompt to use
 
 Act as a Six Sigma project assistant. Use only the named Excel table WeeklyData. Calculate total opportunities, total deviations, and deviation rate for Baseline and Pilot using deviations divided by opportunities. Create a five-row DMAIC summary: Define, Measure, Analyse, Improve, Control. Clearly separate observed facts from hypotheses. State that the short pilot does not prove the cause of the change. Show the formulas and return one next evidence check.
 

@@ -23,3 +23,12 @@ The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepar
 | SPC analysis | Copilot workflow and exact SPC prompt | Five-step Excel workflow and T10 check | Lab-01-SPC: 12 readings, formula limits, chart |
 | FMEA document | Exact FMEA prompt and responsibility boundary | Four-row method and FM01/FM04 checks | Lab-02-FMEA: formula RPN, rank, severity flag |
 | DMAIC report | Exact DMAIC prompt and evidence boundary | Six-row rate comparison and causal caution | Lab-03-DMAIC: 9.0% / 3.5% and five-phase summary |
+
+## LO3 RISE alignment
+
+| RISE element | PPT | Learner and facilitator guides | Labs |
+|---|---|---|---|
+| Role | Definition, safe role example | Role as perspective without authority | Role labelled in every prompt sheet |
+| Input | Source, scope and preservation rules | Named-table and evidence guidance | Exact table and row scope |
+| Steps | Ordered calculation and presentation work | Worked weak-to-RISE example | SPC, FMEA and DMAIC task sequence |
+| Expectations | Format, constraints and acceptance check | Iterative checking guidance | Formula display, decision boundary and independent check |

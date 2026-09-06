@@ -1,6 +1,13 @@
 # Lab 2 - Use Copilot in Excel to create an FMEA review
 
-## One prompt to use
+## RISE breakdown
+
+- **R - Role:** FMEA facilitator
+- **I - Input:** Only FMEAInput; preserve four rows and supplied ratings
+- **S - Steps:** Calculate RPN; rank; flag Severity 9+; propose evidence and action
+- **E - Expectations:** Show formula; do not invent incidents, ratings or approval
+
+## Complete prompt to use
 
 Act as an FMEA facilitator. Use only the named Excel table FMEAInput and preserve every row and supplied rating. Create an FMEA output table, calculate RPN = Severity x Occurrence x Detection, rank the four rows from highest to lowest RPN, and flag any row with Severity 9 or higher. For each row, propose one evidence request and one practical follow-up action. Do not invent incidents, change ratings, or approve the design. Show the RPN formula.
 

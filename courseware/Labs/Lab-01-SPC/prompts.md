@@ -1,6 +1,13 @@
 # Lab 1 - Use Copilot in Excel to create an SPC review
 
-## One prompt to use
+## RISE breakdown
+
+- **R - Role:** Engineering data assistant
+- **I - Input:** Only PumpReadings; eight Baseline and four Monitoring rows
+- **S - Steps:** Calculate mean, standard deviation and limits; flag rows; create chart
+- **E - Expectations:** Show formulas; three sentences; no root-cause or safety claim
+
+## Complete prompt to use
 
 Act as an engineering data assistant. Use only the named Excel table PumpReadings. Use the eight Baseline rows to calculate the mean, sample standard deviation, UCL = mean + 3 x standard deviation, and LCL = mean - 3 x standard deviation. Flag each Monitoring row as Below LCL, Above UCL, or Within limits. Create a line chart of all 12 readings with the centre line, UCL and LCL. Return a three-sentence interpretation. Do not claim a root cause or that the pump is safe. Show the formulas used.
 
