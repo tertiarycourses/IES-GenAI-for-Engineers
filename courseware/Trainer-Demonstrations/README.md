@@ -1,38 +1,25 @@
-# Ready-to-use trainer demonstrations
+# Module 4 - guided Copilot Agent workflow
 
-These are original synthetic teaching examples. No live agent deployment is required.
-Use the original LP module timings; these demonstrations replace discussion examples, not add lab time.
+This is a guided paired build inside the existing Module 4 time block. It is not an additional lab.
 
-## Module 4 — FMEA assistant (within the 25-minute demonstration)
-Open Lab-01-SPC/Worked-Reference.xlsx. Show FMEA_Input, ScoringNote and Evidence.
-Prepared instructions:
-Act as an engineering drafting assistant. Use only the supplied case records and rating guidance.
-For one selected mode, return failure mode, effect, possible cause, current control and missing evidence.
-Retain the supplied scores. Separate observed facts from hypotheses. Do not invent an approval.
-Test question: Review FM01, the low-delivery row. What remains unproven?
-Illustrative expected response: Low delivery was observed. A restriction is a possible explanation.
-Evidence that the removed strainer was blocked is still needed. The current records do not isolate one cause.
-Trainer check: open FM01 and the evidence records, then inspect the score definitions.
-If Copilot is available, run this as a prompt or through a prepared assistant. Identify the surface used.
-If not, show the illustrative response and label it a worked example.
+## Files
 
-## Module 4 — report writer (within the workflow demonstration)
-Source note: Later tests recorded lower delivery. Strainer replacement and verification occurred together.
-Pilot results improved. Review of the removed strainer remains open.
-Prompt: Turn these facts into Status / Evidence / Next action. Do not label an open action completed.
-Illustrative response:
-Status: Pilot delivery results improved.
-Evidence: Results improved after strainer replacement and verification.
-Next action: Complete the removed-strainer review before attributing the improvement to one cause.
-Trainer check: ask which sentence would become wrong if “open” were changed to “completed”.
+- `FMEA-AGENT-INSTRUCTIONS.md` - paste-ready six-step agent instruction.
+- `FMEA-REPORT-TEMPLATE.md` - the report structure used after human approval.
+- `FMEA-AGENT-TEST-CASES.md` - complete-row, missing-data and high-severity tests.
+- `TR-401-Training-Extract.pdf` - synthetic source for the separate SharePoint demonstration.
 
-## Module 5 — grounded document answer (within the 20-minute demonstration)
-Use TR-401-Training-Extract.pdf in this folder, or place it in an approved demonstration library before class.
-Prompt: Using only TR-401 revision 1, which measurement fields must a test record contain?
-Give the supporting clause. If the extract does not answer a question, say so.
-Illustrative response: Clause 1 lists test ID, timestamp, collected volume in litres and duration in seconds.
-Check: open clause 1 and compare all four fields. Clause 2 adds setting, operator role and observed issues.
-Follow-up: What delivery limit does this extract approve?
-Expected response: The extract does not specify or approve a delivery limit.
-A real SharePoint demo requires an approved library and appropriate access. If unavailable, use this local
-document walkthrough and label it accordingly. Do not claim permission testing has occurred without testing it.
+## Learner evidence
+
+1. Saved IES Pump FMEA Assistant.
+2. FM01 test showing RPN 140 and the human approval pause.
+3. Missing-Detection test showing that the agent asks for the value.
+4. One instruction refinement.
+5. Created, published or shared status for the approved training audience.
+
+## Official Microsoft guidance
+
+- [Build your own agent with Microsoft 365 Copilot](https://support.microsoft.com/en-us/Microsoft-365-Copilot/build-your-own-agent-with-microsoft-365-copilot)
+- [Microsoft Copilot Studio documentation](https://learn.microsoft.com/microsoft-copilot-studio)
+- [Write agent instructions](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-instructions)
+- [Publish an agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/publication-publish-agent)

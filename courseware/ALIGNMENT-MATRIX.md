@@ -32,3 +32,12 @@ The three Excel exercises total **65 minutes** (25 + 20 + 20) and use one prepar
 | Input | Source, scope and preservation rules | Named-table and evidence guidance | Exact table and row scope |
 | Steps | Ordered calculation and presentation work | Worked weak-to-RISE example | SPC, FMEA and DMAIC task sequence |
 | Expectations | Format, constraints and acceptance check | Iterative checking guidance | Formula display, decision boundary and independent check |
+
+## LO4 multi-step agent alignment
+
+| Workflow evidence | PPT | Learner and facilitator guides | Guided activity files |
+|---|---|---|---|
+| Build | Agent purpose, components and builder entry | Detailed New agent and configuration procedure | FMEA-AGENT-INSTRUCTIONS.md |
+| Multi-step use | Collect, validate, calculate, human gate, report, audit | Ten-step paired activity | FMEA-REPORT-TEMPLATE.md |
+| Test | Complete-row and missing-data tests | Pass/fail criteria and refinement | FMEA-AGENT-TEST-CASES.md |
+| Deploy | Preview, publish/share and audience boundary | Approved training deployment evidence | Trainer-Demonstrations/README.md |
