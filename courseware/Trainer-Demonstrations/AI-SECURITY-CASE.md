@@ -2,7 +2,7 @@
 
 ## Scenario
 
-The private `IES GenAI for Engineers` SharePoint site contains four synthetic sources in `Documents/Engineering Knowledge Base`. The `IES Engineering Knowledge Assistant` returns a cited comparison of the SPC, FMEA and DMAIC workbooks. A second query correctly says that TR-401 does not state a delivery target or comparison range.
+The private `IES GenAI for Engineers` SharePoint site contains four synthetic sources in `Documents/Engineering Knowledge Base`. The `IES Engineering Knowledge Assistant` returns a cited comparison of the FMEA, DMAIC and SPC workbooks. A second query correctly says that TR-401 does not state a delivery target or comparison range.
 
 ## Learner task
 

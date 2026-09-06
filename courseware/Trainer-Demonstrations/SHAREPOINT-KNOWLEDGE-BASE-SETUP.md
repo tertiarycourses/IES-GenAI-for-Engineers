@@ -8,7 +8,7 @@ IES | GenAI for Engineers | 45-minute guided Module 5 activity
 - Library: `Documents`
 - Folder: `Engineering Knowledge Base`
 - Agent: `IES Engineering Knowledge Assistant`
-- Knowledge sources: `TR-401-Training-Extract.pdf`, `SPC-Starter.xlsx`, `FMEA-Starter.xlsx`, and `DMAIC-Starter.xlsx`
+- Knowledge sources: `TR-401-Training-Extract.pdf`, `FMEA-Starter.xlsx`, `DMAIC-Starter.xlsx`, and `SPC-Starter.xlsx`
 
 The site is private. The trainer controls membership and must not broaden access during class without the organisation's approval.
 

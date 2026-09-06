@@ -1,14 +1,14 @@
-# Lab 1 - Use Copilot in Excel to create an SPC review
+# Lab 1 - Use Copilot in Excel to create an FMEA review
 
-**Time:** 25 minutes
+**Time:** 20 minutes
 
 **Provider:** IES
 
-A pump was stable during eight reference tests. Four later readings are monitored for unusual change. All values are synthetic training data.
+The team is reviewing four possible pump-system failures before the next operating campaign. Ratings are supplied classroom judgements, not field evidence.
 
 ## Files
 
-- `Starter.xlsx` - three simple sheets: Start_Here, Pump_Readings, Copilot_Prompt.
+- `Starter.xlsx` - three simple sheets: Start_Here, FMEA_Input, Copilot_Prompt.
 - `Worked-Reference.xlsx` - the same source plus a formula-based output sheet.
 - `prompts.md` - the one prompt and independent check.
 - `Lab-Handout.pdf` - two-page guided activity.

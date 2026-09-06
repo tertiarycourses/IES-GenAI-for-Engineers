@@ -1,4 +1,4 @@
-# Lab 3 - Use Copilot in Excel to create a DMAIC summary
+# Lab 2 - Use Copilot in Excel to create a DMAIC summary
 
 ## RISE breakdown
 

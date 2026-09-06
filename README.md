@@ -1,15 +1,15 @@
 # IES GenAI for Engineers
 
-## Expanded 257-slide PowerPoint
+## Expanded 259-slide PowerPoint
 
 ![Course preview](screenshot.png)
 
-**136 slides for the one-day teaching route, including the exact LO1–LO7 outcomes, six module topic pages, six module outcome pages, a 15-slide FMEA/Six Sigma-DMAIC/SPC methodology primer, a summary and end page, plus a divider and 120 optional worked-example slides.**
+**138 slides for the one-day teaching route, including the exact LO1–LO7 outcomes, six module topic pages, six module outcome pages, a 15-slide FMEA/Six Sigma-DMAIC/SPC methodology primer, a summary and end page, plus a divider and 120 optional worked-example slides.**
 The six-module lesson plan still runs 09:00–17:00 with 390 teaching minutes and only 65 minutes of guided
-Excel exercises: SPC 25, FMEA 20 and DMAIC 20. The reference section does not add classroom workload.
+Excel exercises: FMEA 20, DMAIC 20 and SPC 25. The reference section does not add classroom workload.
 
-- [PowerPoint — 257 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
-- [Slide PDF — 257 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
+- [PowerPoint — 259 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
+- [Slide PDF — 259 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
 - [Lesson Plan](courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf)
 - [Learner Guide](courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.pdf)
 - [Three guided exercises](courseware/Labs/README.md)
@@ -23,7 +23,7 @@ IES is the provider. Trainer guides are in the complete local package; the sourc
 
 ## LO2 simplified Copilot in Excel labs
 
-The three timed exercises now use separate small workbooks: 12 rows for SPC, four rows for FMEA, and six rows for DMAIC. Every lab repeats the same workflow: select the named table, paste one prompt into Copilot in Excel, inspect the generated output, and verify one result independently.
+The three timed exercises now use separate small workbooks: four rows for FMEA, six rows for DMAIC, and 12 rows for SPC. Every lab repeats the same workflow: select the named table, paste one prompt into Copilot in Excel, inspect the generated output, and verify one result independently.
 
 ## LO5 Microsoft reasoning agents
 

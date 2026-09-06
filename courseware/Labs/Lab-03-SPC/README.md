@@ -1,16 +1,14 @@
-# Lab 3 - Use Copilot in Excel to create a DMAIC summary
+# Lab 3 - Use Copilot in Excel to create an SPC review
 
-The same `Starter.xlsx` is reused later in the Module 4 LO5 guided Analyst activity. This reuse does not create an additional lab or extend the 20-minute Lab 3 time box. See `prompts.md` for the Analyst prompt and independent checks.
-
-**Time:** 20 minutes
+**Time:** 25 minutes
 
 **Provider:** IES
 
-The team compares four baseline weeks with a two-week pilot after a maintenance change. All values are synthetic training data.
+A pump was stable during eight reference tests. Four later readings are monitored for unusual change. All values are synthetic training data.
 
 ## Files
 
-- `Starter.xlsx` - three simple sheets: Start_Here, Weekly_Data, Copilot_Prompt.
+- `Starter.xlsx` - three simple sheets: Start_Here, Pump_Readings, Copilot_Prompt.
 - `Worked-Reference.xlsx` - the same source plus a formula-based output sheet.
 - `prompts.md` - the one prompt and independent check.
 - `Lab-Handout.pdf` - two-page guided activity.

@@ -1,4 +1,4 @@
-# Lab 1 - Use Copilot in Excel to create an SPC review
+# Lab 3 - Use Copilot in Excel to create an SPC review
 
 ## RISE breakdown
 

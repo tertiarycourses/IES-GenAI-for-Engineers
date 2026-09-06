@@ -1,4 +1,4 @@
-# Lab 2 - Use Copilot in Excel to create an FMEA review
+# Lab 1 - Use Copilot in Excel to create an FMEA review
 
 ## RISE breakdown
 

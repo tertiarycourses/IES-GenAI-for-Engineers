@@ -2,7 +2,7 @@
 
 ## Test 1 - complete row
 
-Use FM01 from `Lab-02-FMEA/Starter.xlsx`: Severity 7, Occurrence 5, Detection 4.
+Use FM01 from `Lab-01-FMEA/Starter.xlsx`: Severity 7, Occurrence 5, Detection 4.
 
 Expected behaviour:
 

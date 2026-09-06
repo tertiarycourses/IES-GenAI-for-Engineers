@@ -27,7 +27,7 @@ Open Microsoft 365 Copilot, select **Agents**, then **Researcher**. Attach or re
 
 ## Part B - Analyst: calculate and interpret the DMAIC data
 
-Open **Analyst** under Agents. Attach `../Labs/Lab-03-DMAIC/Starter.xlsx` or its CSV in `mock-data/weekly-data.csv`.
+Open **Analyst** under Agents. Attach `../Labs/Lab-02-DMAIC/Starter.xlsx` or its CSV in `mock-data/weekly-data.csv`.
 
 ### RISE prompt
 

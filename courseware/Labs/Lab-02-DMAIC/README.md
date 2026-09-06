@@ -1,14 +1,16 @@
-# Lab 2 - Use Copilot in Excel to create an FMEA review
+# Lab 2 - Use Copilot in Excel to create a DMAIC summary
+
+The same `Starter.xlsx` is reused later in the Module 4 LO5 guided Analyst activity. This reuse does not create an additional lab or extend the 20-minute Lab 2 time box. See `prompts.md` for the Analyst prompt and independent checks.
 
 **Time:** 20 minutes
 
 **Provider:** IES
 
-The team is reviewing four possible pump-system failures before the next operating campaign. Ratings are supplied classroom judgements, not field evidence.
+The team compares four baseline weeks with a two-week pilot after a maintenance change. All values are synthetic training data.
 
 ## Files
 
-- `Starter.xlsx` - three simple sheets: Start_Here, FMEA_Input, Copilot_Prompt.
+- `Starter.xlsx` - three simple sheets: Start_Here, Weekly_Data, Copilot_Prompt.
 - `Worked-Reference.xlsx` - the same source plus a formula-based output sheet.
 - `prompts.md` - the one prompt and independent check.
 - `Lab-Handout.pdf` - two-page guided activity.
