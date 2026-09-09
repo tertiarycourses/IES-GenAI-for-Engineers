@@ -1,0 +1,19 @@
+USE THE REPORT WRITER WITH LAB 3.2
+
+1. Open the private IES Report Writer agent you created.
+2. Start a fresh chat.
+3. Attach ../Lab-3.2-DMAIC-Report/Starter.xlsx.
+4. Paste this request:
+
+Use the engineering-report-drafting skill to prepare a five-stage DMAIC report from the WeeklyData table and the baseline categories on the Pareto sheet. Preserve the six-week scope: three Baseline weeks and three Pilot weeks. Show total opportunities, total deviations and deviation rate for each phase. State the absolute change in percentage points. Separate observations from hypotheses. State that the short pilot does not prove cause and concurrent changes cannot be separately attributed. Do not invent a root cause, saving, completion percentage or approval. List unresolved assumptions, leave the reviewer decision blank, and end with DRAFT FOR REVIEW.
+
+5. Verify these results independently:
+
+- Baseline: 36 / 400 = 9.00%
+- Pilot: 7 / 200 = 3.50%
+- Absolute difference: 5.50 percentage points
+- Baseline Pareto counts total 36
+
+6. Confirm the response contains exactly five DMAIC stages and does not claim that the pilot proved a cause.
+
+The agent drafts the report in chat. It does not modify the workbook or approve the conclusion.

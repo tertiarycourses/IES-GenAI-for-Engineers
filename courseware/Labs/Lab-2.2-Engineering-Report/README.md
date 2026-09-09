@@ -1,22 +1,60 @@
-# Lab 2.2 — Engineering Report
+# Lab 2.2 - Engineering Report
 
-**Goal:** Convert inspection notes into a structured report.
+**Purpose:** Use Copilot in Word to convert inspection records into a controlled report without mixing observation, interpretation and recommendation.
 
-**Output:** Report with observations, evidence, actions and owners.
+**Output:** A draft report with source records, observations, limitations, actions and reviewer fields.
 
-1. Open the supplied mock data or workbook.
-2. Frame the task with RISE and add E-MAP where technical context matters.
-3. Paste the prompt from `prompts.md` into the relevant Microsoft 365 Copilot surface.
-4. Inspect the result against the source.
-5. Verify one formula, citation or decision rule independently.
-6. Correct one gap and retain the evidence.
+## What you will do
 
-**Boundary:** Preserve dates, units and unknowns.
+1. Open the supplied CSV and a blank Word document.
+2. Ask Copilot for a fixed report structure.
+3. Verify all values, units, sources and statuses.
+4. Separate observation from interpretation.
+5. Mark missing criteria and evidence.
+6. Correct one unsupported statement.
+7. Save the report as a draft for review.
 
-## Microsoft 365 links
+## Files used
 
-Microsoft 365 Copilot: https://m365.cloud.microsoft/
+| File | Use |
+|---|---|
+| `Lab-Instructions.pdf` | Detailed instructions. |
+| `mock-data.csv` | The only inspection evidence used. |
 
-Copilot Chat and Agents: https://m365.cloud.microsoft/chat/
+## Detailed steps
 
-SharePoint: https://www.microsoft365.com/launch/sharepoint
+1. Open `mock-data.csv` and identify the delivery result, reference target and missing approved limit.
+2. Open Word and create **CW-401 Delivery Check - Draft Engineering Report**.
+3. Open Copilot in Word and attach or paste the CSV.
+4. Paste this request:
+
+```
+Use only the supplied classroom records. Draft these sections:
+Scope, Source records, Observations, Interpretation and limitations,
+Recommended evidence checks, Action table, and Reviewer decision.
+Preserve all dates, values, units, sources and statuses. Keep observations separate
+from interpretation. Do not invent an approved limit, failure cause, owner, due date
+or approval. Write NOT SUPPLIED where evidence is absent. Leave Reviewer decision blank.
+```
+
+5. In **Observations**, require factual statements only: 59.4 L/h was recorded; 62.0 L/h is the reference target; the approved limit is absent.
+6. In **Interpretation and limitations**, allow the arithmetic difference but not a compliance or safety conclusion.
+7. Check the action table. Unknown owners and dates must remain NOT SUPPLIED.
+8. Find one unsupported or ambiguous statement. Use a follow-up prompt that names exactly what must change.
+9. Reread the revised paragraph against the source.
+10. Save the final result with **DRAFT FOR ENGINEER REVIEW**.
+
+## Independent check
+
+`62.0 - 59.4 = 2.6 L/h`. This supports a numerical comparison only. It does not establish a deviation from an approved operating limit.
+
+## Pass conditions
+
+- Observations are traceable to the CSV.
+- Interpretation is in a separate section.
+- Units and source statuses are unchanged.
+- Missing criteria, owners and dates are visible.
+- Reviewer decision remains blank.
+- No cause, compliance finding or approval is invented.
+
+All supplied records are fictional classroom data.

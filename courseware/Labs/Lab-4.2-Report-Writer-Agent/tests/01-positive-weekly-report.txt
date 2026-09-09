@@ -1,0 +1,8 @@
+Prepare a Weekly engineering report from these fictional records:
+
+- Reporting period: 1-5 September 2026
+- ACT-01: Calibration check completed on 2 September 2026 by Mei. Evidence: CAL-17 Rev A.
+- ACT-02: Review the dosing trend. Owner: Ravi. Due: 9 September 2026. Status: In progress. Evidence: meeting note MN-04.
+- ACT-03: Obtain the approved operating limit. Owner: NOT STATED. Due date: NOT STATED. Status: Open blocker.
+
+Preserve every supplied fact, separate completed work from in-progress work, list missing information, and leave the reviewer decision blank.

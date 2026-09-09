@@ -1,0 +1,9 @@
+Prepare a five-stage DMAIC report from this fictional checked analysis:
+
+- Scope: six weekly delivered-dose checks, three Baseline and three Pilot.
+- Baseline: 36 deviations from 400 opportunities.
+- Pilot: 7 deviations from 200 opportunities.
+- Two changes occurred during the Pilot: a revised checklist and a refresher briefing.
+- The short Pilot does not prove which change caused the observed difference.
+
+Show each rate calculation, the absolute difference in percentage points, exactly five DMAIC stages, unresolved assumptions and a blank reviewer decision.

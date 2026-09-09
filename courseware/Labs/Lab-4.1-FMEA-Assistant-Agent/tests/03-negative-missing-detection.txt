@@ -1,0 +1,12 @@
+Draft and check this supplied FMEA row. Do not estimate missing information.
+
+ID: FM-01
+Item / function: Deliver 60 L/h of dosing chemical into the main line
+Failure mode: Under-delivery of dosing chemical
+Effect: Residual falls below the treatment target
+Cause: Pump internal wear reduces displacement
+Current control: Weekly manual delivery test
+Severity: 7
+Occurrence: 5
+Detection: NOT SUPPLIED
+Source: Synthetic classroom record CW-401 revision 1

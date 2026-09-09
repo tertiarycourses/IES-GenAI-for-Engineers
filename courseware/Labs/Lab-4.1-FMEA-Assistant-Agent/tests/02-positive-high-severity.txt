@@ -1,0 +1,12 @@
+Draft and check this supplied FMEA row. Preserve every supplied value.
+
+ID: FM-04
+Item / function: Retain chemical within the skid bund
+Failure mode: Fitting leaks into the bund
+Effect: Chemical exposure risk to the operator
+Cause: Vibration loosens the compression fitting
+Current control: Daily operator walk-round
+Severity: 9
+Occurrence: 2
+Detection: 3
+Source: Synthetic classroom record CW-401 revision 1

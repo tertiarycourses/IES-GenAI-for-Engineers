@@ -1,0 +1,18 @@
+USE THE NEW AGENT TO REPEAT LAB 3.1
+
+1. Open your newly created IES FMEA Assistant in a fresh chat.
+2. Attach ../Lab-3.1-FMEA-Document/Starter.xlsx.
+3. Paste this request:
+
+Use the fmea-drafting skill to draft and check all rows in the FMEAInput table in the attached Starter.xlsx. Preserve exactly the four supplied rows and every supplied S, O and D rating. Calculate and show RPN for each row, rank the rows from highest to lowest RPN, and separately escalate every row with Severity 9 or higher. Give one evidence request and one practical follow-up action per row. Do not approve risk or state that the skid is safe. End with unresolved questions and DRAFT FOR REVIEW.
+
+4. Check the response yourself:
+   FM-01 = 7 x 5 x 4 = 140
+   FM-02 = 8 x 4 x 6 = 192
+   FM-03 = 5 x 3 x 7 = 105
+   FM-04 = 9 x 2 x 3 = 54 and must be ESCALATED
+
+The agent may return the completed FMEA as a table in chat. If the tenant provides workbook creation or code-interpreter capability, you may additionally ask it to update a copy of the workbook. Otherwise, enter the verified results into Excel yourself. The FMEA skill does not insert the Lab 3.1 chart.
+
+Why this prompt is shorter than the original Lab 3.1 prompt:
+The detailed FMEA procedure, rating rules, output template and refusals are already stored in fmea-drafting.zip. The short request supplies the task and workbook. Pasting the original long prompt would work, but it would not demonstrate reuse of the agent's stored skill.

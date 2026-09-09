@@ -1,8 +1,9 @@
 # IES GenAI for Engineers — Hands-On Labs
 
 Sixteen short, connected activities that sit inside the six module time boxes of the approved
-Lesson Plan. Every folder contains a step-by-step instruction PDF, a framework-labelled prompt,
-synthetic mock data and acceptance checks you can verify by hand.
+Lesson Plan. Every folder uses `README.md` as the single editable instruction source and
+`Lab-Instructions.pdf` as its learner copy. The complete working prompt, checks and acceptance
+conditions are embedded in both, so learners do not need to reconcile a separate prompt file.
 
 ## Module 3 — the three engineering methods, in teaching order
 

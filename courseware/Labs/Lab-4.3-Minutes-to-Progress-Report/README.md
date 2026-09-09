@@ -1,22 +1,68 @@
-# Lab 4.3 — Minutes to Progress Report
+# Lab 4.3 - Minutes to Progress Report
 
-**Goal:** Chain minutes to actions to a progress report.
+**Purpose:** Convert explicit meeting decisions into an action tracker and progress report without inventing commitments.
 
-**Output:** Action tracker and status report with owners and due dates.
+**Output:** A checked action table and a short status report with evidence gaps.
 
-1. Open the supplied mock data or workbook.
-2. Frame the task with RISE and add E-MAP where technical context matters.
-3. Paste the prompt from `prompts.md` into the relevant Microsoft 365 Copilot surface.
-4. Inspect the result against the source.
-5. Verify one formula, citation or decision rule independently.
-6. Correct one gap and retain the evidence.
+## What you will do
 
-**Boundary:** Do not infer commitments.
+1. Open the supplied meeting-record CSV.
+2. Ask Copilot to extract only explicit actions, owners, dates and status.
+3. Mark every missing field as NOT STATED.
+4. Separate completed actions from planned or blocked work.
+5. Generate a concise progress report from the checked action table.
+6. Verify every report claim against the original record.
+7. Correct one unsupported inference and retain the evidence.
 
-## Microsoft 365 links
+## Files used
 
-Microsoft 365 Copilot: https://m365.cloud.microsoft/
+| File | Use |
+|---|---|
+| `Lab-Instructions.pdf` | Detailed instructions. |
+| `mock-data.csv` | Fictional meeting action records. |
 
-Copilot Chat and Agents: https://m365.cloud.microsoft/chat/
+## Detailed steps
 
-SharePoint: https://www.microsoft365.com/launch/sharepoint
+1. Open `mock-data.csv`. Read every row before using Copilot.
+2. Open Copilot Chat or Word. Attach the CSV, or paste its contents if attachment is unavailable.
+3. Paste this extraction request:
+
+```
+Use only the supplied meeting records. Create an action table with Action ID,
+exact action wording, owner, due date, status, evidence and source row.
+Do not infer an owner, deadline, completion or approval. Write NOT STATED for
+every missing field. List ambiguities after the table.
+```
+
+4. Compare every action-table cell with the source. Correct paraphrases that change the commitment.
+5. Confirm that a due date is not treated as evidence of completion.
+6. Paste this second request:
+
+```
+Using only the checked action table, draft a progress report with:
+Reporting period, Completed, In progress, Blocked, Next actions,
+Unresolved information and blank Reviewer decision.
+Preserve every action ID, owner, date, status and evidence reference.
+End with DRAFT FOR REVIEW.
+```
+
+7. Trace every sentence in the report back to an action-table row.
+8. If the report invents progress, add a precise correction such as: `ACT-03 is planned, not completed; move it to Next actions.`
+9. Rerun the affected section and save the before-and-after evidence.
+
+## Independent checks
+
+- The number of action-table rows must equal the number of supplied action records.
+- Any missing owner or due date must remain NOT STATED.
+- A plan, due date or discussion is not evidence that work is complete.
+
+## Pass conditions
+
+- Every action has a source-row trace.
+- Owners, due dates and statuses are preserved exactly.
+- Missing fields are visible.
+- Completed, in-progress and blocked work are separated.
+- Reviewer decision remains blank.
+- The report ends with DRAFT FOR REVIEW.
+
+All supplied records are fictional classroom data.
