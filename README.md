@@ -2,10 +2,10 @@
 
 ![Course preview](screenshot.png)
 
-A one-day, six-module courseware package aligned to **GenAI for Engineers — Lesson Plan with Hands-On Labs (v2 — PUB Feedback)**. The 190-slide deck contains a 166-slide teaching resource plus 24 optional quick-reference pages. Facilitators select the relevant worked slides within each fixed module time box.
+A one-day, six-module courseware package aligned to **GenAI for Engineers — Lesson Plan with Hands-On Labs (v2 — PUB Feedback)**. The 194-slide deck contains 169 teaching and closing slides plus 25 optional quick-reference pages. Facilitators select the relevant worked slides within each fixed module time box.
 
-- [PowerPoint — 190 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
-- [Slide PDF — 190 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
+- [PowerPoint — 194 slides](courseware/Slides/IES-GenAI-for-Engineers.pptx)
+- [Slide PDF — 194 pages](courseware/Slides/IES-GenAI-for-Engineers.pdf)
 - [Learner Guide](courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.pdf)
 - [Lesson Plan](courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf)
 - [Sixteen aligned activity folders](courseware/Labs/README.md)

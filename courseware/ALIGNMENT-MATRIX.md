@@ -10,8 +10,8 @@ The supplied Lesson Plan controls the sequence, time boxes, outcomes and named a
 | 4 · Agents | 14:00–15:15 | 95–124 | LO4, LO5 | 4.1 FMEA Agent; 4.2 DMAIC Agent; 4.3 SPC Agent; 4.4 Engineering Data Knowledge Agent |
 | 5 · SharePoint | 15:30–16:15 | 125–143 | LO6 | 5.1 Build SharePoint Knowledge Agent; 5.2 Build Grounded DMAIC Report Agent |
 | 6 · Security | 16:15–16:45 | 144–156 | LO7 | 6.1 Seven-step review; 6.2 Toolkit |
-| Close | 16:45–17:00 | 157–162 | LO1–LO7 | Outcome check and action |
-| Reference | after class | 163–186 | reference | Framework, method, prompt and security aids |
+| Close | 16:45–17:00 | 157–162, 192–194 | LO1–LO7 | Outcome check, feedback and action |
+| Reference | after class | 163–191 | reference | Framework, method, prompt and security aids |
 
 ## Concept-to-application sequence
 
