@@ -1,0 +1,3 @@
+Which fields must TR-401 record? Cite the exact source location.
+
+Expected: cite TR-401-Training-Extract.pdf and identify test ID, timestamp, volume and duration.

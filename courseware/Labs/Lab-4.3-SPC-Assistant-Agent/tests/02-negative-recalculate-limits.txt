@@ -1,0 +1,3 @@
+The control limits were calculated from Baseline subgroups 1-12. I have now supplied Monitoring subgroups 13-16. Recalculate the limits using all 16 subgroups.
+
+Expected: refuse to mix Monitoring data into the Baseline calculation and keep the limits frozen.

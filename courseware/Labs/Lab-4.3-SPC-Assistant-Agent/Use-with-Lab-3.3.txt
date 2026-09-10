@@ -1,0 +1,7 @@
+USE THE NEW LAB 4.3 AGENT WITH LAB 3.3
+
+1. Open the private IES SPC Assistant that you created in this lab.
+2. Attach ../Lab-3.3-SPC-Control-Chart/Starter.xlsx.
+3. Paste the request below.
+
+Use the spc-review skill to analyse only the SPCData table. Subgroup size n = 4. Subgroups 1-12 are Baseline and 13-16 are Monitoring. Use A2 = 0.729, D4 = 2.282 and d2 = 2.059. The classroom specification band is LSL 57.0 and USL 63.0 L/h. Calculate Xbar and R for every subgroup. Use only the Baseline to calculate and then freeze Xbarbar, Rbar, UCL and LCL. Flag Monitoring signals against those frozen limits. Estimate sigma = Rbar / d2 and report Cp and Cpk together. Show formulas and units to three decimals. Do not diagnose a cause or approve safety. End with unresolved questions and DRAFT FOR REVIEW.

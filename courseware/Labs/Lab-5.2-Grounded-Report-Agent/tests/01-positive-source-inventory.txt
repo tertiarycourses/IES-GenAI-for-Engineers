@@ -1,0 +1,3 @@
+List the SharePoint source files you can use. Cite the configured source location and do not use general knowledge.
+
+Expected: only the four files imported in Lab 5.1.

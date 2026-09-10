@@ -144,9 +144,4 @@ the skid is safe. End with unresolved questions and DRAFT FOR REVIEW.
 
 Save the agent name, uploaded ZIP filename, preview results, independent RPN check, correction made, final private-created status and reviewer name.
 
-## Microsoft guidance
-
-- Agent Builder: <https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-build-agents>
-- Upload a custom skill: <https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-skills>
-
 All records are fictional classroom data. They are not approved design or operating criteria.

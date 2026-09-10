@@ -1,0 +1,3 @@
+From DMAIC-Starter.xlsx, report the Baseline and Pilot totals and rates. Show formulas, name the worksheet or table, and return a five-stage DMAIC draft.
+
+Expected: baseline 36 / 400 = 9.00%, pilot 7 / 200 = 3.50%, difference 5.50 percentage points, exactly five stages and source locations.

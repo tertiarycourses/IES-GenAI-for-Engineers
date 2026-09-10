@@ -7,8 +7,8 @@ The supplied Lesson Plan controls the sequence, time boxes, outcomes and named a
 | 1 · Copilot ecosystem | 09:00–10:00 | 5–25 | LO2, LO3 | 1.1 Access; 1.2 AI versus Engineer |
 | 2 · Prompting | 10:00–11:15 | 26–55 | LO2, LO3 | 2.1 Specification; 2.2 Report; 2.3 Risk/method |
 | 3 · Methodologies | 11:30–13:00 | 56–94 | LO1, LO2, LO3 | 3.1 FMEA; 3.2 DMAIC with SPC/Cp-Cpk; 3.3 Specification pack |
-| 4 · Agents | 14:00–15:15 | 95–124 | LO4, LO5 | 4.1 FMEA Agent; 4.2 Report Writer; 4.3 Minutes chain; 4.4 Researcher/Analyst |
-| 5 · SharePoint | 15:30–16:15 | 125–143 | LO6 | 5.1 Knowledge agent; 5.2 Grounded chain |
+| 4 · Agents | 14:00–15:15 | 95–124 | LO4, LO5 | 4.1 FMEA Agent; 4.2 DMAIC Agent; 4.3 SPC Agent; 4.4 Engineering Data Knowledge Agent |
+| 5 · SharePoint | 15:30–16:15 | 125–143 | LO6 | 5.1 Build SharePoint Knowledge Agent; 5.2 Build Grounded DMAIC Report Agent |
 | 6 · Security | 16:15–16:45 | 144–156 | LO7 | 6.1 Seven-step review; 6.2 Toolkit |
 | Close | 16:45–17:00 | 157–162 | LO1–LO7 | Outcome check and action |
 | Reference | after class | 163–186 | reference | Framework, method, prompt and security aids |

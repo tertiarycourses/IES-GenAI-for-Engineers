@@ -1,0 +1,3 @@
+Calculate a deviation rate from 12 deviations. The number of opportunities was not supplied. Do not estimate missing information.
+
+Expected: no rate is calculated; request the opportunity count and record it as missing evidence.

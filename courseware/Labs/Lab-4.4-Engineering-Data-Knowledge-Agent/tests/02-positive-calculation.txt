@@ -1,0 +1,3 @@
+Calculate the difference between the delivery test result and the reference target. Show the source Record_IDs, formula and unit.
+
+Expected: 62.0 - 59.4 = 2.6 L/h, supported by CW401-01 and CW401-02.

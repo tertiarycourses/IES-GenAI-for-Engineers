@@ -30,11 +30,11 @@ Each of the three uses Copilot in Excel to analyse the data, build the chart and
 | **3.2** | [DMAIC Report](Lab-3.2-DMAIC-Report/README.md) |
 | **3.3** | [SPC Control Chart](Lab-3.3-SPC-Control-Chart/README.md) |
 | **4.1** | [FMEA Assistant Agent](Lab-4.1-FMEA-Assistant-Agent/README.md) |
-| **4.2** | [Report Writer Agent](Lab-4.2-Report-Writer-Agent/README.md) |
-| **4.3** | [Minutes to Progress Report](Lab-4.3-Minutes-to-Progress-Report/README.md) |
-| **4.4** | [Researcher and Analyst](Lab-4.4-Researcher-and-Analyst/README.md) |
+| **4.2** | [DMAIC Assistant Agent](Lab-4.2-DMAIC-Assistant-Agent/README.md) |
+| **4.3** | [SPC Assistant Agent](Lab-4.3-SPC-Assistant-Agent/README.md) |
+| **4.4** | [Engineering Data Knowledge Agent](Lab-4.4-Engineering-Data-Knowledge-Agent/README.md) |
 | **5.1** | [SharePoint Knowledge Agent](Lab-5.1-SharePoint-Knowledge-Agent/README.md) |
-| **5.2** | [Grounded Agent Chain](Lab-5.2-Grounded-Agent-Chain/README.md) |
+| **5.2** | [Grounded DMAIC Report Agent](Lab-5.2-Grounded-Report-Agent/README.md) |
 | **6.1** | [Seven Step AI Security](Lab-6.1-Seven-Step-AI-Security/README.md) |
 | **6.2** | [AI Engineering Toolkit](Lab-6.2-AI-Engineering-Toolkit/README.md) |
 

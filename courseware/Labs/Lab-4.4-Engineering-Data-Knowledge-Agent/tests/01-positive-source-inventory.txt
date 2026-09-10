@@ -1,0 +1,3 @@
+List every Record_ID in the configured engineering data and state the row count.
+
+Expected: exactly three records: CW401-01, CW401-02 and CW401-03.

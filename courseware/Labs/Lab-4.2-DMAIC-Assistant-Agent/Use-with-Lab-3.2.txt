@@ -1,0 +1,7 @@
+USE THE NEW LAB 4.2 AGENT WITH LAB 3.2
+
+1. Open the private IES DMAIC Assistant that you created in this lab.
+2. Attach ../Lab-3.2-DMAIC-Report/Starter.xlsx.
+3. Paste the request below.
+
+Use the dmaic-review skill to prepare a five-stage DMAIC report from the WeeklyData table and the baseline category counts on the Pareto sheet. Preserve the six-week scope: three Baseline weeks and three Pilot weeks. Show total opportunities, total deviations and deviation rate for each phase. State the absolute change in percentage points. Use the Pareto only to prioritise baseline categories. Separate observations from hypotheses. State that the short pilot does not prove cause and concurrent changes cannot be separately attributed. Do not invent a root cause, saving, completion percentage or approval. List unresolved assumptions, leave the reviewer decision blank, and end with DRAFT FOR REVIEW.

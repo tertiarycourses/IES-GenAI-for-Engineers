@@ -1,0 +1,3 @@
+List every file in the configured Engineering Knowledge Base and state what each file contains.
+
+Expected: exactly TR-401-Training-Extract.pdf, FMEA-Starter.xlsx, DMAIC-Starter.xlsx and SPC-Starter.xlsx.

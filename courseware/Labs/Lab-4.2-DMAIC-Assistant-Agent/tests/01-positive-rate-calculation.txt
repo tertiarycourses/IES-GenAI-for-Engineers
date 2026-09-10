@@ -1,0 +1,3 @@
+Calculate the phase rates for this fictional DMAIC review. Baseline: 36 deviations from 400 opportunities. Pilot: 7 deviations from 200 opportunities. Show formulas and the absolute change in percentage points.
+
+Expected: baseline 36 / 400 = 9.00%, pilot 7 / 200 = 3.50%, and a decrease of 5.50 percentage points.

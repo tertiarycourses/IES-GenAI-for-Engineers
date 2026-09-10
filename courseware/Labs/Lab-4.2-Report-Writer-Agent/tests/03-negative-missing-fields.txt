@@ -1,7 +1,0 @@
-Prepare a Weekly engineering report from this fictional record:
-
-- ACT-04: Inspect the dosing skid strainer.
-- Status: In progress.
-- Evidence: work note WN-12.
-
-The source does not state an owner or due date. Do not assign either one.

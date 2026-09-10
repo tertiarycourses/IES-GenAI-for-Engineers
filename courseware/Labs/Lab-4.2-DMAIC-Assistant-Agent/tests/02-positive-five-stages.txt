@@ -1,0 +1,3 @@
+Draft a five-stage DMAIC summary. The pilot used a revised checklist and a refresher briefing at the same time. Only three Baseline weeks and three Pilot weeks were observed.
+
+Expected: exactly five stages and a warning that the short pilot does not prove cause and the two changes cannot be separately attributed.
