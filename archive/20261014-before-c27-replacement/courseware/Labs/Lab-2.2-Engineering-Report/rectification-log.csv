@@ -1,0 +1,3 @@
+Work_Order,Timestamp_SGT,Status,Actor,Record_ID,Action,Source_Status
+WO-022,2026-09-18 11:00,Rectification Required,Supervisor,RECT-022,Desilt the drain section and reinspect,Synthetic training record
+WO-022,2026-09-18 13:50,Rectification Completed,Technician,RECT-022,Desilting recorded as completed,Synthetic training record

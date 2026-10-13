@@ -1,0 +1,4 @@
+Work_Order,Inspection_Round,Timestamp_SGT,Worker,Asset,Silt_Depth_mm,Maximum_mm,Evidence_ID,Evidence_Description,Finding,Action,Source_Status
+WO-021,Initial,2026-09-18 10:00,Amira Tan,DR-17,32,50,EV-021-1,"Mock silt depth measured with a graduated rule, site log",Pass,None required,Synthetic training record
+WO-022,Initial,2026-09-18 10:20,Ben Lim,DR-23,74,50,EV-022-1,"Mock silt depth measured with a graduated rule, site log",Fail,Desilt the drain section and reinspect,Synthetic training record
+WO-022,Reinspection,2026-09-18 14:30,Ben Lim,DR-23,28,50,EV-022-2,Mock post-desilting silt depth in the site log,Pass,Submit revised report for closure review,Synthetic training record

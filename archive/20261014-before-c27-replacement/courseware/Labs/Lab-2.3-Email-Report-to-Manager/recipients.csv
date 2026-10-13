@@ -1,0 +1,4 @@
+Role,Name,Email,Receives,Action_Expected
+Maintenance Manager,Priya Menon,priya.menon@example-training.local,"Both reports, for approval",Approve or return the report
+Lighting Supervisor,Daniel Ong,daniel.ong@example-training.local,"Copy, for scheduling",Note the rectification outcome
+Records Inbox,Asset Records,records@example-training.local,"Copy, for filing",File against the work order; no reply

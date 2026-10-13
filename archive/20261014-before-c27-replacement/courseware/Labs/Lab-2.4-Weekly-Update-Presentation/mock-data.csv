@@ -1,0 +1,7 @@
+Work_Order,Day,Date_SGT,Asset,Road,Worker,Silt_mm,Maximum_mm,Outcome,Rectified,Status,Report_ID
+WO-019,Mon,2026-09-16,DR-04,Serangoon Road,Amira Tan,21,50,Pass,No,Closed,RPT-019
+WO-020,Mon,2026-09-16,DR-09,Balestier Road,Ben Lim,63,50,Fail,Yes,Closed,RPT-020-v2
+WO-021,Wed,2026-09-18,DR-17,Jalan Besar,Amira Tan,32,50,Pass,No,Awaiting approval,RPT-021
+WO-022,Wed,2026-09-18,DR-23,Clementi Avenue 2,Ben Lim,74,50,Fail,Yes,Awaiting approval,RPT-022-v2
+WO-023,Thu,2026-09-19,DR-31,Upper Thomson Road,Amira Tan,18,50,Pass,No,Closed,RPT-023
+WO-024,Fri,2026-09-20,DR-38,Bukit Timah Road,Ben Lim,88,50,Fail,No,Rectification pending,RPT-024

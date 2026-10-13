@@ -1,0 +1,727 @@
+[
+  {
+    "path": "courseware/New Feedback QR Code (PUB).pptx",
+    "bytes": 211393,
+    "sha256": "07b7146d66f2592fe1016ecdc4b6e3efce26ed43bdd2f47eb3b7a264a503f090"
+  },
+  {
+    "path": "courseware/REFERENCES.md",
+    "bytes": 1673,
+    "sha256": "19463e730af55135c9506342dada0e845a41d28082ce407e7170d28b5fed2838"
+  },
+  {
+    "path": "courseware/ALIGNMENT-MATRIX.md",
+    "bytes": 2159,
+    "sha256": "c571a790deb7a6913eb13e67dead608df8a5aac6e194c1203eb2c35f6239b5d9"
+  },
+  {
+    "path": "courseware/Labs.zip",
+    "bytes": 691570,
+    "sha256": "1a87228e58dfc4cca82cf3a56c56e7ecc2bf7948cd8479a021b1b413b5dd5b24"
+  },
+  {
+    "path": "courseware/Labs/README.md",
+    "bytes": 3464,
+    "sha256": "8d79bd8aa8fb34303524a9c81e167cb319dd2b310370a3ebbe5196db58675bfd"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/AI-SECURITY-CASE.md",
+    "bytes": 1529,
+    "sha256": "d67a368d6db1b2156ab5a4f96c3577f244d02d1059bf14427685f5327f1ef1e9"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/SHAREPOINT-AGENT-TESTS.md",
+    "bytes": 1358,
+    "sha256": "051075f46a96c3962f0fc02e6bf837f6cb35c421d75f2a017b607c378dc895b6"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/REASONING-AGENT-CHECKS.md",
+    "bytes": 715,
+    "sha256": "1ae24797ae9123cf0a613dacb84587ccba1c4907f9d2af5168ceb2340f02b09c"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/TR-401-Training-Extract.pdf",
+    "bytes": 1935,
+    "sha256": "ff998fad2f4eb9cc0dc6558855982d93f48e748d40c2501db249f736560ba863"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/FMEA-REPORT-TEMPLATE.md",
+    "bytes": 175,
+    "sha256": "87e461057e14f3e1365ddf3b617db2863803726f402f16c80cd1d8421ac7dfe6"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/TR-401-Training-Extract.txt",
+    "bytes": 579,
+    "sha256": "e51f1312abc7a5ae38fb97755c82f2f7870fc89afc7f4f339d8938eb18492235"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/REASONING-AGENT-PROMPTS.md",
+    "bytes": 3608,
+    "sha256": "db34f17751bc7069a7b0ef3168079cdd293108c237df65d0973633fb62c6c3e8"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/README.md",
+    "bytes": 2190,
+    "sha256": "b460d44402fb5e91000d6df473494de5b262b0e181f98040fbc1e4a397ffdd17"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/FMEA-AGENT-TEST-CASES.md",
+    "bytes": 768,
+    "sha256": "7121335793b0350f65da68a1534b25162de9dc6c564841b0cf8a03a941c46faf"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/SHAREPOINT-AGENT-INSTRUCTIONS.md",
+    "bytes": 684,
+    "sha256": "4da6ffa8d60862fe044e701ece513683f65b6460f9202dcebe889d899a19ad4a"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/SHAREPOINT-KNOWLEDGE-BASE-SETUP.md",
+    "bytes": 1970,
+    "sha256": "3eed34c9da5d5158849abde510beadebc7920e406612d2c9c831316cb0b3e9a3"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/AI-SECURITY-EVIDENCE-LOG.csv",
+    "bytes": 505,
+    "sha256": "6190d5b2ae732eb531bae147d3fa8fe85b27c65f706bd15c3a175f651ed6afac"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/AI-SECURITY-7-STEP-CHECKLIST.md",
+    "bytes": 1445,
+    "sha256": "1401178d2460f9cd1023c6139fbe2c923b6f32d3c96e7c97f662d9320617b8ec"
+  },
+  {
+    "path": "courseware/Trainer-Demonstrations/FMEA-AGENT-INSTRUCTIONS.md",
+    "bytes": 1568,
+    "sha256": "fc8a0397094df64d143aa2fcaaecbcd5c6ce8b5d6698ce09e773a6bb4d196db3"
+  },
+  {
+    "path": "courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.pdf",
+    "bytes": 124050,
+    "sha256": "278ccbf27b8c211eb2683f2b9ba0316b2396adf96964921d0afd5de6ecdc6c72"
+  },
+  {
+    "path": "courseware/Lesson-Plan/IES-GenAI-for-Engineers-Lesson-Plan.docx",
+    "bytes": 42028,
+    "sha256": "cd629dec5d0a139d5f52248cfbab7421d423d653cf28cd11c9ba55c2fadda9dc"
+  },
+  {
+    "path": "courseware/Slides/IES-GenAI-for-Engineers.pdf",
+    "bytes": 4291040,
+    "sha256": "0625d3ff496a4925f8954fd7df63c932ffc0606ed3e45194ca7cb9da4ec8ecb5"
+  },
+  {
+    "path": "courseware/Slides/IES-GenAI-for-Engineers.pptx",
+    "bytes": 16363376,
+    "sha256": "43fdaaefa90715ddf54d9fe7c4d7976466cf41ac64191391dca6d49d1082f464"
+  },
+  {
+    "path": "courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.docx",
+    "bytes": 7901021,
+    "sha256": "ade3f5c8cd6575c1646003055544b529bc0f7f68b24e13a0f052fa5c9a4b21e3"
+  },
+  {
+    "path": "courseware/Learner-Guide/IES-GenAI-for-Engineers-Learner-Guide.pdf",
+    "bytes": 1337311,
+    "sha256": "00bb903ea482e21b3f25aaed285255f2dbc90b4726783fb340e9032c6595c6e1"
+  },
+  {
+    "path": "courseware/Reference-Examples/R11-data.csv",
+    "bytes": 124,
+    "sha256": "e19ffc63c285c6e6cf8bc6fd5fdf3211d4afddd0826893034044f7a5b056ec01"
+  },
+  {
+    "path": "courseware/Reference-Examples/R10-data.csv",
+    "bytes": 52,
+    "sha256": "6a46bc68506e27828e733c2dc6ae2e6abbba2697ccb56f8fe06c2a81e8ab1430"
+  },
+  {
+    "path": "courseware/Reference-Examples/R25-data.csv",
+    "bytes": 167,
+    "sha256": "2c62d2f4e6986c932f8b468a2c548d4dfde82ba49eba065b669c849e5d8b748d"
+  },
+  {
+    "path": "courseware/Reference-Examples/R24-data.csv",
+    "bytes": 121,
+    "sha256": "d82bdd14e40a825bfabeb26430a2d456555ab5c1ca1aa78dd792c2090a8763b8"
+  },
+  {
+    "path": "courseware/Reference-Examples/R06-data.csv",
+    "bytes": 93,
+    "sha256": "6c47f1a64c17d98a6f44107cf355ae947bdc941fc2d1b1869b5f50ff29deb76c"
+  },
+  {
+    "path": "courseware/Reference-Examples/R07-data.csv",
+    "bytes": 108,
+    "sha256": "d9d892aabc121a8777aff5e365369a488956fd26cd99b2be39d65ef6c894bee8"
+  },
+  {
+    "path": "courseware/Reference-Examples/Worked-Examples.pdf",
+    "bytes": 42106,
+    "sha256": "86ee8dacdc39b6af625d0bb30ac1e68da5a2e1552b2f747ca7d58c4c132e1ee8"
+  },
+  {
+    "path": "courseware/Reference-Examples/R01-data.csv",
+    "bytes": 76,
+    "sha256": "e110c0f12f452dc7098d6151d9595411a26f023233b5ed94800e31b1a9085a8e"
+  },
+  {
+    "path": "courseware/Reference-Examples/R16-data.csv",
+    "bytes": 151,
+    "sha256": "b5b27229578670898351805f355abef493d2df9e3aea2fe665ac2a9fcbab162f"
+  },
+  {
+    "path": "courseware/Reference-Examples/R17-data.csv",
+    "bytes": 125,
+    "sha256": "75566719e46890ce49be9691226c2fb361be8a5879c34981ea0ecdb275e1bc8c"
+  },
+  {
+    "path": "courseware/Reference-Examples/R28-data.csv",
+    "bytes": 156,
+    "sha256": "155a9b982222c4eadeb474648c836a3efdb718d5c7e64b8c314f4e91d09a759b"
+  },
+  {
+    "path": "courseware/Reference-Examples/R29-data.csv",
+    "bytes": 161,
+    "sha256": "89d447034838805c31d6a24441e3a21cde99e89f947e3c51024825934e35e98f"
+  },
+  {
+    "path": "courseware/Reference-Examples/R22-data.csv",
+    "bytes": 168,
+    "sha256": "9e222837520538158804c19a4005beceada515db516e7b5e435d23af7b9d0c56"
+  },
+  {
+    "path": "courseware/Reference-Examples/R23-data.csv",
+    "bytes": 173,
+    "sha256": "cbfc6ce3691373eb24d93a7556e68edbee625346a69248ca69706ea07c48b851"
+  },
+  {
+    "path": "courseware/Reference-Examples/README.md",
+    "bytes": 1546,
+    "sha256": "8fbdcfb3f55e802b6732c22adfe7b704c5e42daf879ea2743aa678409a936139"
+  },
+  {
+    "path": "courseware/Reference-Examples/R30-data.csv",
+    "bytes": 175,
+    "sha256": "6e3dde0a97c330e06fdecba72a56864b46cde2f57749d29081eb7050e82c1e6d"
+  },
+  {
+    "path": "courseware/Reference-Examples/R05-data.csv",
+    "bytes": 73,
+    "sha256": "430d1d54849d2ce9640bff00a562ad01d4b2fa1ee6656fcc1cab7bea093fb080"
+  },
+  {
+    "path": "courseware/Reference-Examples/R04-data.csv",
+    "bytes": 117,
+    "sha256": "67a68d2d1fc7e6275e4bb5ed0d48854f0b8c737dbc29c22b0c0f626aef1de4fe"
+  },
+  {
+    "path": "courseware/Reference-Examples/R18-data.csv",
+    "bytes": 82,
+    "sha256": "f709819299c1b6795cc2238c763711ea20d70ae83658400a455c63ff21c49d4d"
+  },
+  {
+    "path": "courseware/Reference-Examples/R19-data.csv",
+    "bytes": 135,
+    "sha256": "03cf710da03dd7a30627954d0cf0211176beb4093ff22729accaf4f791bc9249"
+  },
+  {
+    "path": "courseware/Reference-Examples/R26-data.csv",
+    "bytes": 142,
+    "sha256": "5db45f5495543bf0fb7d92d4debede9df592b219e6c765ae9209f6a4fc093617"
+  },
+  {
+    "path": "courseware/Reference-Examples/R27-data.csv",
+    "bytes": 150,
+    "sha256": "3a572ff59bdd9e29d4baad0bb8add5749aa1f92007e2dbf12d693ad48ddb5d9a"
+  },
+  {
+    "path": "courseware/Reference-Examples/R12-data.csv",
+    "bytes": 146,
+    "sha256": "543042a8d2436578c1c4fc7a090a5d32715796664b1f76a2b08983742a4557ec"
+  },
+  {
+    "path": "courseware/Reference-Examples/R13-data.csv",
+    "bytes": 132,
+    "sha256": "50308f9b410b8b19371e3834a64d7c42198c951d29a6ae44324dfa406263ff2d"
+  },
+  {
+    "path": "courseware/Reference-Examples/R21-data.csv",
+    "bytes": 137,
+    "sha256": "01a2d8984926b5656db91ecd6b5cdb687370c005f80e8de1d0a2ba35cf83edd5"
+  },
+  {
+    "path": "courseware/Reference-Examples/R20-data.csv",
+    "bytes": 135,
+    "sha256": "7d3c780e7c0a53b447340bb8a7c3d1b66f2238e6b13da481f36bede452714f3d"
+  },
+  {
+    "path": "courseware/Reference-Examples/R15-data.csv",
+    "bytes": 146,
+    "sha256": "c14d2356a14bbafdc0dcd40b1efca06b58f1e88c387b25402a5b5deea248f8b2"
+  },
+  {
+    "path": "courseware/Reference-Examples/R14-data.csv",
+    "bytes": 179,
+    "sha256": "0a0ae3846d2eabd7f3500f5ea168ffbee74902d42b8eebd361755fd94432bd31"
+  },
+  {
+    "path": "courseware/Reference-Examples/prompts.md",
+    "bytes": 6562,
+    "sha256": "768700d19211dcb41d307c035dd0df91ab81f1cc6466ae82c05f55567c9734ea"
+  },
+  {
+    "path": "courseware/Reference-Examples/R08-data.csv",
+    "bytes": 96,
+    "sha256": "97c48b713400cea5daad7c4cc85dd5a6d4ce86f1a7001c0b0f07c87bbdbedac4"
+  },
+  {
+    "path": "courseware/Reference-Examples/R09-data.csv",
+    "bytes": 148,
+    "sha256": "f6f113b48f84d0c8a12342b0c967302390ab9307dcbd89f0daecf1252ec32f34"
+  },
+  {
+    "path": "courseware/Reference-Examples/R02-data.csv",
+    "bytes": 87,
+    "sha256": "eba839f0e803729d0c3579bea4be5bf9ba9b2467c2238ab6561982a031a3b414"
+  },
+  {
+    "path": "courseware/Reference-Examples/R03-data.csv",
+    "bytes": 106,
+    "sha256": "6018a2f9956b528502b53f1dabb17b1bb0e77d8e07dc1a2792478985796daf26"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.3-Email-Report-to-Manager/Lab-Instructions.pdf",
+    "bytes": 18397,
+    "sha256": "64c7364d0a8c3fb7f8a69335ba65b4286ecdce480f1b925eb43b354e367dd90a"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.3-Email-Report-to-Manager/recipients.csv",
+    "bytes": 401,
+    "sha256": "f750029d2e691ff17507d037b1687999ed7a17951bd4a6bbfbf1b99b1a04779f"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.3-Email-Report-to-Manager/Starter.xlsx",
+    "bytes": 12413,
+    "sha256": "66866df20bf8f6ff2f5c37aff047ff133d20537df51bf93e1fc5b3632d786ec6"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.3-Email-Report-to-Manager/approval-log.csv",
+    "bytes": 260,
+    "sha256": "1339edb62d63f7a76bf81cc886be60235f5d2846ff5db2549fd46b6d681b1b09"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.2-Engineering-Report/Lab-Instructions.pdf",
+    "bytes": 20331,
+    "sha256": "05d1181761a46eafb2d501cb282a01092b57e64cacd35cbe9fbfffb94b17b251"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.2-Engineering-Report/rectification-log.csv",
+    "bytes": 327,
+    "sha256": "d57bc515befab3fa86cfd36a0bb731bdab03c66503eea656594f18478fa25cdc"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.2-Engineering-Report/mock-data.csv",
+    "bytes": 684,
+    "sha256": "8a1be1077cdfe7667bb1d0612377e6db381ce450f52006a2eff76820a5a512ea"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.2-Engineering-Report/Starter.xlsx",
+    "bytes": 14368,
+    "sha256": "99c45360b11a464e148e453de1dc2bd4106bde24b36aa5cd2caa7ee9805cf316"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.2-DMAIC-Report/Worked-Reference.xlsx",
+    "bytes": 10521,
+    "sha256": "e03945a86aa85e37e55c70cd34288cc49a0291a9a7919771856f42a58e61a0bc"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.2-DMAIC-Report/Lab-Instructions.pdf",
+    "bytes": 6635,
+    "sha256": "040bf3c830e13812b57a405df9f147eaa11bd6bfe0dd2ca180fee5ac28421de3"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.2-DMAIC-Report/mock-data.csv",
+    "bytes": 154,
+    "sha256": "e0fabe172d5011d4daad220a7d914687425fb87d4ae8c5d5889528eb976404d5"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.2-DMAIC-Report/Starter.xlsx",
+    "bytes": 8671,
+    "sha256": "7d7a3114e29a4969b0be33cba2321afcb31668ed97d2b8664691e09a5a306361"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.3-SPC-Assistant-Agent/Lab-Instructions.pdf",
+    "bytes": 9284,
+    "sha256": "e58ed27b9f1dd8d4983570f4d70d44f4a097a517c872591ba057720c730bb797"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.3-SPC-Assistant-Agent/Use-with-Lab-3.3.txt",
+    "bytes": 801,
+    "sha256": "f74a9963c4756aec864843bf877292605a2801bd9888c2e6e32241cb1ed734f8"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.3-SPC-Assistant-Agent/Agent-Builder-Setup.txt",
+    "bytes": 1302,
+    "sha256": "c149694749549b615f9457d4c6d3d887dacf4047d0880fab821931e2b19bb466"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.1-FMEA-Document/Worked-Reference.xlsx",
+    "bytes": 9673,
+    "sha256": "4e894af522eb15b5b01a59255bd0727c87decb28272d303d7d31d07761e06bd8"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.1-FMEA-Document/Lab-Instructions.pdf",
+    "bytes": 6513,
+    "sha256": "00094814af201a0f528b722357a98a4b46b7b02b7b5877ec7c709604c4a9d273"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.1-FMEA-Document/mock-data.csv",
+    "bytes": 1031,
+    "sha256": "78133ffeedbe7315ec98d0905c025dbfe4745a22fb42bf49cdc3589ae2030c2d"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.1-FMEA-Document/Starter.xlsx",
+    "bytes": 9596,
+    "sha256": "67aac5c274f3fa4d95ba2b3665cfc034e66b20c241ff820eae5c33459021d808"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.1-FMEA-Assistant-Agent/Use-with-Lab-3.1.txt",
+    "bytes": 1475,
+    "sha256": "df4717232654c5e36c16ec47b969a9fa7c4913821e91b2c54c2409dd42429ad3"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.1-FMEA-Assistant-Agent/Lab-Instructions.pdf",
+    "bytes": 9070,
+    "sha256": "3a37083405e497747d22e780315861e4a17531e4e2516eb7d097e85f53517a39"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.1-FMEA-Assistant-Agent/Agent-Builder-Setup.txt",
+    "bytes": 1646,
+    "sha256": "051eb1be4c3dc6384659e500b19e7e5a6821da20c193b0d04b288b823a69ba63"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.2-Grounded-Report-Agent/Lab-Instructions.pdf",
+    "bytes": 8935,
+    "sha256": "12f81527426893d427031e5b0cc2925a1648480798f190e5b7e610fd2d015353"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.2-Grounded-Report-Agent/Agent-Builder-Setup.txt",
+    "bytes": 1490,
+    "sha256": "ae418670e63815143874c349665539082317ec02c9fbfc17414c25a9407d3492"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.3-SPC-Control-Chart/Worked-Reference.xlsx",
+    "bytes": 10511,
+    "sha256": "297cb5fafa8013a81bd36ea8a11c1f7a3a2861fe3a6b70bcf24209f3b103b6c8"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.3-SPC-Control-Chart/Lab-Instructions.pdf",
+    "bytes": 6555,
+    "sha256": "1ef7934c0b17e7d3b029f2ab1e180150dcf6be1b89ae7f0f1b2231bb8523ea8d"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.3-SPC-Control-Chart/mock-data.csv",
+    "bytes": 555,
+    "sha256": "0cb5bc2e5bc18b429af663314df0890ad297b764612ab3a0105bae269977f8dc"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.3-SPC-Control-Chart/Starter.xlsx",
+    "bytes": 8819,
+    "sha256": "50c2c549a8cf778c18da3a8b30cee04ec339554e58c7963f6483366a3b3d18b6"
+  },
+  {
+    "path": "courseware/Labs/Lab-1.2-AI-versus-Engineer/Lab-Instructions.pdf",
+    "bytes": 5611,
+    "sha256": "aa29394bab1f112071099a617b5851c148438db9f89fed5efa206afc46fe6c9d"
+  },
+  {
+    "path": "courseware/Labs/Lab-1.2-AI-versus-Engineer/mock-data.csv",
+    "bytes": 301,
+    "sha256": "a9aef8b63eeef90a1dfe3a6b2067d10a887bdc68bee68d5d66919a30ea51c88d"
+  },
+  {
+    "path": "courseware/Labs/Lab-6.1-Seven-Step-AI-Security/Lab-Instructions.pdf",
+    "bytes": 5534,
+    "sha256": "6a12a926797a44b8681f939ef4d6269356b2a15e4c5d6a770af67dade9a62d4c"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/Lab-Instructions.pdf",
+    "bytes": 8863,
+    "sha256": "26683c1f0a3267c4785dcd8c7e932c39913ecf8d25cd6fac181e8a1978dc4ba0"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/Agent-Builder-Setup.txt",
+    "bytes": 1246,
+    "sha256": "6b4fd77cd0bc5f821ad86c31d26ca61c4cb63d316e3c4aee1cedea8ba6ab65c7"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.4-Weekly-Update-Presentation/Lab-Instructions.pdf",
+    "bytes": 22007,
+    "sha256": "a116b150c63b2f78252e467fcdfda3a6c292374b2bfb7f3e44d4e0e5a3c0c88a"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.4-Weekly-Update-Presentation/reinspections.csv",
+    "bytes": 189,
+    "sha256": "f29d958d5c01f5fb8322c5134ddb697f9683392bcb196232f5cbf26d1f40bda5"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.4-Weekly-Update-Presentation/mock-data.csv",
+    "bytes": 633,
+    "sha256": "b7d17739ce06c5879e6dd64a2ae5ef8b7d1cb485a6485e4224340372b3c6cd94"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.4-Weekly-Update-Presentation/Starter.xlsx",
+    "bytes": 14821,
+    "sha256": "bdfd381e1af1ed3b11be39347cecb7180d00fc2fd4039c5cc30270e922d09c41"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.1-Technical-Specification/Lab-Instructions.pdf",
+    "bytes": 20289,
+    "sha256": "18ae7999b8c14ee55ab68b452c9982a35464ed4bf90c51782081e92afaeadfd2"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.1-Technical-Specification/mock-data.csv",
+    "bytes": 487,
+    "sha256": "82f266f9349644414c014c600f6c08d6928947255cef384390e3b0a0bd3ca166"
+  },
+  {
+    "path": "courseware/Labs/Lab-2.1-Technical-Specification/Starter.xlsx",
+    "bytes": 12986,
+    "sha256": "962f5aa14e165c21091d518e07fa8a0e4cc978570b24e0487ed1d6702500e0bb"
+  },
+  {
+    "path": "courseware/Labs/Lab-1.1-Onboarding-and-Tool-Access/Lab-Instructions.pdf",
+    "bytes": 5978,
+    "sha256": "cf58c88587033456c750996b73f3e9110176b01cb0ebca8f67837dd3c5969e54"
+  },
+  {
+    "path": "courseware/Labs/Lab-1.1-Onboarding-and-Tool-Access/mock-data.csv",
+    "bytes": 301,
+    "sha256": "a9aef8b63eeef90a1dfe3a6b2067d10a887bdc68bee68d5d66919a30ea51c88d"
+  },
+  {
+    "path": "courseware/Labs/Lab-6.2-AI-Engineering-Toolkit/Lab-Instructions.pdf",
+    "bytes": 5822,
+    "sha256": "461c8a6c3c797b1b69415305b1beffa9f9bfce58089aa993494ee8bfa3794d1a"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.2-DMAIC-Assistant-Agent/Lab-Instructions.pdf",
+    "bytes": 9334,
+    "sha256": "ed885e4b7dbf6d1cf4b6e54642cc3ec0c9fb389167b86cffdfcc1b7c25edd46a"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.2-DMAIC-Assistant-Agent/Use-with-Lab-3.2.txt",
+    "bytes": 894,
+    "sha256": "bf25de6910b39b1e2096dd1ac556adc05c1b0f413f2a0431b32ced69d9585c53"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.2-DMAIC-Assistant-Agent/Agent-Builder-Setup.txt",
+    "bytes": 1274,
+    "sha256": "d2b4df8353c7911da795d1f4fa6942212206a73fca0f844ded8b3185f4fe7dea"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.4-Engineering-Data-Knowledge-Agent/Lab-Instructions.pdf",
+    "bytes": 8774,
+    "sha256": "48f0c4fbcb0ae8cb42f8c627c9d1ccbcb2f679434ccddd4a5efa6f45cb64ca66"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.4-Engineering-Data-Knowledge-Agent/mock-data.csv",
+    "bytes": 301,
+    "sha256": "a9aef8b63eeef90a1dfe3a6b2067d10a887bdc68bee68d5d66919a30ea51c88d"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.4-Engineering-Data-Knowledge-Agent/Agent-Builder-Setup.txt",
+    "bytes": 1202,
+    "sha256": "b34b93b11177b6743f9ef88817eec31f0ec68cbe1225f579decde2482b4031db"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.4-Engineering-Data-Knowledge-Agent/tests/03-negative-missing-limit.txt",
+    "bytes": 153,
+    "sha256": "de2f0aa39578525807034072e0975a53113df7dcdb8fb4ed9fd1900a64cedfbf"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.4-Engineering-Data-Knowledge-Agent/tests/02-positive-calculation.txt",
+    "bytes": 200,
+    "sha256": "93046eeeee114a9b79a1e4b46098217f7eeabb33448bec59d95b362c457cfa71"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.4-Engineering-Data-Knowledge-Agent/tests/04-negative-approval.txt",
+    "bytes": 208,
+    "sha256": "02eddbc293211d6a2011d6041caf36b9beb3a0e8e0c3f55715ec1e2c7db96726"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.4-Engineering-Data-Knowledge-Agent/tests/01-positive-source-inventory.txt",
+    "bytes": 148,
+    "sha256": "f5c305044599f49b0881915a8bd4b0732ff3365534f01814abcab78f58bf5975"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.2-DMAIC-Assistant-Agent/tests/01-positive-rate-calculation.txt",
+    "bytes": 314,
+    "sha256": "c12721990121e7fbc763077fd1ae59e26b20d7b28149a0f1cd30e8fc3cdc88d9"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.2-DMAIC-Assistant-Agent/tests/02-positive-five-stages.txt",
+    "bytes": 315,
+    "sha256": "d7fc92cbb7e6f055ee27ab5768306d8fdbbc6564d0342427f0a4d55d58444f92"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.2-DMAIC-Assistant-Agent/tests/03-negative-missing-denominator.txt",
+    "bytes": 229,
+    "sha256": "651032e6062c2160ac00b46a7318e7703681cdddc6dac88f06aed920f5298114"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.2-DMAIC-Assistant-Agent/tests/04-negative-unsupported-conclusion.txt",
+    "bytes": 223,
+    "sha256": "d84d1f4f5a14cc9415f59effecea58a678853a7d973f73bfa47fedd9dcc1f2a5"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.2-DMAIC-Assistant-Agent/skills/dmaic-review.zip",
+    "bytes": 2062,
+    "sha256": "2515aaa27bcd9f0be847afe6e0406dd6d8beff2b89efe004071eb27cd0c4714b"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/tests/02-positive-supported-requirement.txt",
+    "bytes": 163,
+    "sha256": "fd4fef81cab8600e315b30be2879f756d32973a8d0aae28d06497eccb21415f9"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/tests/03-negative-missing-limit.txt",
+    "bytes": 101,
+    "sha256": "a123c22a11c62c7db85ae9b6d89bce06555d160914a8fef618282e1cc878ea0c"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/tests/04-negative-source-boundary.txt",
+    "bytes": 194,
+    "sha256": "97def4540767f4e987469cd85617fade527b17178f3e4849915c6d5647428b8f"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/tests/01-positive-source-inventory.txt",
+    "bytes": 204,
+    "sha256": "7f7624abbd1749d5d08e797617ac507025c07b252b5255fca43a87d6d8e63e34"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/sharepoint-upload/TR-401-Training-Extract.pdf",
+    "bytes": 1935,
+    "sha256": "ff998fad2f4eb9cc0dc6558855982d93f48e748d40c2501db249f736560ba863"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/sharepoint-upload/FMEA-Starter.xlsx",
+    "bytes": 9596,
+    "sha256": "67aac5c274f3fa4d95ba2b3665cfc034e66b20c241ff820eae5c33459021d808"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/sharepoint-upload/DMAIC-Starter.xlsx",
+    "bytes": 8671,
+    "sha256": "7d7a3114e29a4969b0be33cba2321afcb31668ed97d2b8664691e09a5a306361"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.1-SharePoint-Knowledge-Agent/sharepoint-upload/SPC-Starter.xlsx",
+    "bytes": 8819,
+    "sha256": "50c2c549a8cf778c18da3a8b30cee04ec339554e58c7963f6483366a3b3d18b6"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.3-SPC-Control-Chart/screenshots/worked-reference-2.png",
+    "bytes": 65467,
+    "sha256": "b6481cc6b81895824b4bb3bd7c0082b57337739854c84519cdd54c5035f8a011"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.3-SPC-Control-Chart/screenshots/worked-reference-1.png",
+    "bytes": 140124,
+    "sha256": "bf897f0a94eed1ec28ccb872c97ad8fc49a2053f9c8a82f8831829d43067df1c"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.2-Grounded-Report-Agent/tests/03-negative-missing-limit.txt",
+    "bytes": 147,
+    "sha256": "02f0203e664d0e42c411d00a8aa9697809ea3d47b2bf39acf7e214d87b7e1e96"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.2-Grounded-Report-Agent/tests/02-positive-grounded-dmaic.txt",
+    "bytes": 292,
+    "sha256": "29168b33fd6f8ca6b5dcc13cca1c983ca87c67fc48117281c2609160602001e4"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.2-Grounded-Report-Agent/tests/01-positive-source-inventory.txt",
+    "bytes": 168,
+    "sha256": "069dee82bf8dc669faee56392901f475995d10a731e5a3ab1e4eb74acc6d2497"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.2-Grounded-Report-Agent/tests/04-negative-injection-approval.txt",
+    "bytes": 280,
+    "sha256": "55ffdef6e507d9caab7bed7f913c701bfa8d548e392ada01465fbd2a62c25329"
+  },
+  {
+    "path": "courseware/Labs/Lab-5.2-Grounded-Report-Agent/skills/dmaic-review.zip",
+    "bytes": 2062,
+    "sha256": "2515aaa27bcd9f0be847afe6e0406dd6d8beff2b89efe004071eb27cd0c4714b"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.1-FMEA-Assistant-Agent/tests/02-positive-high-severity.txt",
+    "bytes": 409,
+    "sha256": "de1bd01a5bff18036e455c252a85fe4d9905bc2483585e83041e80cb84110cf3"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.1-FMEA-Assistant-Agent/tests/04-negative-approval-request.txt",
+    "bytes": 92,
+    "sha256": "b374ae2bc3fa0fab259a2d5bd7eb033aa71b7f6e5278712b77de88b484e9b285"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.1-FMEA-Assistant-Agent/tests/01-positive-complete-row.txt",
+    "bytes": 434,
+    "sha256": "4915c72ed5429df83cf385b1827c58297a7eba2a073302bd34553cce4b4690a5"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.1-FMEA-Assistant-Agent/tests/03-negative-missing-detection.txt",
+    "bytes": 451,
+    "sha256": "14a21ca37c04fa599ac1685f27b1ffe0b74848a7b87de2ad73bed847477d1636"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.1-FMEA-Assistant-Agent/skills/fmea-drafting.zip",
+    "bytes": 3143,
+    "sha256": "9a20d07db4be77d7a887d18e6c4456df102244f90c98c20dea03b6167c5e3190"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.1-FMEA-Document/screenshots/worked-reference-2.png",
+    "bytes": 49375,
+    "sha256": "477c59753f001117b7d3747516b1e60c64e5a99a3f3606095f339ad3fa38bf18"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.1-FMEA-Document/screenshots/worked-reference-1.png",
+    "bytes": 73736,
+    "sha256": "c5e34bc53f37bf4071a2db399dfb4d624d180b90501853b3d704f8841b04e449"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.3-SPC-Assistant-Agent/tests/02-negative-recalculate-limits.txt",
+    "bytes": 259,
+    "sha256": "6d7a0001870eb3d00ddcbb097182db50c9e058e99f276b69d7a71b7123f26ddd"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.3-SPC-Assistant-Agent/tests/04-negative-approval.txt",
+    "bytes": 209,
+    "sha256": "b5ba1ce4c6c0ee391afe9e30515bcdde94b53ed2d195d6596ea3eca48ce5ff06"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.3-SPC-Assistant-Agent/tests/01-positive-subgroup.txt",
+    "bytes": 156,
+    "sha256": "f0a6c6b1527a176ce69d38b4ad0f13c2c36f47193afdd61de6d92b85dbb58902"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.3-SPC-Assistant-Agent/tests/03-positive-monitoring-signal.txt",
+    "bytes": 263,
+    "sha256": "4c84dadcd05f0c0f55b44104947ec06c8617cdd2ba97a24f9829f9c20e46700f"
+  },
+  {
+    "path": "courseware/Labs/Lab-4.3-SPC-Assistant-Agent/skills/spc-review.zip",
+    "bytes": 1896,
+    "sha256": "4313a104f45d101ef56dd57b2bae9c8db60a4f3de064368053345339adea6c5a"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.2-DMAIC-Report/screenshots/worked-reference-2.png",
+    "bytes": 8070,
+    "sha256": "ae488ed23e62bbcf3e5be63cdd8e45b28fb212582b4bd66b58b3cffa9b5b7440"
+  },
+  {
+    "path": "courseware/Labs/Lab-3.2-DMAIC-Report/screenshots/worked-reference-1.png",
+    "bytes": 78743,
+    "sha256": "8bfc63bec8892bc615dac39aaa8e20cb4bd25266b4dc07ea05f4ac0fc7782fb5"
+  }
+]

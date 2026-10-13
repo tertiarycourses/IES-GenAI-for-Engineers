@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/tertiarycourses/C27-Microsoft-365-Copilot-Masterclass",
+  "commit": "0c11931c1a90dc10c688c9d18e2fec9329a8e0a3",
+  "source_version": "v2.2",
+  "source_date": "14 October 2026",
+  "identity": {
+    "title": "GenAI for Engineers",
+    "provider": "IES Academy"
+  },
+  "preserved": "132 slide layouts and teaching content; four topics; ten lab workflows; Northstar synthetic water maintenance and service data; 450 instructional minutes",
+  "archive_files": 152,
+  "archive_verified": true,
+  "publication": "Local files and user-authorized IES GitHub repository only; no Google Drive or LMS writes",
+  "archive_note": "Original archived courseware inventory and SHA-256 checksums verified for all 152 files"
+}

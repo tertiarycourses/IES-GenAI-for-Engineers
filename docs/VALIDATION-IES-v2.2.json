@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "title": "GenAI for Engineers",
+  "provider": "IES Academy",
+  "slides": 132,
+  "main_pdf_pages": {
+    "LP-GenAI for Engineers.pdf": 5,
+    "GenAI for Engineers-v2.2.pdf": 132,
+    "LG-GenAI for Engineers.pdf": 64
+  },
+  "labs": 10,
+  "lab_pdf_pages": 34,
+  "unchanged_reference_data_files": 211,
+  "local_copy_buttons": 65,
+  "local_prompt_links_valid": true,
+  "security_scan": "No secrets detected in current package or selected public old courseware",
+  "archive_local_private_exclusions": [
+    "legacy-root",
+    "private",
+    "build",
+    "c27-original-text",
+    "c27-original-lab-pdfs",
+    "identity-drafts",
+    "git-recovery-draft",
+    "packaging-drafts",
+    "courseware/Facilitator-Guide",
+    "courseware/reference"
+  ],
+  "native_tenant_execution_claimed": false,
+  "google_drive_or_lms_writes": false,
+  "independent_visual_qa": "PASS: all 132 slides, 34 lab pages, 64 Learner Guide pages and five Lesson Plan pages; all 49 TOC entries verified",
+  "clean_labs_zip": true,
+  "prompt_browser_test": "Localhost page: all ten sections and first Copy button passed; direct file URL automation blocked by browser policy"
+}

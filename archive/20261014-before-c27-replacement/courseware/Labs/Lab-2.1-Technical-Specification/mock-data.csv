@@ -1,0 +1,3 @@
+Work_Order,Asset,Location,Assigned_Worker,Created_SGT,Inspection_Criterion,Criterion_Source,Initial_Reading,Unit,Evidence_ID,Initial_Outcome
+WO-021,DR-17,"Jalan Besar, drain section 17",Amira Tan,2026-09-18 08:00,Silt depth <= 50 mm,Approved roadside drainage maintenance specification rev A,32,mm,EV-021-1,Pass
+WO-022,DR-23,"Clementi Avenue 2, drain section 23",Ben Lim,2026-09-18 08:10,Silt depth <= 50 mm,Approved roadside drainage maintenance specification rev A,74,mm,EV-022-1,Fail

@@ -1,0 +1,3 @@
+Work_Order,Report_ID,Sent_SGT,Recipient,Request,Approval_Status,Approved_By,Approved_SGT,Review_Note
+WO-021,RPT-021,,Priya Menon,Approve closure of a passed inspection,,,,
+WO-022,RPT-022-v2,,Priya Menon,Approve closure after rectification and reinspection,,,,
