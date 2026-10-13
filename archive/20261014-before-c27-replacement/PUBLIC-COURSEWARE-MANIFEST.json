@@ -723,5 +723,90 @@
     "path": "courseware/Labs/Lab-3.2-DMAIC-Report/screenshots/worked-reference-1.png",
     "bytes": 78743,
     "sha256": "8bfc63bec8892bc615dac39aaa8e20cb4bd25266b4dc07ea05f4ac0fc7782fb5"
+  },
+  {
+    "path": "assets/module-5-sharepoint.png",
+    "bytes": 1540510,
+    "sha256": "fb0bc8ea881b884073e37530adee6af51b7a10c7afdeea5d80c26896483c2a1a"
+  },
+  {
+    "path": "assets/module-3-quality-methods.png",
+    "bytes": 1643628,
+    "sha256": "7409e56a0de6b25da4b12eab70a43358b9b7ca3a5d7bd6a03898b40832709d7e"
+  },
+  {
+    "path": "assets/module-6-security.png",
+    "bytes": 1629311,
+    "sha256": "bdd2bd58e1753682ebcb58996c20d73828f8b3f87b5068244f3c2a9c26ee29ca"
+  },
+  {
+    "path": "assets/document-security.png",
+    "bytes": 2000351,
+    "sha256": "95303a4b26c3a1a71db042556ebea781cc672ed10f778fb7e09e632426847a52"
+  },
+  {
+    "path": "assets/petroleum-facility.png",
+    "bytes": 2279846,
+    "sha256": "0a91e78cc349332360e04a5ac5dfe63c213c1982fa04c6d1951823987424c599"
+  },
+  {
+    "path": "assets/cw401-pareto.png",
+    "bytes": 89987,
+    "sha256": "299f81d2c92737d2813003f632fe16f8594254cf5499a91fec19b30a877da7b9"
+  },
+  {
+    "path": "assets/cw401-spc.png",
+    "bytes": 138759,
+    "sha256": "3a49f99bf68f739326f544823626b48e180890820db625adb6dcca6f68e5ff09"
+  },
+  {
+    "path": "assets/dosing-skid.png",
+    "bytes": 1209545,
+    "sha256": "185a6a3e055bc383e9cce2d22081779f1fdedd147998a57b7d05124c28ffd185"
+  },
+  {
+    "path": "assets/excel-copilot-workbook.png",
+    "bytes": 92902,
+    "sha256": "6baf528dcb652b89dd0b1bc4a28b701e06aa8869f09801fa3a3ca45965a758f0"
+  },
+  {
+    "path": "assets/module-2-document-automation.png",
+    "bytes": 1561492,
+    "sha256": "81ee394784e35773204b6e7e8498c7c72feffe11c39981f6339c699a15ef4552"
+  },
+  {
+    "path": "assets/cw401-fmea.png",
+    "bytes": 60935,
+    "sha256": "838f9ef3af93c7dbfdbb37c938bed67125f7b5c040bea28944c2ba1ddc732194"
+  },
+  {
+    "path": "assets/pump-station.png",
+    "bytes": 2263243,
+    "sha256": "73c70a99cd47ef7a389dd0d6b9aa6b3bbc8ca01035db865d78fc7aae7d3e19ff"
+  },
+  {
+    "path": "assets/engineering-copilot-cover.png",
+    "bytes": 1654649,
+    "sha256": "15ecec446b4f25f69c314bcc6c4c3010257c1cce008694e6c70170e5f43d2332"
+  },
+  {
+    "path": "assets/README.md",
+    "bytes": 656,
+    "sha256": "7d889af658718c19be837a1f8513daa1f6ac36ab0427e8b41bd0500410519430"
+  },
+  {
+    "path": "assets/copilot365-home.png",
+    "bytes": 112596,
+    "sha256": "f82c4aaace49891aeeb57d3f69f207fe98a39ca5e918ceb668e1b34eee0b5f47"
+  },
+  {
+    "path": "assets/module-4-agents.png",
+    "bytes": 1525091,
+    "sha256": "e2fee3a39270d983f5ab534b172b1e701cf965114e5fdfb929be951be32318b7"
+  },
+  {
+    "path": "assets/lo2-spc-simple.png",
+    "bytes": 51829,
+    "sha256": "6a7840fa814e4a6001c89c8b0032149f3a2ccb793fa7c309b72fd2317cd3338d"
   }
 ]
