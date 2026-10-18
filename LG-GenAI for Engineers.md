@@ -12,7 +12,6 @@
   - [Grounding Across Microsoft 365](#grounding-across-microsoft-365)
   - [Work-Order Grain and Reporting Measures](#work-order-grain-and-reporting-measures)
   - [Lab 1 · Excel to Word — Prepare Work Orders and Draft the Operations Brief](#lab-1--excel-to-word--prepare-work-orders-and-draft-the-operations-brief)
-  - [AI Security: Five Principles](#ai-security-five-principles)
   - [Prompts and Verified App Handoffs](#prompts-and-verified-app-handoffs)
   - [Outlook Drafting and Operational Decisions](#outlook-drafting-and-operational-decisions)
   - [Lab 2 · Word to PowerPoint and Outlook — Create the Cross-App Maintenance Update](#lab-2--word-to-powerpoint-and-outlook--create-the-cross-app-maintenance-update)
@@ -54,6 +53,7 @@
   - [Mini Capstone: From Your Data to a Decision](#mini-capstone-from-your-data-to-a-decision)
   - [Lab 12 · Mini Capstone — Mini Capstone: Group Dashboard and Decision Deck](#lab-12--mini-capstone--mini-capstone-group-dashboard-and-decision-deck)
   - [Topic 5 Recap - Mapped to Learning Outcomes](#topic-5-recap---mapped-to-learning-outcomes)
+- [Closing: 5 Principles of AI Security](#closing-5-principles-of-ai-security)
 - [Next Steps](#next-steps)
 - [Glossary](#glossary)
 
@@ -309,40 +309,7 @@ Which evidence proves the output is correct, and which decision still needs a pe
 
 ---
 
-Concepts for Lab 2: AI Security: Five Principles, Prompts and Verified App Handoffs, Outlook Drafting and Operational Decisions.
-
-
-### AI Security: Five Principles
-
-AI security is the set of habits and controls that keep data, decisions and systems safe when people work with AI assistants and agents. Five principles apply to every Copilot task in this course: data control, permission control, human in the loop, traceability, and using a well-tested model rather than the newest one for important work.
-
-Copilot only surfaces data a user can already access and does not use prompts to train its foundation models, but people can still overshare, give an agent too much access, accept an unchecked draft or lose track of what was used. The principles turn those risks into checks you can perform before work leaves your hands.
-
-**How it works**
-
-- Share only the data the task needs.
-- Limit access for people, agents and skills.
-- Review and approve before anything takes effect.
-- Log sources, prompts, versions and checks.
-
-**Worked example**
-
-- Use synthetic or sanitised data in training and demos.
-- An agent gets Can chat access, not Can edit, unless needed.
-- A Copilot email stays a draft until a person reviews it.
-
-**Decision guide**
-
-| Use when | Avoid when |
-|---|---|
-| The output could reach other people, systems or decisions. | Confidential data is pasted into an unapproved tool or a draft is sent unchecked. |
-
-**Authoritative references**
-
-- https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy
-- https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview
-
----
+Concepts for Lab 2: Prompts and Verified App Handoffs, Outlook Drafting and Operational Decisions.
 
 
 ### Prompts and Verified App Handoffs
@@ -2315,6 +2282,43 @@ Use this recap to explain what you can now do and identify any lab evidence you 
 |---|---|
 | LO5 | A grounded work-order agent and a group dashboard and decision deck. |
 | Verify | Agent answers match Control; capstone figures reconcile to the group data. |
+
+---
+
+
+## Closing: 5 Principles of AI Security
+
+AI security is the set of habits and controls that keep data, decisions and systems safe when people work with AI assistants and agents. Five principles apply to every Copilot task in this course: data control, permission control, human in the loop, traceability, and using a well-tested model rather than the newest one for important work. Copilot only surfaces data a user can already access and does not use prompts to train its foundation models, but people can still overshare, give an agent too much access, accept an unchecked draft or lose track of what was used. The principles turn those risks into checks you can perform before work leaves your hands.
+
+**Data control**
+
+Share only what the task needs; use synthetic or sanitised data.
+
+**Permission control**
+
+Least privilege for files, agents, skills and sharing.
+
+**Human in the loop**
+
+Plan, review and approve before edits, emails or decisions.
+
+**Traceability**
+
+Log prompts, sources, versions and checks for every output.
+
+**Well-tested models**
+
+Prefer proven, approved models over the newest release.
+
+**Put the principles into practice**
+
+- Share only the data the task needs.
+- Limit access for people, agents and skills.
+- Review and approve before anything takes effect.
+- Log sources, prompts, versions and checks.
+- Use synthetic or sanitised data in training and demos.
+- An agent gets Can chat access, not Can edit, unless needed.
+- A Copilot email stays a draft until a person reviews it.
 
 ---
 

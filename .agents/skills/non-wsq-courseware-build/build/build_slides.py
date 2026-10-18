@@ -1081,6 +1081,11 @@ content("Keep Practising After the Course",[
  "Apply the techniques to a real process or project in your own organisation.",
  *getattr(C,"WRAP_UP_LINES",[f"Keep your downloaded {C.COURSE_CODE} course files and use the lab checkpoints to restart safely.",
  "Explore the follow-on courses at www.tertiarycourses.com.sg."])],kicker="WRAP-UP")
+# Optional closing message tiles (course_data.CLOSING_TILES), shown right before Thank You.
+_close=getattr(C,"CLOSING_TILES",None)
+if _close:
+    tile_grid(_close["title"],_close["items"],kicker=_close.get("kicker","CLOSING"),
+              cols=_close.get("cols",2),size=_close.get("size",15),accent=TEAL)
 _ty=getattr(C,"THANK_YOU",{})
 big_statement("Thank You!",
               _ty.get("body","You now have the practical skills from every lab in this course — keep applying them to your own work."),

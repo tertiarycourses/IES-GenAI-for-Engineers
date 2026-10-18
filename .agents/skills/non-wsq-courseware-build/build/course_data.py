@@ -232,7 +232,10 @@ CAPSTONE = sec(12,'Mini Capstone: From Your Data to a Decision',
 ['A 150-row synthetic lift-maintenance table replaces real records.','Six KPI tiles reconcile to independent COUNTIFS.','A five-slide deck ends with the decision requested.'],
 ['You can explain every number from your own data.'],['The dataset contains personal, customer or confidential information.'],[S_DASH,S_RULES,S_EXCEL])
 SECTIONS.insert(0,INTERFACE)
-SECTIONS.insert(next(i for i,x in enumerate(SECTIONS) if x['title']=='Prompts and Verified App Handoffs'),AI_SECURITY)
+# AI security is the course's closing message (deck: before Thank You; LG: closing section).
+CLOSING_TILES=dict(AI_SECURITY['tiles'],kicker='CLOSING MESSAGE')
+LG_WRAPUP=dict(title='Closing: 5 Principles of AI Security',intro=AI_SECURITY['definition']+' '+AI_SECURITY['why'],
+               sections=[dict(title=t,text=d) for t,d in AI_SECURITY['tiles']['items']]+[dict(title='Put the principles into practice',bullets=AI_SECURITY['how']+AI_SECURITY['example'])])
 SECTIONS.insert(next(i for i,x in enumerate(SECTIONS) if x['title'].startswith('Pareto Skill')),BUILTIN)
 SECTIONS += [AGENT_BUILDER, CAPSTONE]
 _scope=next(x for x in SECTIONS if x['title']=='One Filter Scope for Every Visual')
