@@ -1,0 +1,1162 @@
+{
+  "superseded": "v2.2",
+  "replaced_by": "v2.3",
+  "date": "2026-10-18",
+  "files": [
+    {
+      "path": "LG-GenAI for Engineers.md",
+      "bytes": 131659,
+      "sha256": "3507aa9a606d60a16e5bfd08f47b1aeff63e99cac68642cbf06df0d94ea7d735"
+    },
+    {
+      "path": "courseware/GenAI for Engineers-v2.2.pdf",
+      "bytes": 752396,
+      "sha256": "1dfa7d8207b5f9086e14018e63ccda51ab10f022b7e87f59351a13c7a9a7fa96"
+    },
+    {
+      "path": "courseware/GenAI for Engineers-v2.2.pptx",
+      "bytes": 298927,
+      "sha256": "58fe1525ee12b744220c321d306091b44308abc04cdd62a925ec8421f01cdd6c"
+    },
+    {
+      "path": "courseware/LG-GenAI for Engineers.docx",
+      "bytes": 78251,
+      "sha256": "5dcc4b0e425019609f6d2720c90d933092bed5639cc443910b9f8b4f75b59336"
+    },
+    {
+      "path": "courseware/LG-GenAI for Engineers.pdf",
+      "bytes": 840442,
+      "sha256": "ca013ffb8de9f4c4a9ce54a985784a28269dd82eb890fad7f61a03883f05d5a3"
+    },
+    {
+      "path": "courseware/LP-GenAI for Engineers.docx",
+      "bytes": 40711,
+      "sha256": "08f5c7f274ee96ee92e39ea650a5bbc13778cdd9df538cb820ec89fbecbbe36d"
+    },
+    {
+      "path": "courseware/LP-GenAI for Engineers.pdf",
+      "bytes": 211147,
+      "sha256": "363eafb47363f931130a8ed49fae7b8f7d6763b1155e21cf9cea26c92908be47"
+    },
+    {
+      "path": "docs/prompts/README.md",
+      "bytes": 26455,
+      "sha256": "4ed8f2f6304244a411b2bd54201acfab8b79478ed63248ec8da10f34fea51dfa"
+    },
+    {
+      "path": "docs/prompts/index.html",
+      "bytes": 89804,
+      "sha256": "325f0eeabc1dccf30b9dca33a5cfea81d8217c458e54671594e8a3bc1e48cfb7"
+    },
+    {
+      "path": "labs/README.md",
+      "bytes": 2884,
+      "sha256": "6eb6a15797c8c2e2a52d20e97a8c49948c4685efffc8931f0f279acce98b1bb7"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/Lab-01-Instructions.pdf",
+      "bytes": 106519,
+      "sha256": "6b69dc295c3438d4ddfe1fa5d27cf4717ce0dade58142892817e01c273982ed5"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/Northstar_Work_Orders.xlsx",
+      "bytes": 19935,
+      "sha256": "8040f4328454e882c8bc7c27be34221bb1c9af9d863fe6394ecfd672bb3b4846"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 19761,
+      "sha256": "5f376f600ad2438038dc0b662637a501d7ba45d7992ce8b072a6d9861b7995f3"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "dc322739a3a129db3adda312ed3f757b3d430804c5fd7d6a57390c4537917bca"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "bc931f0527c2518bd4c09aa997456a85479f391906e8618b798126ff951f71ce"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "0265f40f341141a381680075d3e324e8bb23e99b81208c4ff6594cfbd0e3b2c4"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "8a53db60c5c77cc56dbdb680b039dbc316dcd5e182f11a5f3c4a28ada39032eb"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-01-excel-to-word/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/Lab-02-Instructions.pdf",
+      "bytes": 106459,
+      "sha256": "3f61fe2fb14810191d4db947cd76e5bc1e2b460afe1d224051911c36afc6b8e7"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/Northstar_Work_Orders.xlsx",
+      "bytes": 19636,
+      "sha256": "592af52384e34ccaf3f7ca17bc463836ff07bfc40b56a147b4408e5e9848a055"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 19636,
+      "sha256": "592af52384e34ccaf3f7ca17bc463836ff07bfc40b56a147b4408e5e9848a055"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "dc322739a3a129db3adda312ed3f757b3d430804c5fd7d6a57390c4537917bca"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "bc931f0527c2518bd4c09aa997456a85479f391906e8618b798126ff951f71ce"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "0265f40f341141a381680075d3e324e8bb23e99b81208c4ff6594cfbd0e3b2c4"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "8a53db60c5c77cc56dbdb680b039dbc316dcd5e182f11a5f3c4a28ada39032eb"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-02-word-to-powerpoint-and-outlook/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-03-personalisation/Lab-03-Instructions.pdf",
+      "bytes": 106384,
+      "sha256": "8dcca851ecfc5819ec6edc03c29867efbcb739beac2f0adde6f6641439c97489"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/Northstar_Work_Orders.xlsx",
+      "bytes": 19456,
+      "sha256": "e6eb8f20b77bd3c869b6824aaef34a9afef83a53c9eab9e1aac58131950a8009"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 19456,
+      "sha256": "e6eb8f20b77bd3c869b6824aaef34a9afef83a53c9eab9e1aac58131950a8009"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "dc322739a3a129db3adda312ed3f757b3d430804c5fd7d6a57390c4537917bca"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "bc931f0527c2518bd4c09aa997456a85479f391906e8618b798126ff951f71ce"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "0265f40f341141a381680075d3e324e8bb23e99b81208c4ff6594cfbd0e3b2c4"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "8a53db60c5c77cc56dbdb680b039dbc316dcd5e182f11a5f3c4a28ada39032eb"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-03-personalisation/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/Lab-04-Instructions.pdf",
+      "bytes": 106730,
+      "sha256": "9f826697fff8d1f52cd7d0311289ae9c35442283114f20a35f4822e17d81f9d2"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/Northstar_Work_Orders.xlsx",
+      "bytes": 19616,
+      "sha256": "8f94cf1917e7df8b1bdd0184d5fe29d2b4f35988de2fabdb4773835bb6dabfa7"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 21533,
+      "sha256": "bf06774613a937ea9aef967ffebb71ecaf961104ebe4eb2473552dec7a43a930"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "dc322739a3a129db3adda312ed3f757b3d430804c5fd7d6a57390c4537917bca"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "bc931f0527c2518bd4c09aa997456a85479f391906e8618b798126ff951f71ce"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "0265f40f341141a381680075d3e324e8bb23e99b81208c4ff6594cfbd0e3b2c4"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "8a53db60c5c77cc56dbdb680b039dbc316dcd5e182f11a5f3c4a28ada39032eb"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-04-workbook-rules/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/Lab-05-Instructions.pdf",
+      "bytes": 108213,
+      "sha256": "81de480fa6048e9935fa5e9b1921e962b2845d9aaf8e400368e991229e22b4cb"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/Northstar_Work_Orders.xlsx",
+      "bytes": 21917,
+      "sha256": "de7bda2bdb709e867ebc0ef95975798ddacd5580ed5b1ba0d21b16447c1240c7"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/Pareto_Expected_Controls.json",
+      "bytes": 1021,
+      "sha256": "d63f54c618b055223db1269fdf1b5e37f538d9166102a9ed918e803cd7a0dcbd"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/checkpoints/Northstar_Pareto_Checkpoint.xlsx",
+      "bytes": 23658,
+      "sha256": "158ab63fcc8630725894a00de3b493f0ed3d50f0d7edbfdeb33914a5cc954415"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 21917,
+      "sha256": "de7bda2bdb709e867ebc0ef95975798ddacd5580ed5b1ba0d21b16447c1240c7"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "dc322739a3a129db3adda312ed3f757b3d430804c5fd7d6a57390c4537917bca"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "bc931f0527c2518bd4c09aa997456a85479f391906e8618b798126ff951f71ce"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "0265f40f341141a381680075d3e324e8bb23e99b81208c4ff6594cfbd0e3b2c4"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "8a53db60c5c77cc56dbdb680b039dbc316dcd5e182f11a5f3c4a28ada39032eb"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/templates/water-service-pareto/SKILL.md",
+      "bytes": 2249,
+      "sha256": "d15029882905aeeb8c9ffb82c8d75e01b84ab99ae6211d66d4f253722d73d1e0"
+    },
+    {
+      "path": "labs/lab-05-custom-pareto-chart-skill/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/Lab-06-Instructions.pdf",
+      "bytes": 108554,
+      "sha256": "c708a2bf365260f3a55a2c6e0f1ca908466bd1f52436bda7c80534fa5b19a512"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/Northstar_Work_Orders.xlsx",
+      "bytes": 22054,
+      "sha256": "e7167e040b6246df7c681ea1783b5f1bed7202d2cfe113e7791bcda25694bcaf"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/checkpoints/Northstar_Initial_Update_Checkpoint.pptx",
+      "bytes": 46926,
+      "sha256": "c99a94344a0d4fd0875ddb56733ae6c3ecb2d927f183aee862d518a20500d62d"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 22054,
+      "sha256": "e7167e040b6246df7c681ea1783b5f1bed7202d2cfe113e7791bcda25694bcaf"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "dc322739a3a129db3adda312ed3f757b3d430804c5fd7d6a57390c4537917bca"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "bc931f0527c2518bd4c09aa997456a85479f391906e8618b798126ff951f71ce"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "0265f40f341141a381680075d3e324e8bb23e99b81208c4ff6594cfbd0e3b2c4"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "8a53db60c5c77cc56dbdb680b039dbc316dcd5e182f11a5f3c4a28ada39032eb"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/templates/maintenance-reporting/SKILL.md",
+      "bytes": 2556,
+      "sha256": "bb921e0d171152cbc25c75de3c89926bbd98b8f93c5d0b0d9ab072c2e0b17497"
+    },
+    {
+      "path": "labs/lab-06-reporting-skill/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/Lab-07-Instructions.pdf",
+      "bytes": 108682,
+      "sha256": "e572fd1e066b6c2ce4db39ce957b95f95ea0385d3161f66a1b3ef19f9e6cfa33"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/Northstar_Work_Orders.xlsx",
+      "bytes": 22418,
+      "sha256": "6d5d380e57596e469e239f87279e60212b2b6e48e32f1053bc6f2104ed736bda"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 35685,
+      "sha256": "e077fc545bc18477c9db27945d38345d4b87c9bf1896cc8f2eeb88fc403027aa"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "dc322739a3a129db3adda312ed3f757b3d430804c5fd7d6a57390c4537917bca"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Northstar_Dashboard_Starter.xlsx",
+      "bytes": 22505,
+      "sha256": "346a0234e797cf4d5f2de392fd696c7eac9902647bd6d40b9d9d11b6cea99cf9"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "bc931f0527c2518bd4c09aa997456a85479f391906e8618b798126ff951f71ce"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "0265f40f341141a381680075d3e324e8bb23e99b81208c4ff6594cfbd0e3b2c4"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "8a53db60c5c77cc56dbdb680b039dbc316dcd5e182f11a5f3c4a28ada39032eb"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/templates/water-service-dashboard/SKILL.md",
+      "bytes": 3976,
+      "sha256": "bd5e54e991f3559172250c5902065216617b87cda1d97d07894442b92c41d6e1"
+    },
+    {
+      "path": "labs/lab-07-custom-dashboard-skill/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/Lab-08-Instructions.pdf",
+      "bytes": 108624,
+      "sha256": "00831925a7a875f7290d7adc95d5031136941a915f9f74f742c73915c49690a1"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/Northstar_Work_Orders.xlsx",
+      "bytes": 35379,
+      "sha256": "fc413edec21ccf2f6ec994c82ad9ebaac06efe12dd65c57231486f3c92157d9f"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/Refresh_Test_Rows.csv",
+      "bytes": 382,
+      "sha256": "3dd481950b1049779d7b129993557dad4945f0793908abb00a1d79a9c5779980"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 35379,
+      "sha256": "fc413edec21ccf2f6ec994c82ad9ebaac06efe12dd65c57231486f3c92157d9f"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "f70792ef08ab778e37e11c23471963cbe733576e4e39e16de4b380dea535e0e4"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "929ed190191b245799115e87102a6733896ba076b99dcabc521a07cc5f52696f"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "01f4c439ad1aa65f326cd14d8e38a852f5585b3cdefb76d7b08ccad39ee48b88"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "0bdb02eaf5c409f2cf8ce40142f1753e1b71276970084dc37793858f81517e92"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/templates/water-service-dashboard/SKILL.md",
+      "bytes": 3976,
+      "sha256": "bd5e54e991f3559172250c5902065216617b87cda1d97d07894442b92c41d6e1"
+    },
+    {
+      "path": "labs/lab-08-interactive-filters-and-refresh/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/Lab-09-Instructions.pdf",
+      "bytes": 106732,
+      "sha256": "815bb9c7697d4c31bd87880e94b3f558fbcf6fd189dfd9c16cfc1cfbfce0fe3a"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/Northstar_Work_Orders.xlsx",
+      "bytes": 34958,
+      "sha256": "ebfe90f9621cdb0c8db6cb2aa9e049fcae91173e4dbe5feadc0ae75215c48c87"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/checkpoints/Northstar_Management_Example.pptx",
+      "bytes": 62756,
+      "sha256": "49f52a185c9e04cc8596d9e55c67e3c875255dd4ae720f59eeeaeab7caa9fe4e"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 34958,
+      "sha256": "ebfe90f9621cdb0c8db6cb2aa9e049fcae91173e4dbe5feadc0ae75215c48c87"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "f70792ef08ab778e37e11c23471963cbe733576e4e39e16de4b380dea535e0e4"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "929ed190191b245799115e87102a6733896ba076b99dcabc521a07cc5f52696f"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "01f4c439ad1aa65f326cd14d8e38a852f5585b3cdefb76d7b08ccad39ee48b88"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "0bdb02eaf5c409f2cf8ce40142f1753e1b71276970084dc37793858f81517e92"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-09-dashboard-to-presentation/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/Lab-10-Instructions.pdf",
+      "bytes": 106534,
+      "sha256": "61f0ff719207ecbd974630674910b8953b5af5d2ca80aef909eb0cb491d2174e"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/Northstar_Email_Thread.txt",
+      "bytes": 506,
+      "sha256": "1b1109282fa0b28c781249d018886abed4cb81b830d4c5773c6869da7353e12b"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/Northstar_Maintenance_Context.txt",
+      "bytes": 517,
+      "sha256": "e5e66ba2a14e50133ba17b3ac0b59b10416afe3d939db3fe0ab742637000e3ef"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/Northstar_Work_Orders.csv",
+      "bytes": 17887,
+      "sha256": "3e23d023eef9c1e45788398202888eb5c63ef0dc2fa8db48fcd8f99d9f22e01a"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/Northstar_Work_Orders.xlsx",
+      "bytes": 34903,
+      "sha256": "f3a132b275da6a7783b2eadc8d4abdd7f18ad37ebe995097ed31829b88101cf5"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/Northstar_Workbook_Rules.txt",
+      "bytes": 2312,
+      "sha256": "eb3664c4bab8a5fb2bd08108aa5d4f55b4ea03e5f3dcaea83ebe3142ffce512d"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/Personalisation_Preferences.txt",
+      "bytes": 240,
+      "sha256": "7f8b99977fdefae234894f0d3f69609ef1fba7dbb4a3bf1286acfc9d94ea9e96"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/checkpoints/Northstar_Management_Example.pptx",
+      "bytes": 62756,
+      "sha256": "49f52a185c9e04cc8596d9e55c67e3c875255dd4ae720f59eeeaeab7caa9fe4e"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/checkpoints/Northstar_Verified_Checkpoint.xlsx",
+      "bytes": 34903,
+      "sha256": "f3a132b275da6a7783b2eadc8d4abdd7f18ad37ebe995097ed31829b88101cf5"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/checkpoints/Northstar_Verified_Snapshot.docx",
+      "bytes": 37164,
+      "sha256": "f70792ef08ab778e37e11c23471963cbe733576e4e39e16de4b380dea535e0e4"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Assignment_Proposals.csv",
+      "bytes": 109,
+      "sha256": "1add09f1c689debb19ccbcf9555119e5d6309b8f5edf16256e7099eb4fce16b6"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Customisation_Test_Log.csv",
+      "bytes": 62,
+      "sha256": "22672a3e075373a4e70e9b78c72fe72d5ec6fa2407cd492c519c896476b45c0b"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Evidence_Register.csv",
+      "bytes": 88,
+      "sha256": "6e6cb2195dc81705091555611fdfa2685207a9fd121143ac9ed8317c3d6ad4df"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Filter_Test_Log.csv",
+      "bytes": 59,
+      "sha256": "8e08b3f418fdb5b503098f6f0226dff2029427865264be92c710eb5ea6d86066"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Final_Handoff_Checklist.csv",
+      "bytes": 46,
+      "sha256": "75a9b51ff0dc4319e99ef367ad384c65fed3d860d2e4723eea285f757e7f20a8"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Northstar_Management_Deck_Template.pptx",
+      "bytes": 48829,
+      "sha256": "929ed190191b245799115e87102a6733896ba076b99dcabc521a07cc5f52696f"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Northstar_Operations_Brief_Template.docx",
+      "bytes": 36865,
+      "sha256": "01f4c439ad1aa65f326cd14d8e38a852f5585b3cdefb76d7b08ccad39ee48b88"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Northstar_Outlook_Draft_Template.txt",
+      "bytes": 251,
+      "sha256": "1031e8ecbd1c3f118806132d68a7a5dd27fd31d54fd21b1dacc363f746e7a7ed"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Northstar_Presentation_Brief_Template.docx",
+      "bytes": 36899,
+      "sha256": "0bdb02eaf5c409f2cf8ce40142f1753e1b71276970084dc37793858f81517e92"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Rehearsal_Log.csv",
+      "bytes": 34,
+      "sha256": "fbb3529adf39dee789012d17ab208e00ba8606cdea53bb07f7ecb06dbb9b8741"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/templates/Slide_Evidence_Register.csv",
+      "bytes": 57,
+      "sha256": "7c56c973a3fa96a3ca2b945fa349dfd7bb9bce86d96a07c0d3af051202ee815b"
+    },
+    {
+      "path": "labs/lab-10-professional-handoff/data/verified-controls.json",
+      "bytes": 489,
+      "sha256": "47a4b3aa34291720c2fffb94648050b0fd5156d1b4e59e1ae4655c52858a3d99"
+    }
+  ]
+}

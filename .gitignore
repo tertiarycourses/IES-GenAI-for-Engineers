@@ -28,3 +28,9 @@ node_modules/
 /course_proposal/
 
 /archive/
+
+# Distribution archives (rebuildable — never pushed to GitHub)
+*.zip
+
+# Source material the project was derived from — not ours to republish.
+**/reference/

@@ -1,0 +1,22 @@
+## SOURCE AND SCOPE
+Preserve Work_Orders, tblWorkOrders, Technicians, current Assigned_To values and source IDs.
+Use the reporting date from Control!B2. State the selected Site, Job_Category, Status and Assigned_To scope beside every report.
+Backlog excludes Closed and Cancelled. Overdue backlog has Due_Date strictly before Control!B2.
+On-time closure rate uses Closed rows only, with Closed_Date <= Due_Date. Display N/A when no Closed rows remain.
+## FORMATS AND VISUALS
+Display recorded Cost_SGD as S$ with two decimals; keep underlying values exact. Show dates as DD-MMM-YYYY.
+Use white backgrounds, navy titles, blue and teal accents, readable labels and named units; never use colour alone.
+## DASHBOARD LAYOUT
+Dashboard sheet: title in A1; Site, Job_Category, Status and Assigned_To dropdowns in B2:B5 (All plus source values); the six measures in B7:B12; data-as-at date and selected scope in D2.
+Six KPI tiles in D4:I7, one column per tile: title in row 4, large value in row 5, short definition in row 6 and "Checks: PASS" in row 7.
+Charts in a grid below the tiles: work orders by status and by job category side by side, then a full-width stacked bar by site (overdue backlog, other backlog, Closed, Cancelled).
+Slicers for Site, Job_Category, Status and Assigned_To on the right of the tiles, connected to tblWorkOrders. KPI formulas use SUBTOTAL visibility so slicers and dropdowns both filter every tile and chart.
+Put chart summaries, chart-title formulas and KPI checks on Dashboard_Summaries. Never merge cells. Hide gridlines on Dashboard.
+## DASHBOARD STYLE
+Tiles: white bold text on solid navy #1F4E79 (totals and rates), blue #2E75B6 (backlog, overdue) or teal #2A9D8F (Closed, cost).
+Every chart title states the finding from a cell formula, e.g. "Changi Workshop has the most overdue backlog (18 of 50)".
+Show data labels on bars; no gridlines; rates as % with one decimal. Each chart total must equal B7.
+## OUTPUT AND REVIEW
+Use structured table references. Preserve the visible .Rules sheet and unrelated sheets, charts and Prompt_Log.
+Keep current owners separate from unapproved assignment proposals. Missing facts and approvals remain UNKNOWN.
+Ask before replacing named output sheets. Reconcile every count, rate and chart against source rows; do not duplicate outputs on rerun.
