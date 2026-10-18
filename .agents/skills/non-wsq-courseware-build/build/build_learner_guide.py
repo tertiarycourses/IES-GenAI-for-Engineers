@@ -190,7 +190,7 @@ def _lg_lab(a):
     else:
         p(a["test"])
     if a.get("checkpoint"):
-        h3("Checkpoint and rejoin point")
+        h3("If you get stuck")
         p(a["checkpoint"])
     if a.get("troubleshooting"):
         h3("Troubleshooting")
@@ -202,7 +202,7 @@ def _lg_lab(a):
         h3("Reflection")
         p(a["reflection"])
     note(f"The lab folder labs/lab-{a['num']:02d}-*/ holds the instruction PDF with sample prompts, "
-         f"a data folder with templates, checkpoints and the mock-data workbook ({', '.join(a.get('data_files',[])) or 'none'})"
+         f"a data folder with the lab workbook and any templates ({', '.join(a.get('data_files',[])) or 'none'})"
          + "".join(f", plus {rel} ({desc})" for rel,_t,desc in a.get("extra_files",[])) + ". "
          + getattr(C,"LAB_NOTE","Use only accounts and data you are authorised to use."))
     rule()
@@ -226,7 +226,7 @@ for t in C.TOPICS:
     _recaps=getattr(C,"TOPIC_RECAPS",{}).get(t["num"],[])
     if _recaps:
         h2(f"Topic {t['code']} Recap - Mapped to Learning Outcomes")
-        p("Use this checkpoint to explain what you can now do and identify any lab evidence you still need to repair.")
+        p("Use this recap to explain what you can now do and identify any lab evidence you still need to repair.")
         table(["Learning outcome","Evidence from this topic"],_recaps)
         rule()
 

@@ -7,7 +7,6 @@ data_domainN.py) that drives the PPT, LP and LG:
     Lab-NN-Instructions.pdf   the same instructions + sample prompts as a PDF
     data/<workbook>.xlsx      synthetic water-pipe service data
     data/templates/          learner starting templates
-    data/checkpoints/        clearly labelled rejoin examples
 
 plus labs/README.md as the index. Lab files can never drift out of alignment
 with the other artifacts.
@@ -272,7 +271,7 @@ def build_pdf(lab, topic, path):
     else:
         S.append(KeepTogether([Paragraph("Test It", ST["h2"]), callout("Expected results", lab["test"], GREEN_BG, GREEN)]))
     if lab.get("checkpoint"):
-        S.append(KeepTogether([Paragraph("Checkpoint", ST["h2"]), P(lab["checkpoint"])]))
+        S.append(KeepTogether([Paragraph("If You Get Stuck", ST["h2"]), P(lab["checkpoint"])]))
     if lab.get("troubleshooting"):
         S.append(KeepTogether([Paragraph("Troubleshooting", ST["h2"]),
                                grid(["If this happens", "Fix"], lab["troubleshooting"], [58 * mm, 112 * mm])]))

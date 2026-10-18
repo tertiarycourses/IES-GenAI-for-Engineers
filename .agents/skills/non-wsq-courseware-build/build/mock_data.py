@@ -1,4 +1,4 @@
-"""Deterministic synthetic maintenance inputs, templates and rejoin checkpoints."""
+"""Deterministic synthetic maintenance inputs and templates."""
 from pathlib import Path
 from datetime import datetime,timedelta
 from collections import Counter
@@ -66,7 +66,7 @@ def add_dashboard(wb,ready=True):
  style(ws);ws.column_dimensions['A'].width=30;ws.column_dimensions['B'].width=24
  lists.sheet_state='hidden'
 def workbook(path,raw=False,dashboard=False,blank=False,rules=False):
- wb=Workbook();ws=wb.active;ws.title='About_This_Data';ws.append(['Field','Value']);ws.append(['Company','Northstar Water Services - fictional water-pipe maintenance and service company']);ws.append(['Reporting date',REPORT]);ws.append(['Scope','120 Q3 2026 work orders, five sites. All identities and records are synthetic.']);ws.append(['Meaning','Cost is cumulative recorded cost of all statuses; not a budget or productivity claim.']);ws.append(['Rejoin','This input is a deterministic checkpoint, not proof of your Copilot output.'])
+ wb=Workbook();ws=wb.active;ws.title='About_This_Data';ws.append(['Field','Value']);ws.append(['Company','Northstar Water Services - fictional water-pipe maintenance and service company']);ws.append(['Reporting date',REPORT]);ws.append(['Scope','120 Q3 2026 work orders, five sites. All identities and records are synthetic.']);ws.append(['Meaning','Cost is cumulative recorded cost of all statuses; not a budget or productivity claim.']);ws.append(['Use','Work on a copy saved to your OneDrive folder; keep this supplied workbook unchanged.'])
  ws=wb.create_sheet('Work_Orders');ws.append(HEADERS)
  source=[list(r) for r in ROWS]
  if raw:
@@ -208,20 +208,15 @@ def ops_brief_template(path):
 def snapshot(path):
  doc(path,'Northstar verified maintenance snapshot',[('Source and scope','Synthetic tblWorkOrders: 120 records; all filters All; 30 September 2026.'),('Verified controls',json.dumps(EXPECTED,indent=2)),('Interpretation','Values describe this fictional snapshot. Category mix is a count, not evidence of root cause. Proposals are unapproved.'),('Presentation outline','Portfolio; backlog; mix; SLA; capacity; actions; decision. Reconcile every figure against the dashboard before use.')])
 def build_lab_data(num,folder):
- """Lean lab folder: the lab workbook, only the templates this lab uses, and its rejoin checkpoints."""
+ """Lean lab folder: the lab workbook and only the templates this lab uses (no checkpoints)."""
  root=Path(folder);data=root/'data';tmp=data/'templates';cp=data/'checkpoints'
  data.mkdir(parents=True,exist_ok=True)
  if num<=10:
   workbook(data/'Northstar_Work_Orders.xlsx',raw=(num==1),dashboard=(num>=8),rules=(num>=5))
-  workbook(cp/'Northstar_Verified_Checkpoint.xlsx',dashboard=(num>=7),rules=(num>=4))
   if num==8:add_refresh_rows(data/'Northstar_Work_Orders.xlsx')
-  snapshot(cp/'Northstar_Verified_Snapshot.docx')  # every Northstar lab's rejoin line names it
- if num in (1,8):tmp.mkdir(exist_ok=True);ops_brief_template(tmp/'Northstar_Operations_Brief_Template.docx')
- if num in (2,9,12):tmp.mkdir(exist_ok=True);deck(tmp/'Northstar_Management_Deck_Template.pptx')
- if num==5:build_pareto_checkpoint(data,cp)
- if num==6:deck(cp/'Northstar_Initial_Update_Checkpoint.pptx',True,count=4)
+ if num in (1,8):tmp.mkdir(parents=True,exist_ok=True);ops_brief_template(tmp/'Northstar_Operations_Brief_Template.docx')
+ if num in (2,9,12):tmp.mkdir(parents=True,exist_ok=True);deck(tmp/'Northstar_Management_Deck_Template.pptx')
  if num==9:doc(tmp/'Northstar_Presentation_Brief_Template.docx','Northstar management presentation brief',[('Audience and decision','Audience: water service operations management. Decision: prioritise a proposed backlog recovery plan; approvals UNKNOWN.'),('Slide evidence','For each of eight slides specify headline, figure, chart, scope and source.'),('Limitations','Snapshot date, synthetic data, N/A for zero denominators, no invented savings.'),('Narrative','Observation -> operational implication -> proposed action -> decision request.')])
- if num>=9 and num<=10:deck(cp/'Northstar_Management_Example.pptx',True)
  if num==11:
   handbook(data/'knowledge/Northstar_Service_Handbook.docx');clean_single_sheet(data/'knowledge/Northstar_Work_Orders_Clean.xlsx')
   (tmp/'work-order-qa').mkdir(parents=True,exist_ok=True);(tmp/'work-order-qa/SKILL.md').write_text(WORK_ORDER_QA_SKILL,encoding='utf-8')

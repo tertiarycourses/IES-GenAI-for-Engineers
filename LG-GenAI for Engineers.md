@@ -62,7 +62,7 @@
 
 This masterclass follows Northstar Water Services, a fictional water-pipe maintenance and service company, from a dirty service-work-order export to a reviewed management decision pack. Work-order IDs, categories, sites, current assignments and status definitions stay consistent across every app. The purpose is to make evidence travel accurately through the workflow, while using Copilot for drafting, analysis, reusable instructions and visual communication.
 
-Study each topic’s concepts before its connected labs. Topic 2 has four labs; Topics 1, 3 and 4 have two each; Topic 5 has the agent lab and the group mini capstone. Each lab has its own instruction PDF and a lean data folder: the lab workbook, only the templates that lab uses, and a rejoin checkpoint. Copy-ready prompts are on the linked web page, step by step. Carry your own verified outputs forward. A supplied checkpoint allows rejoining but is not evidence that you completed the earlier task. The detailed procedures are here and in labs; the slides teach concepts and show outcomes.
+Study each topic’s concepts before its connected labs. Topic 2 has four labs; Topics 1, 3 and 4 have two each; Topic 5 has the agent lab and the group mini capstone. Each lab has its own instruction PDF and a lean data folder: the lab workbook and only the templates that lab uses. Copy-ready prompts are on the linked web page, step by step. Carry your own verified outputs forward. The detailed procedures are here and in labs; the slides teach concepts and show outcomes.
 
 
 ## Course Learning Outcomes
@@ -227,7 +227,7 @@ Northstar_Clean_Work_Orders.xlsx and Northstar_Operations_Brief.docx, with recon
 
 **Step-by-step**
 
-1. Copy data/Northstar_Work_Orders.xlsx to your OneDrive work-genai folder as Northstar_Clean_Work_Orders.xlsx. Open it in Excel, set Formulas > Calculation Options > Automatic, and read About_This_Data and Control. The workbook is the deliberately dirty 122-row input; the checkpoint workbook is a clean reference and must not replace the cleaning exercise. Open Copilot from Home > Copilot.
+1. Copy data/Northstar_Work_Orders.xlsx to your OneDrive work-genai folder as Northstar_Clean_Work_Orders.xlsx. Open it in Excel, set Formulas > Calculation Options > Automatic, and read About_This_Data and Control. The workbook is the deliberately dirty 122-row input. Open Copilot from Home > Copilot.
 
    ```text
    EXCEL - CHAT ONLY:
@@ -289,10 +289,6 @@ Northstar_Clean_Work_Orders.xlsx and Northstar_Operations_Brief.docx, with recon
 | Evidence handoff | Overdue 50; unassigned backlog 6; total cost S$35,827.50. Word agrees with Excel. |
 | No guessed owner | Blank assignments remain blank; proposals labelled unapproved. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -309,7 +305,7 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-01-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-01-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -432,11 +428,11 @@ Northstar_Initial_Update.pptx, an unsent Outlook draft and an Evidence_Log with 
 - Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; work-genai is your own learner output folder.
-- Verified Lab 1 workbook and Word brief, or supplied checkpoint and snapshot.
+- Your Lab 1 workbook and Word brief.
 
 **Step-by-step**
 
-1. Open your Lab 1 Word brief and cleaned workbook. If needed use this lab’s verified checkpoint and snapshot, clearly recording rejoin. Read the synthetic email thread quoted in the Step 4 prompt. It asks for a portfolio update, not authorisation to reassign technicians.
+1. Open your Lab 1 Word brief and cleaned workbook. Read the synthetic email thread quoted in the Step 4 prompt. It asks for a portfolio update, not authorisation to reassign technicians.
 
    ```text
    WORD COPILOT:
@@ -491,10 +487,6 @@ Northstar_Initial_Update.pptx, an unsent Outlook draft and an Evidence_Log with 
 | Cross-app grounding | Named file or pasted verified evidence is provided in each app; no assumed shared chat. |
 | Draft boundary | example.invalid recipient; nothing sent and no assignment approved. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -511,14 +503,14 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-02-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-02-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
 
 ### Topic 1 Recap - Mapped to Learning Outcomes
 
-Use this checkpoint to explain what you can now do and identify any lab evidence you still need to repair.
+Use this recap to explain what you can now do and identify any lab evidence you still need to repair.
 
 | Learning outcome | Evidence from this topic |
 |---|---|
@@ -649,10 +641,6 @@ Northstar_Personalisation_Test.xlsx, a two-workbook preference comparison and a 
 | Specific request | The output can show35,827.5000 without changing its value or the saved preferences. |
 | Restoration | Previous account preferences restored; private baseline note stays outside public courseware. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -669,7 +657,7 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-03-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-03-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -727,7 +715,7 @@ Northstar_Rules_Workbook.xlsx with visible .Rules column A, a checked Rules_Test
 - Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; work-genai is your own learner output folder.
-- Lab 3 scope comparison; verified Lab1 clean source or supplied checkpoint.
+- Lab 3 scope comparison.
 
 **Step-by-step**
 
@@ -815,10 +803,6 @@ Northstar_Rules_Workbook.xlsx with visible .Rules column A, a checked Rules_Test
 | Output controls | 120 total;60 backlog;50 overdue;30/48 on-time;S$35,827.50 at All scope. |
 | Workbook copy | Visible .Rules travels with the copy; account preferences are not exported. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -835,7 +819,7 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-04-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-04-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -996,10 +980,6 @@ water-service-pareto/SKILL.md, Northstar_Pareto.xlsx with Pareto_Job_Category an
 | Chart and rerun | Editable columns plus cumulative line; right axis0%-100%; matching output replaced only after review, without duplicates. |
 | Source and interpretation | 120 original records preserved; Site grouping also totals50; no invented root cause. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -1016,7 +996,7 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-05-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-pareto/SKILL.md (Reviewed Pareto Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-05-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-pareto/SKILL.md (Reviewed Pareto Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -1159,9 +1139,9 @@ The same skill can improve Excel analysis and PowerPoint wording by preserving t
 
 Learning outcome: LO2: distinguish account Personalisation, workbook .Rules and reusable Skills; configure, apply and verify each using water-service evidence..
 
-Goal: Reuse the Skill-authoring and installation method from Lab 5 to create maintenance-reporting. Apply it in Excel and PowerPoint, test missing inputs and a controlled rerun, then refine v2 using actual evidence. The supplied reviewed template supports rejoining; it is not proof of native execution.
+Goal: Reuse the Skill-authoring and installation method from Lab 5 to create maintenance-reporting. Apply it in Excel and PowerPoint, test missing inputs and a controlled rerun, then refine v2 using actual evidence. The supplied reviewed template is a fallback if your own draft is incomplete.
 
-Reuse the Skill-authoring and installation method from Lab 5 to create maintenance-reporting. Apply it in Excel and PowerPoint, test missing inputs and a controlled rerun, then refine v2 using actual evidence. The supplied reviewed template supports rejoining; it is not proof of native execution.
+Reuse the Skill-authoring and installation method from Lab 5 to create maintenance-reporting. Apply it in Excel and PowerPoint, test missing inputs and a controlled rerun, then refine v2 using actual evidence. The supplied reviewed template is a fallback if your own draft is incomplete.
 
 **What you'll build**
 
@@ -1191,14 +1171,14 @@ Northstar_Skill_Report.xlsx with Maintenance_Summary and Assignment_Proposals, N
    Apply that reviewed summary plan. Add Assignment_Proposals for unassigned backlog only. Use tblTechnicians primary category and available hours as planning inputs; show category/capacity checks, current owner and proposed owner separately. Leave manager decision UNKNOWN. Do not change Assigned_To.
    ```
 
-4. Check the unassigned backlog count against Control. A technician with the same category may still lack usable capacity: use available hours minus known proposed hours, flag conflicts, and do not convert a suggestion into confirmed assignment. Copy your verified summary into a copy of data/checkpoints/Northstar_Verified_Snapshot.docx, preserving measures and date.
+4. Check the unassigned backlog count against Control. A technician with the same category may still lack usable capacity: use available hours minus known proposed hours, flag conflicts, and do not convert a suggestion into confirmed assignment. Copy your verified summary into a new Word document named Northstar_Verified_Snapshot.docx, preserving measures and date.
 
    ```text
    EXCEL - CHAT ONLY:
    @maintenance-reporting Review Assignment_Proposals against tblWorkOrders and tblTechnicians. Check each suggested owner has the matching water-service job category, capacity limitations are visible and original Assigned_To values are unchanged. Leave manager approval UNKNOWN; do not assign or schedule a technician.
    ```
 
-5. In PowerPoint select the reviewed Word snapshot and open the four-slide update from Lab2 or data/checkpoints/Northstar_Initial_Update_Checkpoint.pptx. Use Copilot > + > Choose skills > Manage skills > Add skill to upload the reviewed maintenance-reporting file, or use the app’s own supported Skills folder. Verify it in PowerPoint separately from Excel. If missing, paste the complete reviewed Skill plus snapshot as manual instructions and remove @mention. Apply the following refinement after review.
+5. In PowerPoint select the reviewed Word snapshot and open your four-slide update from Lab 2. Use Copilot > + > Choose skills > Manage skills > Add skill to upload the reviewed maintenance-reporting file, or use the app’s own supported Skills folder. Verify it in PowerPoint separately from Excel. If missing, paste the complete reviewed Skill plus snapshot as manual instructions and remove @mention. Apply the following refinement after review.
 
    ```text
    POWERPOINT COPILOT:
@@ -1238,10 +1218,6 @@ Northstar_Skill_Report.xlsx with Maintenance_Summary and Assignment_Proposals, N
 | Skill outputs | Backlog 60; overdue 50; on-time closed 30/48; cost S$35,827.50. |
 | Improvement evidence | Input guard and rerun tested; v1/v2 retained; PowerPoint four-slide output accurate. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -1258,14 +1234,14 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-06-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx), plus data/templates/maintenance-reporting/SKILL.md (Reviewed reporting Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-06-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/maintenance-reporting/SKILL.md (Reviewed reporting Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
 
 ### Topic 2 Recap - Mapped to Learning Outcomes
 
-Use this checkpoint to explain what you can now do and identify any lab evidence you still need to repair.
+Use this recap to explain what you can now do and identify any lab evidence you still need to repair.
 
 | Learning outcome | Evidence from this topic |
 |---|---|
@@ -1403,7 +1379,7 @@ Northstar_Dashboard.xlsx with a Dashboard layout, six verified measures, three l
 - Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; work-genai is your own learner output folder.
-- Verified clean table from earlier labs or supplied clean checkpoint.
+- The clean table from earlier labs.
 
 **Step-by-step**
 
@@ -1474,10 +1450,6 @@ Northstar_Dashboard.xlsx with a Dashboard layout, six verified measures, three l
 | Chart reconciliation | Three count summaries each total 120; formulas reference tblWorkOrders. |
 | Decision design | Measures dictionary and source/date visible; no unsupported cause claims. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -1494,7 +1466,7 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-07-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-dashboard/SKILL.md (Reviewed interactive dashboard Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-07-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-dashboard/SKILL.md (Reviewed interactive dashboard Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -1583,12 +1555,12 @@ Northstar_Dashboard.xlsx with four working filters plus Northstar_Dashboard_Refr
 - Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; work-genai is your own learner output folder.
-- Lab 7 dashboard or supplied formula checkpoint.
+- Your Lab 7 dashboard.
 - Lab 7 reviewed water-service-dashboard Skill installed or explicitly labelled manual route.
 
 **Step-by-step**
 
-1. Open your Lab 7 baseline dashboard. Rejoin using data/checkpoints/Northstar_Verified_Checkpoint.xlsx only if needed; record that it is an example formula dashboard. Set all four selections B2:B5 to All and confirm 120. Save baseline before creating any refresh-test copy.
+1. Open your Lab 7 baseline dashboard. Set all four selections B2:B5 to All and confirm 120. Save baseline before creating any refresh-test copy.
 
    ```text
    EXCEL - CHAT ONLY:
@@ -1662,10 +1634,6 @@ Northstar_Dashboard.xlsx with four working filters plus Northstar_Dashboard_Refr
 | Refresh sandbox | 122 total;49 closed;61 backlog;51 overdue;S$36,227.50;31/49 on-time. |
 | Handoff baseline | Return to 120-row untouched baseline; date and All scope recorded. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -1682,14 +1650,14 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-08-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-dashboard/SKILL.md (Reviewed dashboard Skill for reruns). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-08-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-dashboard/SKILL.md (Reviewed dashboard Skill for reruns). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
 
 ### Topic 3 Recap - Mapped to Learning Outcomes
 
-Use this checkpoint to explain what you can now do and identify any lab evidence you still need to repair.
+Use this recap to explain what you can now do and identify any lab evidence you still need to repair.
 
 | Learning outcome | Evidence from this topic |
 |---|---|
@@ -1801,7 +1769,7 @@ Northstar_Presentation_Brief.docx, Northstar_Management_Draft.pptx and a slide-b
 
 **Step-by-step**
 
-1. Open the untouched baseline Northstar_Dashboard.xlsx from Lab 8; confirm All selectors, total120 and report date2026-09-30. Do not use the 122-row sandbox. If needed use this lab’s checkpoint and record rejoin. Record verified metric/chart values in the Evidence_Log sheet with source sheet/table, scope and date.
+1. Open the untouched baseline Northstar_Dashboard.xlsx from Lab 8; confirm All selectors, total120 and report date2026-09-30. Do not use the 122-row sandbox. Record verified metric/chart values in the Evidence_Log sheet with source sheet/table, scope and date.
 
    ```text
    EXCEL - CHAT ONLY:
@@ -1853,10 +1821,6 @@ Northstar_Presentation_Brief.docx, Northstar_Management_Draft.pptx and a slide-b
 | Eight-slide narrative | Observation -> implication -> proposed action -> decision; no invented cause/savings. |
 | Chart semantics | Backlog charts exclude Closed/Cancelled; embedded/image copies labelled snapshot. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -1873,7 +1837,7 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-09-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-09-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -1966,7 +1930,7 @@ Northstar_Management_Final.pptx/PDF, a rehearsal record, final evidence register
 
 **Step-by-step**
 
-1. Open your Lab 9 draft and save as Northstar_Management_Final.pptx. Rejoin only if necessary using data/checkpoints/Northstar_Management_Example.pptx and snapshot; review and adapt its supplied example charts and narrative against the verified snapshot. Open the same reviewed brief in the file picker; confirm native skill or label manual practice.
+1. Open your Lab 9 draft and save as Northstar_Management_Final.pptx. Open the same reviewed brief in the file picker; confirm native skill or label manual practice.
 2. Ask the skill to audit before editing. It should report crowded slides, weak evidence, missing labels and inconsistent scope. Review the list yourself against the evidence register; styling changes must never change values.
 
    ```text
@@ -2020,10 +1984,6 @@ Northstar_Management_Final.pptx/PDF, a rehearsal record, final evidence register
 | Final continuity | Baseline dashboard, brief, deck and unsent draft agree; static snapshot stated. |
 | Decision boundary | No real email sent or work order reassigned; proposed actions remain proposed. |
 
-**Checkpoint and rejoin point**
-
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -2040,14 +2000,14 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-10-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-10-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
 
 ### Topic 4 Recap - Mapped to Learning Outcomes
 
-Use this checkpoint to explain what you can now do and identify any lab evidence you still need to repair.
+Use this recap to explain what you can now do and identify any lab evidence you still need to repair.
 
 | Learning outcome | Evidence from this topic |
 |---|---|
@@ -2175,7 +2135,7 @@ A private Northstar Work Order Assistant agent with reviewed instructions, two O
 | Boundaries | No approval, record change or invented contact details; missing facts are UNKNOWN. |
 | Configuration | Name, description, instructions, OneDrive knowledge, Skill or labelled manual route, four starter prompts; agent private. |
 
-**Checkpoint and rejoin point**
+**If you get stuck**
 
 If Agent Builder is unavailable in your tenant, watch the trainer demonstration and practise the same instructions, knowledge and test prompts in Microsoft Copilot Chat with both files attached; record the route used.
 
@@ -2195,7 +2155,7 @@ Add a fifth starter prompt for a hub lead and test whether the agent keeps curre
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-11-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (data/knowledge/Northstar_Service_Handbook.docx, data/knowledge/Northstar_Work_Orders_Clean.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-11-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/knowledge/Northstar_Service_Handbook.docx, data/knowledge/Northstar_Work_Orders_Clean.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -2322,9 +2282,9 @@ Per group: a mock or sanitised data table, a visible .Rules sheet, an interactiv
 | Deck | Every number matches the dashboard; actions labelled proposed; decision requested. |
 | Showcase | Three-minute demo with one live slicer interaction and one caught Copilot error. |
 
-**Checkpoint and rejoin point**
+**If you get stuck**
 
-Short of time? Use the Lab 8 checkpoint dashboard and the Lab 10 example deck as your evidence, and say so in the showcase.
+Short of time? Present the Lab 8 Northstar dashboard and your Lab 10 deck instead, and say so in the showcase.
 
 **Troubleshooting**
 
@@ -2342,14 +2302,14 @@ Turn your group’s .Rules and dashboard Skill into a reusable pair your team ca
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-12-*/ holds the instruction PDF with sample prompts, a data folder with templates, checkpoints and the mock-data workbook (Your own mock or sanitised dataset). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-12-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (Your own mock or sanitised dataset). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
 
 ### Topic 5 Recap - Mapped to Learning Outcomes
 
-Use this checkpoint to explain what you can now do and identify any lab evidence you still need to repair.
+Use this recap to explain what you can now do and identify any lab evidence you still need to repair.
 
 | Learning outcome | Evidence from this topic |
 |---|---|

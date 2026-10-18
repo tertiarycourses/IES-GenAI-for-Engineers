@@ -9,7 +9,7 @@
 
 ### Step 1
 
-Copy data/Northstar_Work_Orders.xlsx to your OneDrive work-genai folder as Northstar_Clean_Work_Orders.xlsx. Open it in Excel, set Formulas > Calculation Options > Automatic, and read About_This_Data and Control. The workbook is the deliberately dirty 122-row input; the checkpoint workbook is a clean reference and must not replace the cleaning exercise. Open Copilot from Home > Copilot.
+Copy data/Northstar_Work_Orders.xlsx to your OneDrive work-genai folder as Northstar_Clean_Work_Orders.xlsx. Open it in Excel, set Formulas > Calculation Options > Automatic, and read About_This_Data and Control. The workbook is the deliberately dirty 122-row input. Open Copilot from Home > Copilot.
 
 ```text
 EXCEL - CHAT ONLY:
@@ -71,7 +71,7 @@ Audit this Northstar Water Services operations brief against the verified eviden
 
 ### Step 1
 
-Open your Lab 1 Word brief and cleaned workbook. If needed use this lab’s verified checkpoint and snapshot, clearly recording rejoin. Read the synthetic email thread quoted in the Step 4 prompt. It asks for a portfolio update, not authorisation to reassign technicians.
+Open your Lab 1 Word brief and cleaned workbook. Read the synthetic email thread quoted in the Step 4 prompt. It asks for a portfolio update, not authorisation to reassign technicians.
 
 ```text
 WORD COPILOT:
@@ -365,7 +365,7 @@ Apply that reviewed summary plan. Add Assignment_Proposals for unassigned backlo
 
 ### Step 4
 
-Check the unassigned backlog count against Control. A technician with the same category may still lack usable capacity: use available hours minus known proposed hours, flag conflicts, and do not convert a suggestion into confirmed assignment. Copy your verified summary into a copy of data/checkpoints/Northstar_Verified_Snapshot.docx, preserving measures and date.
+Check the unassigned backlog count against Control. A technician with the same category may still lack usable capacity: use available hours minus known proposed hours, flag conflicts, and do not convert a suggestion into confirmed assignment. Copy your verified summary into a new Word document named Northstar_Verified_Snapshot.docx, preserving measures and date.
 
 ```text
 EXCEL - CHAT ONLY:
@@ -374,7 +374,7 @@ EXCEL - CHAT ONLY:
 
 ### Step 5
 
-In PowerPoint select the reviewed Word snapshot and open the four-slide update from Lab2 or data/checkpoints/Northstar_Initial_Update_Checkpoint.pptx. Use Copilot > + > Choose skills > Manage skills > Add skill to upload the reviewed maintenance-reporting file, or use the app’s own supported Skills folder. Verify it in PowerPoint separately from Excel. If missing, paste the complete reviewed Skill plus snapshot as manual instructions and remove @mention. Apply the following refinement after review.
+In PowerPoint select the reviewed Word snapshot and open your four-slide update from Lab 2. Use Copilot > + > Choose skills > Manage skills > Add skill to upload the reviewed maintenance-reporting file, or use the app’s own supported Skills folder. Verify it in PowerPoint separately from Excel. If missing, paste the complete reviewed Skill plus snapshot as manual instructions and remove @mention. Apply the following refinement after review.
 
 ```text
 POWERPOINT COPILOT:
@@ -481,7 +481,7 @@ EXCEL - CHAT ONLY:
 
 ### Step 1
 
-Open your Lab 7 baseline dashboard. Rejoin using data/checkpoints/Northstar_Verified_Checkpoint.xlsx only if needed; record that it is an example formula dashboard. Set all four selections B2:B5 to All and confirm 120. Save baseline before creating any refresh-test copy.
+Open your Lab 7 baseline dashboard. Set all four selections B2:B5 to All and confirm 120. Save baseline before creating any refresh-test copy.
 
 ```text
 EXCEL - CHAT ONLY:
@@ -559,7 +559,7 @@ Using only the verified baseline dashboard evidence I paste here, prepare the fr
 
 ### Step 1
 
-Open the untouched baseline Northstar_Dashboard.xlsx from Lab 8; confirm All selectors, total120 and report date2026-09-30. Do not use the 122-row sandbox. If needed use this lab’s checkpoint and record rejoin. Record verified metric/chart values in the Evidence_Log sheet with source sheet/table, scope and date.
+Open the untouched baseline Northstar_Dashboard.xlsx from Lab 8; confirm All selectors, total120 and report date2026-09-30. Do not use the 122-row sandbox. Record verified metric/chart values in the Evidence_Log sheet with source sheet/table, scope and date.
 
 ```text
 EXCEL - CHAT ONLY:
@@ -613,7 +613,7 @@ Audit the eight-slide Northstar Water Services management draft against the sele
 
 ### Step 1
 
-Open your Lab 9 draft and save as Northstar_Management_Final.pptx. Rejoin only if necessary using data/checkpoints/Northstar_Management_Example.pptx and snapshot; review and adapt its supplied example charts and narrative against the verified snapshot. Open the same reviewed brief in the file picker; confirm native skill or label manual practice.
+Open your Lab 9 draft and save as Northstar_Management_Final.pptx. Open the same reviewed brief in the file picker; confirm native skill or label manual practice.
 
 ### Step 2
 

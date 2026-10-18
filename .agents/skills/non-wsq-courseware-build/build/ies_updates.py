@@ -23,7 +23,7 @@ RULES_PROMPT = ('EXCEL - ALLOW EDITING:\nAdd a visible worksheet named exactly .
 # exact text replacements: (lab, old, new)
 TEXT = [
     (1, 'the supplied CSV is a clean reference and must not replace the cleaning exercise',
-        'the checkpoint workbook is a clean reference and must not replace the cleaning exercise'),
+        'it is the starting point for the cleaning exercise'),
     (1, 'Copy verified values to data/templates/Evidence_Register.csv.',
         'Record each verified value in the Evidence_Log sheet (claim, value, source, scope and as-at date).'),
     (1, 'copy your verified evidence table plus data/Northstar_Maintenance_Context.txt into the document and select that text',
@@ -47,7 +47,7 @@ TEXT = [
     (10, 'Record one actual change in data/templates/Rehearsal_Log.csv;', 'Record one actual change in the Evidence_Log sheet;'),
     (10, 'Complete data/templates/Final_Handoff_Checklist.csv:', 'Complete a final handoff checklist in the Evidence_Log sheet:'),
     (6, 'Export your verified summary into the Word snapshot template, preserving measures and date.',
-        'Copy your verified summary into a copy of data/checkpoints/Northstar_Verified_Snapshot.docx, preserving measures and date.'),
+        'Copy your verified summary into a new Word document named Northstar_Verified_Snapshot.docx, preserving measures and date.'),
     # Lab 7: the dashboard Skill specification now carries the BrightPath-style layout
     (7, 'Create three formula-backed editable status/category/site charts sharing the exact filter scope. Use structured references, not fixed120-row ranges, and white/navy/blue/teal workbook design.',
         'Follow visible .Rules DASHBOARD LAYOUT and STYLE: title A1; six KPI tiles in D4:I7 with Checks: PASS; three formula-backed charts (status column, category bar, full-width stacked site bar) with finding-led titles linked to Dashboard_Summaries; slicers for Site, Job_Category, Status and Assigned_To that filter every tile and chart through SUBTOTAL visibility. Use structured references, not fixed 120-row ranges, and never merge cells.'),
@@ -85,6 +85,35 @@ def _fix_text(a, old, new):
     return hit
 
 
+# No checkpoint/rejoin material: each lab starts from its own workbook and the learner's earlier outputs.
+REJOIN = [
+    (' The workbook is the deliberately dirty 122-row input; it is the starting point for the cleaning exercise.', ' The workbook is the deliberately dirty 122-row input.'),
+    (' If needed use this lab’s verified checkpoint and snapshot, clearly recording rejoin.', ''),
+    ('open the four-slide update from Lab2 or data/checkpoints/Northstar_Initial_Update_Checkpoint.pptx.', 'open your four-slide update from Lab 2.'),
+    (' Rejoin using data/checkpoints/Northstar_Verified_Checkpoint.xlsx only if needed; record that it is an example formula dashboard.', ''),
+    (' If needed use this lab’s checkpoint and record rejoin.', ''),
+    (' Rejoin only if necessary using data/checkpoints/Northstar_Management_Example.pptx and snapshot; review and adapt its supplied example charts and narrative against the verified snapshot.', ''),
+    ('Verified Lab 1 workbook and Word brief, or supplied checkpoint and snapshot.', 'Your Lab 1 workbook and Word brief.'),
+    ('Lab 3 scope comparison; verified Lab1 clean source or supplied checkpoint.', 'Lab 3 scope comparison.'),
+    ('Verified clean table from earlier labs or supplied clean checkpoint.', 'The clean table from earlier labs.'),
+    ('Lab 7 dashboard or supplied formula checkpoint.', 'Your Lab 7 dashboard.'),
+    (' The supplied reviewed template supports rejoining; it is not proof of native execution.', ' The supplied reviewed template is a fallback if your own draft is incomplete.'),
+]
+
+
+def _remove_rejoin(labs):
+    for a in labs:
+        for old, new in REJOIN:
+            a['steps'] = [(i.replace(old, new), c.replace(old, new)) for i, c in a['steps']]
+            a['prerequisites'] = [x.replace(old, new) for x in a['prerequisites']]
+            a['desc'] = a['desc'].replace(old, new); a['goal'] = a['goal'].replace(old, new)
+        if a['num'] <= 10:
+            a['checkpoint'] = ''
+    for a in labs:
+        text = ' '.join([a['desc'], a['build'], *a['prerequisites']] + [i + c for i, c in a['steps']])
+        assert 'checkpoint' not in text.lower() and 'rejoin' not in text.lower(), a['num']
+
+
 def _work_dir(v):
     if isinstance(v, str): return v.replace('work-c027', WORK_DIR)
     if isinstance(v, list): return [_work_dir(x) for x in v]
@@ -114,6 +143,7 @@ def apply(labs, factory):
     a['checks'] = [(k, v.replace('Changing any of four filters affects all six KPI measures and all chart counts.',
                                  'Changing any dropdown or slicer affects all six KPI tiles and all chart counts; D3 reports slicer filters.')) for k, v in a['checks']]
     labs += [lab11(factory), lab12(factory)]
+    _remove_rejoin(labs)
     for a in labs:
         a['duration'] = DURATIONS[a['num']]
         a['prerequisites'] = [p.replace('Download this whole lab folder. All files are synthetic; work-c027 is your own learner output folder.',
@@ -247,7 +277,7 @@ def lab12(factory):
     a['workflow'] = ['Data', 'Rules', 'Dashboard', 'Deck', 'Showcase']
     a['data_files'] = ['Your own mock or sanitised dataset']
     a['prerequisites'] = a['prerequisites'][:2] + ['Labs 4-10 methods: .Rules, Skills, interactive dashboard and decision deck.']
-    a['checkpoint'] = ('Short of time? Use the Lab 8 checkpoint dashboard and the Lab 10 example deck as your evidence, and say so in the showcase.')
+    a['checkpoint'] = ('Short of time? Present the Lab 8 Northstar dashboard and your Lab 10 deck instead, and say so in the showcase.')
     a['sample_prompts'] = [('Data', 'Create a fictional 150-row engineering dataset; no real people, companies or locations.'),
                            ('Dashboard', '@interactive-dashboard Plan six KPI tiles, three charts and slicers for tblData.')]
     return a
