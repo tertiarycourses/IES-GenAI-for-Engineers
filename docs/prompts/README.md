@@ -706,7 +706,7 @@ Under Knowledge add the two files from OneDrive (Browse, or paste each file’s 
 
 ### Step 5
 
-Under Skills select Add and upload data/templates/work-order-qa.zip; it contains the work-order-qa folder with SKILL.md (do not upload SKILL.md by itself). Read data/templates/work-order-qa/SKILL.md first: it sets the definitions, citation, UNKNOWN and boundary rules. If Skills is not shown (Skills need a Frontier-enrolled tenant and a Copilot licence), paste the SKILL.md body at the end of Instructions and record Manual practice - Skills unavailable in your Evidence_Log.
+Read data/templates/work-order-qa/SKILL.md first: it sets the definitions, citation, UNKNOWN and boundary rules. Compress the work-order-qa folder into work-order-qa.zip (Mac: right-click > Compress; Windows: right-click > Send to > Compressed (zipped) folder), then under Skills select Add and upload the .zip (do not upload SKILL.md by itself). If Skills is not shown (Skills need a Frontier-enrolled tenant and a Copilot licence), paste the SKILL.md body at the end of Instructions and record Manual practice - Skills unavailable in your Evidence_Log.
 
 ### Step 6
 

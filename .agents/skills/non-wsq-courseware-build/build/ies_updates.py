@@ -190,8 +190,9 @@ def lab11(factory):
         ('Under Knowledge add the two files from OneDrive (Browse, or paste each file’s share link) and turn on Only use specified sources if it is '
          'shown. Wait until neither file shows Preparing. Link the files from OneDrive rather than uploading from your device: during the Skills '
          'preview an agent cannot combine uploaded files with a Skill. Everyone you later share the agent with can use these files.', ''),
-        ('Under Skills select Add and upload data/templates/work-order-qa.zip; it contains the work-order-qa folder with SKILL.md (do not upload '
-         'SKILL.md by itself). Read data/templates/work-order-qa/SKILL.md first: it sets the definitions, citation, UNKNOWN and boundary rules. If '
+        ('Read data/templates/work-order-qa/SKILL.md first: it sets the definitions, citation, UNKNOWN and boundary rules. Compress the '
+         'work-order-qa folder into work-order-qa.zip (Mac: right-click > Compress; Windows: right-click > Send to > Compressed (zipped) folder), '
+         'then under Skills select Add and upload the .zip (do not upload SKILL.md by itself). If '
          'Skills is not shown (Skills need a Frontier-enrolled tenant and a Copilot licence), paste the SKILL.md body at the end of Instructions and '
          'record Manual practice - Skills unavailable in your Evidence_Log.', ''),
         ('Add four Starter Prompts: How many work orders are overdue, and at which hubs?; What is the on-time closure rate and how is it calculated?; '

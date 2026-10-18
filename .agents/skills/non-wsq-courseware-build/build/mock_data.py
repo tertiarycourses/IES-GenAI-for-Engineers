@@ -220,7 +220,7 @@ def build_lab_data(num,folder):
  if num==11:
   handbook(data/'knowledge/Northstar_Service_Handbook.docx');clean_single_sheet(data/'knowledge/Northstar_Work_Orders_Clean.xlsx')
   (tmp/'work-order-qa').mkdir(parents=True,exist_ok=True);(tmp/'work-order-qa/SKILL.md').write_text(WORK_ORDER_QA_SKILL,encoding='utf-8')
-  skill_zip(tmp/'work-order-qa.zip','work-order-qa',WORK_ORDER_QA_SKILL)
+  # learners zip the folder themselves: ZIP files are never stored in the course repository
  if num==12:
   (tmp/'interactive-dashboard').mkdir(parents=True,exist_ok=True);(tmp/'interactive-dashboard/SKILL.md').write_text(GENERIC_DASHBOARD_SKILL,encoding='utf-8')
 print('Northstar controls:',EXPECTED) if __name__=='__main__' else None
