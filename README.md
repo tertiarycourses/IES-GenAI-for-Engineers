@@ -17,7 +17,7 @@ One day with 7.5 instructional hours. Twelve connected labs use the same fiction
 - [Copy-ready prompts, step by step (public page)](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/) · [source](docs/prompts/index.html)
 - [Lab folders](labs/)
 
-On the prompts page pick a lab, follow each step and click **Copy** on the prompt under it. Every lab instruction PDF links to its own section of that page (for example `…/prompts/#lab-8`). Each lab folder holds only its instruction PDF and a `data/` folder with the lab workbook, the templates that lab uses and a rejoin checkpoint.
+On the prompts page pick a lab, follow each step and click **Copy** on the prompt under it. Every lab instruction PDF links to its own section of that page (for example `…/prompts/#lab-8`). Each lab folder holds only its instruction PDF and a `data/` folder with the lab workbook and the templates that lab uses; labs that build on earlier work use your own outputs from the previous lab. In Lab 11 you compress the supplied `work-order-qa` Skill folder into a .zip yourself before uploading it to Agent Builder.
 
 | Lab | Topic | Lab | Topic |
 |---|---|---|---|
@@ -35,6 +35,8 @@ On the prompts page pick a lab, follow each step and click **Copy** on the promp
 3. Interactive Dashboards with Custom Skills — Labs 7–8.
 4. Create a Professional Presentation with PowerPoint Copilot — Labs 9–10.
 5. Copilot Agents and Mini Capstone — Lab 11 (Agent Builder) and Lab 12 (group capstone).
+
+The course closes with the **5 Principles of AI Security**: data control, permission control, human in the loop, traceability, and well-tested models.
 
 All work orders, service hubs and staff are synthetic. Use the fixed reporting date 30 September 2026. Verify every result, retain UNKNOWN for missing evidence, keep proposed assignments separate from current assignments, and leave training email drafts unsent. Capstone groups use only mock or sanitised data.
 
