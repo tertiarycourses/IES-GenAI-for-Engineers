@@ -865,10 +865,6 @@ flow_h("How You'll Learn",[
 # Generic, data-driven course-concepts section. A course supplies its own
 # framing via optional course_data fields; nothing here is tied to a specific
 # subject, so the same engine builds any non-WSQ course.
-# The big picture before Topic 1: Copilot is the agentic AI interface, the Office apps are its tools.
-_hub=getattr(C,"COPILOT_HUB",None)
-if _hub:
-    hub(_hub["title"],_hub["center"],_hub["apps"],flow=_hub.get("flow"),kicker=_hub.get("kicker","THE BIG PICTURE"),accent=TEAL)
 _OVERVIEW=getattr(C,"COURSE_OVERVIEW",None)
 # COURSE_OVERVIEW["move_to_first_topic"] lists parts (statement, pillars, arc,
 # deep_dives, ...) rendered at the start of the first topic instead of here.
@@ -1049,6 +1045,10 @@ def _render_lab(t,a):
 for t in C.TOPICS:
     accent=TOPIC_THEME.get(t["num"],BLUE)
     section(f"TOPIC {t['code']}", t["title"], t["code"], t["subtitle"], accent=accent)
+    # The big picture opens Topic 1: Copilot is the agentic AI interface, the Office apps are its tools.
+    _hub=getattr(C,"COPILOT_HUB",None)
+    if _hub and t is C.TOPICS[0]:
+        hub(_hub["title"],_hub["center"],_hub["apps"],flow=_hub.get("flow"),kicker=_hub.get("kicker","THE BIG PICTURE"),accent=TEAL)
     if _MOVED and t is C.TOPICS[0]:
         _overview_parts([p for p in _PARTS if p in _MOVED])
     # concept slide(s) — visual tile grid instead of a bullet list (topic-accented)
