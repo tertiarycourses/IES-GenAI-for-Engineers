@@ -4,7 +4,7 @@
 
 ![GenAI for Engineers slide cover](screenshot.png)
 
-One day with 7.5 instructional hours. Twelve connected labs use the same fictional Northstar Water Services maintenance and service scenario across Excel, Word, PowerPoint, Outlook and Microsoft Copilot, ending with a work-order agent built in Agent Builder and a group mini capstone.
+One day with 7.5 instructional hours. Thirteen self-contained labs use the same fictional Northstar Water Services maintenance and service scenario across Excel, Word, PowerPoint, Outlook and Microsoft Copilot, ending with a work-order agent built in Agent Builder and a group mini capstone.
 
 **[Open the copy-ready prompts page →](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/)** · to download everything, use **Code → Download ZIP** on GitHub.
 
@@ -17,28 +17,29 @@ One day with 7.5 instructional hours. Twelve connected labs use the same fiction
 - [Copy-ready prompts, step by step (public page)](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/) · [source](docs/prompts/index.html)
 - [Lab folders](labs/)
 
-On the prompts page pick a lab, follow each step and click **Copy** on the prompt under it. Every lab instruction PDF links to its own section of that page (for example `…/prompts/#lab-8`). Every lab is self-contained: its folder holds the instruction PDF and a `data/` folder with every file that lab needs, so you can start any lab without finishing the one before. Open the files straight from the lab's `data/` folder and save new files in the same folder; there is no extra working folder and nothing to copy. Steps are short, with one prompt each and the exact numbers you should see. All Excel work runs in desktop Excel on local files, with no OneDrive upload. OneDrive is used only for the Excel custom Skills folder and the Lab 11 agent knowledge files. In Lab 11 you compress the supplied `work-order-qa` Skill folder into a .zip yourself before uploading it to Agent Builder.
+On the prompts page pick a lab, follow each step and click **Copy** on the prompt under it. Every lab instruction PDF links to its own section of that page (for example `…/prompts/#lab-8`). Every lab is self-contained: its folder holds the instruction PDF and a `data/` folder with every file that lab needs, so you can start any lab without finishing the one before. Open the files straight from the lab's `data/` folder and save new files in the same folder; there is no extra working folder and nothing to copy. Steps are short, with one prompt each and the exact numbers you should see. All Excel work runs in desktop Excel on local files, with no OneDrive upload. OneDrive is used only for the Excel custom Skills folder and the Lab 12 agent knowledge files. In Lab 12 you can also compress the supplied `work-order-qa` Skill folder into a .zip yourself before uploading it to Agent Builder.
 
 | Lab | Topic | Lab | Topic |
 |---|---|---|---|
-| 1 · Excel to Word | 1 | 7 · Custom Dashboard Skill | 3 |
-| 2 · Word to PowerPoint and Outlook | 1 | 8 · Interactive Filters and Refresh | 3 |
-| 3 · Personalisation | 2 | 9 · Dashboard to Presentation | 4 |
-| 4 · Workbook .Rules | 2 | 10 · Professional Handoff | 4 |
-| 5 · Built-in chart skill + custom Pareto Skill | 2 | 11 · Copilot Agent Builder | 5 |
-| 6 · Reporting Skill | 2 | 12 · Mini Capstone (groups) | 5 |
+| 1 · Excel to Word | 1 | 8 · Custom Dashboard Skill | 3 |
+| 2 · Word to PowerPoint and Outlook | 1 | 9 · Interactive Filters and Refresh | 3 |
+| 3 · Personalisation | 2 | 10 · Dashboard to Presentation | 4 |
+| 4 · Workbook .Rules | 2 | 11 · Professional Handoff | 4 |
+| 5 · Pareto Skill: vital few failure modes | 2 | 12 · Copilot Agent Builder | 5 |
+| 6 · Reporting Skill (Pareto + reporting skills) | 2 | 13 · Mini Capstone (groups) | 5 |
+| 7 · PowerPoint Design Skill: plain to professional deck | 2 | | |
 
 ## Topics
 
 1. Fundamentals of Microsoft 365 Copilot — Labs 1–2.
-2. Personalisation, .Rules and Skills for Excel — Labs 3–6.
-3. Interactive Dashboards with Custom Skills — Labs 7–8.
-4. Create a Professional Presentation with PowerPoint Copilot — Labs 9–10.
-5. Copilot Agents and Mini Capstone — Lab 11 (Agent Builder) and Lab 12 (group capstone).
+2. Personalisation, .Rules and Skills for Excel — Labs 3–7.
+3. Interactive Dashboards with Custom Skills — Labs 8–9.
+4. Create a Professional Presentation with PowerPoint Copilot — Labs 10–11.
+5. Copilot Agents and Mini Capstone — Lab 12 (Agent Builder) and Lab 13 (group capstone).
 
 The course closes with the **5 Principles of AI Security**: data control, permission control, human in the loop, traceability, and well-tested models.
 
-All work orders, service hubs and staff are synthetic. Use the fixed reporting date 30 September 2026. Verify every result, retain UNKNOWN for missing evidence, keep proposed assignments separate from current assignments, and leave training email drafts unsent. Capstone groups use only mock or sanitised data.
+Each work order records a Failure_Mode, so Labs 5–6 can use a Pareto chart to find the vital few failure modes. All work orders, service hubs and staff are synthetic. Use the fixed reporting date 30 September 2026. Verify every result, retain UNKNOWN for missing evidence, keep proposed assignments separate from current assignments, and leave training email drafts unsent. Capstone groups use only mock or sanitised data.
 
 ## Rebuilding
 

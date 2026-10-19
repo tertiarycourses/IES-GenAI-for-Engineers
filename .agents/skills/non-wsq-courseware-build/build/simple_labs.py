@@ -7,12 +7,23 @@ Principles, applied to every lab:
 - Short prompts in plain words that work in ONE paste (no blank lines).
 - Every check states the exact numbers the learner should see.
 """
-from mock_data import EXPECTED as E
+from collections import Counter
+from mock_data import EXPECTED as E, ROWS, REPORT
+
+
+def _pareto():
+    """Failure-mode Pareto text, highest first (ties alphabetical), for all work orders and for the overdue jobs."""
+    def text(rows):
+        c = Counter(r[13] for r in rows)
+        return ', '.join(f'{k} {v}' for k, v in sorted(c.items(), key=lambda x: (-x[1], x[0])))
+    overdue = [r for r in ROWS if r[4] not in ('Closed', 'Cancelled') and r[7] < REPORT]
+    return text(ROWS), text(overdue)
 
 UPLOAD = 'select + > Upload images and files and choose'
 NUMS = (f'{E["total"]} total, {E["closed"]} closed, {E["cancelled"]} cancelled, {E["backlog"]} backlog, {E["overdue"]} overdue, '
         f'{E["unassigned_backlog"]} unassigned, cost S${E["cost"]:,.2f}')
 KEY = f'{E["total"]} total, {E["backlog"]} backlog, {E["overdue"]} overdue and {E["unassigned_backlog"]} unassigned'
+PARETO_ALL, PARETO_OVERDUE = _pareto()
 ONTIME = f'{E["on_time_closed"]}/{E["closed"]} = {E["on_time_rate"]:.1%}'
 FILES = ('Desktop Excel on Windows or Mac. Download this lab folder and open the files straight from its data folder; save any new '
          'file in the same folder. All data is fictional.')
@@ -26,17 +37,20 @@ KEY_BOX = (f'Total : {E["total"]}\nBacklog : {E["backlog"]}\nOverdue : {E["overd
            f'Cost : S${E["cost"]:,.2f}')
 
 
-def skill_steps(folder, at):
-    """Install a supplied Excel skill (C34 route): upload its folder to the OneDrive skills folder, then Refresh and turn it on."""
+def skill_steps(folders, at):
+    """Install supplied Excel skills (C34 route): upload the folders to the OneDrive skills folder, then Refresh and turn them on."""
+    folders = [folders] if isinstance(folders, str) else folders
+    names = ' and '.join(folders)
     return [
         ('Upload the skill to OneDrive. In Excel open Copilot and select Settings (...) > Manage plugins & skills > Custom skills. '
          'Turn Custom skills on and select Add in OneDrive (or Create OneDrive folder, then Open skills folder). OneDrive opens at '
-         f'your skills folder. Select Create or upload > Folder upload and choose the {folder} folder in this lab’s data/templates folder.',
-         f'OneDrive : Documents > Copilot > Microsoft Excel > skills > {folder} > SKILL.md'),
-        (f'Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn '
-         f'{folder} on. Close the dialog and type {at} in the Copilot prompt box: {folder} should appear. If it does not, wait a '
-         'minute and select Refresh again.',
-         f'Check : {folder} appears when you type {at}')]
+         f'your skills folder. Select Create or upload > Folder upload and choose the {names} folder'
+         f'{"s" if len(folders) > 1 else ""} in this lab’s data/templates folder.',
+         '\n'.join(f'OneDrive : Documents > Copilot > Microsoft Excel > skills > {f} > SKILL.md' for f in folders)),
+        (f'Turn the skill{"s" if len(folders) > 1 else ""} on. Back in Excel select Settings (...) > Manage plugins & skills > '
+         f'Custom skills > Refresh, then turn {names} on. Close the dialog and type {at} in the Copilot prompt box: '
+         f'{names} should appear. If not, wait a minute and select Refresh again.',
+         '\n'.join(f'Check : {f} appears when you type @' for f in folders))]
 
 
 def lab(desc, build, steps, checks, extra_pre=(), challenge=None, title=None):
@@ -134,51 +148,55 @@ def _labs(thread):
            [('.Rules sheet', 'Named exactly .Rules, visible, one rule per cell in column A.'),
             ('Rules followed', f'Rules_Test: {E["total"]} total, {E["backlog"]} backlog, {E["overdue"]} overdue, {ONTIME}, S${E["cost"]:,.2f}.'),
             ('Copy', 'The saved copy still has the .Rules sheet.')]),
-    5: lab('Make a chart with Excel’s built-in @chart-design skill, then install a custom Pareto skill and use it twice.',
-           'A ChartDesign_Demo sheet, a Pareto_Job_Category chart and a Pareto_Site chart.',
+    5: lab('Engineers use Pareto charts to find the vital few failure modes behind most of the work. Make a chart with Excel’s '
+           'built-in @chart-design skill, then install a custom Pareto skill that sorts failure modes from highest to lowest.',
+           'A ChartDesign_Demo sheet, a Pareto_Failure_Mode chart for all work orders and one for the overdue jobs.',
            [('Turn on the built-in chart skill. Open data/Northstar_Work_Orders.xlsx in Excel. In Copilot select Settings (...) > '
              'Manage plugins & skills and turn on chart-design under Visualization.',
              'Excel : Copilot > Settings (...) > Manage plugins & skills\nTurn on : chart-design (under Visualization)'),
-            (f'Use it. Choose Allow editing and send the prompt. {DONE}',
-             'EXCEL - ALLOW EDITING:\n@chart-design Make a bar chart of the overdue work orders by Job_Category on a new sheet named '
-             'ChartDesign_Demo, biggest bar first. Overdue means not Closed or Cancelled and due before the date in Control!B2.'),
+            (f'Use it. Choose Allow editing and send the prompt. {DONE} The bars run from highest to lowest, starting with Corrosion.',
+             'EXCEL - ALLOW EDITING:\n@chart-design Make a bar chart of the number of work orders for each Failure_Mode on a new '
+             'sheet named ChartDesign_Demo, sorted from highest to lowest.'),
             *skill_steps('water-service-pareto', '@wat'),
-            ('Make the Pareto chart. Select New chat, choose Allow editing, send the prompt and select Done. You should see 50 '
-             'overdue jobs: Pump Service 18, Meter Service 12, Leak Repair 8, Valve Repair 8, Pipe Replacement 4, and a line rising '
-             '36%, 60%, 76%, 92%, 100%.',
-             'EXCEL - ALLOW EDITING:\n@water-service-pareto Make a Pareto chart of the overdue work orders by Job_Category.'),
-            ('Use the skill again. Send the prompt and select Done. Pareto_Site also adds up to 50.',
-             'EXCEL - ALLOW EDITING:\n@water-service-pareto Now make the same Pareto chart by Site.')],
-           [('Built-in skill', 'chart-design turned on; ChartDesign_Demo created.'),
-            ('Pareto by category', '50 jobs: 18, 12, 8, 8, 4; line 36%, 60%, 76%, 92%, 100%.'),
-            ('Pareto by site', 'Pareto_Site also adds up to 50; the source data is unchanged.')],
-           challenge='Ask Microsoft 365 Copilot on the web to write your own Pareto SKILL.md and compare it with the supplied one.'),
-    6: lab('Install the maintenance-reporting skill and use it in Excel and PowerPoint.',
-           'Maintenance_Summary and Assignment_Proposals sheets, and an improved Northstar_Initial_Update.pptx.',
-           [*skill_steps('maintenance-reporting', '@main'),
+            (f'Find the vital few. Select New chat, choose Allow editing, send the prompt and select Done. You should see {PARETO_ALL}. '
+             'The top 3 failure modes cause 78% of all work orders.',
+             'EXCEL - ALLOW EDITING:\n@water-service-pareto Make a Pareto chart of Failure_Mode for all work orders in tblWorkOrders.'),
+            (f'Look at the overdue jobs. Send the prompt and select Done. Among the {E["overdue"]} overdue jobs the order changes: '
+             f'{PARETO_OVERDUE}. A Pareto shows where to look first; confirm the root cause on site.',
+             'EXCEL - ALLOW EDITING:\n@water-service-pareto Now make the same Pareto chart for the overdue work orders only.')],
+           [('Built-in skill', 'chart-design turned on; ChartDesign_Demo sorted highest to lowest.'),
+            ('All work orders', PARETO_ALL + '; top 3 = 78%.'),
+            ('Overdue only', PARETO_OVERDUE + '.')],
+           challenge='Ask Microsoft 365 Copilot on the web to write your own Pareto SKILL.md and compare it with the supplied one.',
+           title='Find the Vital Few Failure Modes with a Pareto Skill'),
+    6: lab('Install two skills, water-service-pareto and maintenance-reporting, and use them together to build a maintenance report '
+           'in Excel, then use the reporting skill in PowerPoint.',
+           'Maintenance_Summary with a failure-mode Pareto, Assignment_Proposals, and an improved Northstar_Initial_Update.pptx.',
+           [*skill_steps(['water-service-pareto', 'maintenance-reporting'], '@'),
             (f'Build the summary. Open data/Northstar_Work_Orders.xlsx, select New chat, choose Allow editing and send the prompt. '
              f'{DONE} You should see {E["total"]} total, {E["closed"]} closed, {E["cancelled"]} cancelled, {E["backlog"]} backlog, '
              f'{E["overdue"]} overdue, on-time {ONTIME} and cost S${E["cost"]:,.2f}.',
              'EXCEL - ALLOW EDITING:\n@maintenance-reporting Build a Maintenance_Summary sheet for 30 September 2026 with the total, '
              'closed, cancelled, backlog, overdue, on-time closure rate and cost.'),
+            (f'Add the failure-mode Pareto. Send the prompt and select Done. The chart is sorted from highest to lowest: {PARETO_ALL}.',
+             'EXCEL - ALLOW EDITING:\n@water-service-pareto Make a Pareto chart of Failure_Mode for all work orders and place it on '
+             'the Maintenance_Summary sheet, to the right of the numbers.'),
             (f'Suggest owners. Send the prompt and select Done. Assignment_Proposals lists {E["unassigned_backlog"]} jobs, each marked '
              'as a proposal, and Assigned_To on Work_Orders is unchanged. Save the workbook.',
              'EXCEL - ALLOW EDITING:\n@maintenance-reporting Add an Assignment_Proposals sheet for the backlog jobs with no owner. '
              'Suggest an owner from tblTechnicians with the same job category and free hours, and mark each one as a proposal. '
              'Don’t change Assigned_To.'),
-            ('Test it with no data. Open a new blank workbook, send the prompt and read the reply: a good skill asks you for the data '
-             'instead of making up numbers. Close the blank workbook without saving.',
-             'EXCEL - CHAT ONLY:\n@maintenance-reporting Prepare my maintenance report for last month.'),
             ('Use the skill in PowerPoint. Open data/Northstar_Initial_Update.pptx. In Copilot select + > Choose skills > Manage '
              'skills > Add skill and upload data/templates/maintenance-reporting/SKILL.md, then send the prompt. Every number must '
              'stay the same.',
              'POWERPOINT COPILOT:\n@maintenance-reporting Improve these 4 slides with clearer headlines and less text. Keep every '
              'number and keep 4 slides.')],
            [('Summary', f'{E["total"]} total; {E["backlog"]} backlog; {E["overdue"]} overdue; {ONTIME}; S${E["cost"]:,.2f}.'),
+            ('Pareto', PARETO_ALL + '.'),
             ('Proposals', f'{E["unassigned_backlog"]} proposals; Assigned_To unchanged.'),
-            ('No data', 'The skill asks for data instead of making up numbers.'),
             ('PowerPoint', '4 slides, same numbers, clearer headlines.')],
-           challenge='Improve SKILL.md to v2 (for example a clearer rule for missing data), upload it again and repeat the no-data test.'),
+           challenge='Open a new blank workbook and ask @maintenance-reporting for last month’s report: a good skill asks for the data instead of inventing numbers.',
+           title='Build a Maintenance Report with Two Skills'),
     7: lab('Install the water-service-dashboard skill and use it to build an interactive dashboard.',
            'Northstar_Dashboard.xlsx with six KPI tiles, three charts and slicers.',
            [*skill_steps('water-service-dashboard', '@wat'),
@@ -200,7 +218,8 @@ def _labs(thread):
            [('Tiles', f'{E["total"]}; {E["backlog"]}; {E["overdue"]}; {E["closed"]}; {E["on_time_rate"]:.1%}; S${E["cost"]:,.2f}.'),
             ('Charts', 'Status, category and site charts each add up to 120; titles state a finding.'),
             ('Formulas', 'No typed-in numbers; the source data is unchanged.')],
-           challenge='Ask Microsoft 365 Copilot on the web to write your own dashboard SKILL.md and compare it with the supplied one.'),
+           challenge='Ask Microsoft 365 Copilot on the web to write your own dashboard SKILL.md and compare it with the supplied one.',
+           title='Build an Interactive Dashboard with a Custom Skill'),
     8: lab('Test a finished dashboard: filter it with slicers, check an empty result, then add two rows and watch every number update.',
            'Northstar_Refresh_Test.xlsx with the dashboard updated to 122 work orders.',
            [('Open the dashboard. Open data/Northstar_Work_Orders.xlsx in Excel and go to the Dashboard sheet.',
@@ -314,6 +333,64 @@ def _labs(thread):
     }
 
 
+DESIGN_PROMPT = ('MICROSOFT 365 COPILOT WEB:\nWrite a complete SKILL.md for a Copilot in PowerPoint skill named northstar-deck-design. '
+    'Start with --- front matter: name: northstar-deck-design and description: Use when I ask to make a presentation look '
+    'professional or apply the Northstar brand. Then write numbered steps: 1) Keep every slide, number and fact; change only the '
+    'design. 2) Fonts: Segoe UI Semibold for titles, Segoe UI for body text. 3) Colours: navy #1F4E79, blue #2E75B6, teal #2A9D8F, '
+    'light grey #F2F4F7 cards, white background. 4) Slide 1: navy background, large white title, teal subtitle. 5) Every other '
+    'slide: a navy header bar with a white title and a thin teal line under it. 6) Turn key numbers into KPI cards with a big '
+    'bold number and a short label. 7) At most 4 short bullets per slide, with plenty of white space. 8) A footer on every slide '
+    'except slide 1: Northstar Water Services | 30 September 2026, and the slide number. 9) Check every slide and list anything '
+    'you could not fix. Return only the SKILL.md text, starting with ---, without code fences.')
+
+
+def design_lab(factory):
+    """New Lab 7: create a PowerPoint skill that turns a plain deck into a professional, branded one."""
+    a = factory(7, 2, 'Create a PowerPoint Design Skill: From Plain to Professional', 'PowerPoint Design Skill', 30,
+        'Turn a plain, unbranded PowerPoint deck into a professional Northstar deck by creating a design skill once and calling it with @.',
+        'Northstar_Professional_Update.pptx, redesigned by your own northstar-deck-design skill.',
+        [('Look at the plain deck. Open data/Northstar_Plain_Update.pptx in PowerPoint and save it as '
+          'Northstar_Professional_Update.pptx. The numbers are right, but the slides are plain: black text, no header, no branding.',
+          'Slides : 6\nLook : plain black text, no colours, no header, no footer'),
+         ('Write the skill. Go to https://copilot.cloud.microsoft, start a new chat, paste the prompt and send it. Read the reply: it '
+          'starts with --- and the name northstar-deck-design. Copy the whole reply.', DESIGN_PROMPT),
+         ('Add the skill to PowerPoint. In PowerPoint open Copilot and select + > Choose skills > Manage skills > Add skill. Paste the '
+          'reply into the form and select Add. Short of time? Open data/templates/northstar-deck-design/SKILL.md in Notepad or '
+          'TextEdit, copy all of it and paste that instead.',
+          'Check : northstar-deck-design appears when you type @nor'),
+         ('Transform the deck. Send the prompt and watch every slide change: a navy title slide, a header bar on each slide, KPI '
+          'cards for the numbers and a footer.',
+          'POWERPOINT COPILOT:\n@northstar-deck-design Redesign this whole deck in the Northstar style. Keep every slide and every number.'),
+         (f'Check the result. Send the prompt and fix anything it lists. The numbers must not change: {KEY}, cost '
+          f'S${E["cost"]:,.2f}. Save the deck.',
+          'POWERPOINT COPILOT:\n@northstar-deck-design Check every slide against the skill. List any slide missing the header bar, '
+          'footer, Northstar fonts or colours, and fix it. Do not change any number.')],
+        [('Skill', 'northstar-deck-design added in PowerPoint and called with @.'),
+         ('Design', 'Navy title slide; header bar, KPI cards and footer on the other slides; Segoe UI fonts.'),
+         ('Facts unchanged', f'6 slides; {KEY}; S${E["cost"]:,.2f}.')])
+    a.update(key='design', services='Microsoft 365 Copilot · PowerPoint · Microsoft 365 Copilot web', data_files=['data/Northstar_Plain_Update.pptx'],
+             extra_files=[], sample_prompts=[], checkpoint='', troubleshooting=TROUBLE,
+             challenge='Add a reference file such as brand-colours.md to the skill folder in OneDrive, mention it in SKILL.md, and apply the skill to a plain deck of your own.')
+    a['prerequisites'] = [a['prerequisites'][0], FILES]
+    return a
+
+
+# One day, 375 lab minutes across 13 labs (Lab 7 is the new PowerPoint design-skill lab).
+DURATIONS = {1: 30, 2: 30, 3: 20, 4: 20, 5: 30, 6: 30, 7: 30, 8: 35, 9: 25, 10: 25, 11: 25, 12: 30, 13: 45}
+
+
+def insert_design_lab(labs, factory):
+    for a in labs:
+        a.setdefault('key', a['num'])
+        if a['num'] >= 7:
+            a['num'] += 1
+    labs.insert(6, design_lab(factory))
+    for a in labs:
+        a['duration'] = DURATIONS[a['num']]
+    assert [a['num'] for a in labs] == list(range(1, 14)) and sum(DURATIONS.values()) == 375
+    return labs
+
+
 def apply(labs, thread, rules_prompt, agent_instructions):
     spec = _labs(thread)
     for a in labs:
@@ -335,6 +412,7 @@ def apply(labs, thread, rules_prompt, agent_instructions):
         a['test'] = '; '.join(k + ': ' + v for k, v in s['checks'])
         a['sample_prompts'] = []
         a['troubleshooting'] = TROUBLE
+        a['checkpoint'] = ''
         a['prerequisites'] = [a['prerequisites'][0]] + ([FILES] if a['num'] != 12 else []) + s['extra_pre']
         if s['challenge']:
             a['challenge'] = s['challenge']

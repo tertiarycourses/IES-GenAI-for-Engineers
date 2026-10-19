@@ -50,7 +50,7 @@ LABS = os.path.join(REPO, "labs")
 os.makedirs(LABS, exist_ok=True)
 
 # Labs whose steps include prompts for a web chat (Copilot on the web) as well as for Excel
-WEB_LABS = set(range(1, 13))
+WEB_LABS = set(range(1, 14))
 
 # ---- collect labs from every data_domainN.py, in domain order
 labs = []
@@ -331,8 +331,9 @@ import northstar_dashboard
 written=[]
 for lab in labs:
     n=lab['num'];fname=folder_name(lab);folder=Path(LABS)/fname
-    mock_data.build_lab_data(n,folder)
-    if n==7:mock_data.workbook(folder/'data/templates/Northstar_Dashboard_Starter.xlsx',dashboard=True,blank=True,rules=True)
+    key=lab.get('key',n)  # data is keyed by the lab's original number (labs after the new Lab 7 shifted by one)
+    mock_data.build_lab_data(key,folder)
+    if key==7:mock_data.workbook(folder/'data/templates/Northstar_Dashboard_Starter.xlsx',dashboard=True,blank=True,rules=True)
     for rel,body,_ in lab.get('extra_files',[]):
         p=folder/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(body)
     log=[(f'Step {i}',cmd.split(':',1)[0],cmd) for i,(_,cmd) in enumerate(lab['steps'],1) if cmd]

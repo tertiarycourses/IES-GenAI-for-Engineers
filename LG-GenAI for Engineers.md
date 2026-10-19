@@ -21,37 +21,40 @@
   - [Lab 3 · Personalisation — Personalise Copilot in Excel for Consistent Service Reports](#lab-3--personalisation--personalise-copilot-in-excel-for-consistent-service-reports)
   - [Visible Workbook .Rules and Formula Results](#visible-workbook-rules-and-formula-results)
   - [Lab 4 · Workbook .Rules — Create and Test Workbook .Rules for Water Service Reporting](#lab-4--workbook-rules--create-and-test-workbook-rules-for-water-service-reporting)
+  - [What Is a Skill? Inside SKILL.md](#what-is-a-skill-inside-skillmd)
   - [Built-in and Custom Skills](#built-in-and-custom-skills)
-  - [Pareto Skill: Counts, Sorting and Cumulative Share](#pareto-skill-counts-sorting-and-cumulative-share)
-  - [Lab 5 · Custom Pareto Chart Skill — Use the Built-in Chart Skill, then Create a Custom Pareto Skill](#lab-5--custom-pareto-chart-skill--use-the-built-in-chart-skill-then-create-a-custom-pareto-skill)
+  - [Pareto Skill: Find the Vital Few Failure Modes](#pareto-skill-find-the-vital-few-failure-modes)
+  - [Lab 5 · Custom Pareto Chart Skill — Find the Vital Few Failure Modes with a Pareto Skill](#lab-5--custom-pareto-chart-skill--find-the-vital-few-failure-modes-with-a-pareto-skill)
   - [Skills, Prompts and Workbook Rules](#skills-prompts-and-workbook-rules)
   - [Custom Skill Discovery in Each App](#custom-skill-discovery-in-each-app)
   - [Repeatability and Safe Skill Reruns](#repeatability-and-safe-skill-reruns)
   - [Assignment Proposals and Capacity Evidence](#assignment-proposals-and-capacity-evidence)
-  - [Lab 6 · Reporting Skill — Create, Use and Improve the Maintenance Reporting Skill](#lab-6--reporting-skill--create-use-and-improve-the-maintenance-reporting-skill)
+  - [Lab 6 · Reporting Skill — Build a Maintenance Report with Two Skills](#lab-6--reporting-skill--build-a-maintenance-report-with-two-skills)
+  - [PowerPoint Design Skill: From Plain to Professional](#powerpoint-design-skill-from-plain-to-professional)
+  - [Lab 7 · PowerPoint Design Skill — Create a PowerPoint Design Skill: From Plain to Professional](#lab-7--powerpoint-design-skill--create-a-powerpoint-design-skill-from-plain-to-professional)
   - [Topic 2 Recap - Mapped to Learning Outcomes](#topic-2-recap---mapped-to-learning-outcomes)
 - [Topic 3 — Interactive Dashboards with Custom Skills](#topic-3--interactive-dashboards-with-custom-skills)
   - [Custom Dashboard Skill as a Reusable Contract](#custom-dashboard-skill-as-a-reusable-contract)
   - [Dashboard Measures and Denominators](#dashboard-measures-and-denominators)
   - [Visual Dashboard Design for Maintenance](#visual-dashboard-design-for-maintenance)
-  - [Lab 7 · Custom Dashboard Skill — Create and Apply a Custom Interactive Dashboard Skill](#lab-7--custom-dashboard-skill--create-and-apply-a-custom-interactive-dashboard-skill)
+  - [Lab 8 · Custom Dashboard Skill — Build an Interactive Dashboard with a Custom Skill](#lab-8--custom-dashboard-skill--build-an-interactive-dashboard-with-a-custom-skill)
   - [One Filter Scope for Every Visual](#one-filter-scope-for-every-visual)
   - [Refresh Tests and Static Snapshots](#refresh-tests-and-static-snapshots)
-  - [Lab 8 · Interactive Filters and Refresh — Test Dashboard Filters and a Data Refresh](#lab-8--interactive-filters-and-refresh--test-dashboard-filters-and-a-data-refresh)
+  - [Lab 9 · Interactive Filters and Refresh — Test Dashboard Filters and a Data Refresh](#lab-9--interactive-filters-and-refresh--test-dashboard-filters-and-a-data-refresh)
   - [Topic 3 Recap - Mapped to Learning Outcomes](#topic-3-recap---mapped-to-learning-outcomes)
 - [Topic 4 — Create a Professional Presentation with PowerPoint Copilot](#topic-4--create-a-professional-presentation-with-powerpoint-copilot)
   - [From Dashboard Evidence to a Decision Story](#from-dashboard-evidence-to-a-decision-story)
   - [Charts, Templates and Source Provenance](#charts-templates-and-source-provenance)
-  - [Lab 9 · Dashboard to presentation — Turn Dashboard Evidence into a Management Story](#lab-9--dashboard-to-presentation--turn-dashboard-evidence-into-a-management-story)
+  - [Lab 10 · Dashboard to presentation — Turn Dashboard Evidence into a Management Story](#lab-10--dashboard-to-presentation--turn-dashboard-evidence-into-a-management-story)
   - [Professional Refinement and Rehearsal](#professional-refinement-and-rehearsal)
   - [Reviewed Handoff and Artifact Lifecycle](#reviewed-handoff-and-artifact-lifecycle)
-  - [Lab 10 · Professional handoff — Refine and Present the Maintenance Decision Deck](#lab-10--professional-handoff--refine-and-present-the-maintenance-decision-deck)
+  - [Lab 11 · Professional handoff — Refine and Present the Maintenance Decision Deck](#lab-11--professional-handoff--refine-and-present-the-maintenance-decision-deck)
   - [Topic 4 Recap - Mapped to Learning Outcomes](#topic-4-recap---mapped-to-learning-outcomes)
 - [Topic 5 — Copilot Agents and Mini Capstone](#topic-5--copilot-agents-and-mini-capstone)
   - [What Is Agent Builder?](#what-is-agent-builder)
-  - [Lab 11 · Copilot Agent Builder — Build a Work-Order Agent with Agent Builder](#lab-11--copilot-agent-builder--build-a-work-order-agent-with-agent-builder)
+  - [Lab 12 · Copilot Agent Builder — Build a Work-Order Agent with Agent Builder](#lab-12--copilot-agent-builder--build-a-work-order-agent-with-agent-builder)
   - [Mini Capstone: From Your Data to a Decision](#mini-capstone-from-your-data-to-a-decision)
-  - [Lab 12 · Mini Capstone — Mini Capstone: Group Dashboard and Decision Deck](#lab-12--mini-capstone--mini-capstone-group-dashboard-and-decision-deck)
+  - [Lab 13 · Mini Capstone — Mini Capstone: Group Dashboard and Decision Deck](#lab-13--mini-capstone--mini-capstone-group-dashboard-and-decision-deck)
   - [Topic 5 Recap - Mapped to Learning Outcomes](#topic-5-recap---mapped-to-learning-outcomes)
 - [Closing: 5 Principles of AI Security](#closing-5-principles-of-ai-security)
 - [Next Steps](#next-steps)
@@ -62,7 +65,7 @@
 
 This masterclass follows Northstar Water Services, a fictional water-pipe maintenance and service company, from a dirty service-work-order export to a reviewed management decision pack. Work-order IDs, categories, sites, current assignments and status definitions stay consistent across every app. The purpose is to make evidence travel accurately through the workflow, while using Copilot for drafting, analysis, reusable instructions and visual communication.
 
-Study each topic’s concepts before its connected labs. Topic 2 has four labs; Topics 1, 3 and 4 have two each; Topic 5 has the agent lab and the group mini capstone. Each lab has its own instruction PDF and a lean data folder: the lab workbook and only the templates that lab uses. Copy-ready prompts are on the linked web page, step by step. Every lab is self-contained: work directly on the files in its own data folder, so you can start any lab without finishing the one before. The detailed procedures are here and in labs; the slides teach concepts and show outcomes.
+Study each topic’s concepts before its connected labs. Topic 2 has five labs; Topics 1, 3 and 4 have two each; Topic 5 has the agent lab and the group mini capstone. Each lab has its own instruction PDF and a lean data folder: the lab workbook and only the templates that lab uses. Copy-ready prompts are on the linked web page, step by step. Every lab is self-contained: work directly on the files in its own data folder, so you can start any lab without finishing the one before. The detailed procedures are here and in labs; the slides teach concepts and show outcomes.
 
 
 ## Course Learning Outcomes
@@ -733,7 +736,40 @@ Which evidence proves the output is correct, and which decision still needs a pe
 
 ---
 
-Concepts for Lab 5: Built-in and Custom Skills, Pareto Skill: Counts, Sorting and Cumulative Share.
+Concepts for Lab 5: What Is a Skill? Inside SKILL.md, Built-in and Custom Skills, Pareto Skill: Find the Vital Few Failure Modes.
+
+
+### What Is a Skill? Inside SKILL.md
+
+A skill is a folder with a SKILL.md file. The file starts with metadata between two --- lines: a name, which must match the folder name, and a description that says when to use the skill. The body below it holds the steps and procedure Copilot follows. The folder can also hold reference files, such as a template, an example or a data list, that the steps point to.
+
+Skills are triggered on demand: Copilot reads a skill only when you call it with @name or your request matches its description, so skills do not crowd every chat. Write a method once, install it once, and it runs the same way in every file. Excel and PowerPoint both use this format.
+
+**How it works**
+
+- Name the skill and describe when to use it.
+- Write the steps, rules and checks.
+- Add reference files to the folder if needed.
+- Install it, then call it with @name.
+
+**Worked example**
+
+- name: water-service-pareto (the same as its folder name).
+- description: Use when I ask for a Pareto chart or failure-mode analysis.
+- Steps: count, sort high to low, add Cumulative %, list the vital few.
+
+**Decision guide**
+
+| Use when | Avoid when |
+|---|---|
+| You repeat the same method in many files. | The task is a one-off question a single prompt can answer. |
+
+**Authoritative references**
+
+- https://support.microsoft.com/en-us/excel/copilot/copilot-in-excel-skills
+- https://support.microsoft.com/en-us/powerpoint/copilot/copilot-in-powerpoint-skills
+
+---
 
 
 ### Built-in and Custom Skills
@@ -751,9 +787,9 @@ Start with a built-in skill when the task is generic, such as making a clear cha
 
 **Worked example**
 
-- @chart-design draws a clean overdue-by-category bar chart.
-- It does not know the overdue population or Pareto tie order.
-- water-service-pareto adds the cumulative line and named output.
+- @chart-design draws a clean bar chart of work orders by failure mode.
+- It does not add the cumulative line or the vital-few list.
+- water-service-pareto adds both, the same way every time.
 
 **Decision guide**
 
@@ -769,30 +805,30 @@ Start with a built-in skill when the task is generic, such as making a clear cha
 ---
 
 
-### Pareto Skill: Counts, Sorting and Cumulative Share
+### Pareto Skill: Find the Vital Few Failure Modes
 
-A Pareto contribution chart orders category counts from largest to smallest and adds a cumulative-percentage line. The population here is overdue backlog, not all work orders: nonterminal statuses with Due_Date strictly before the reporting date. Alphabetical tie sorting keeps equal counts in a repeatable order.
+A Pareto chart sorts categories from highest to lowest count and adds a cumulative-percentage line. Engineers use it to find the vital few failure modes or root-cause categories that account for most of the work, so improvement effort goes where it matters most. Here each Northstar work order records its Failure_Mode.
 
-The Skill turns a recurring grouping-and-charting method into reusable instructions. Counts and cumulative formulas must reconcile to the same eligible source rows. A right-hand percentage axis from zero to 100% prevents interpreting the line as another count series. Category concentration describes contribution rather than establishing root cause.
+The water-service-pareto Skill turns the method into reusable instructions: count, sort high to low, add Share % and Cumulative %, chart it and list the categories needed to reach 80%. Counts must reconcile to the source rows. A Pareto shows where work concentrates; the engineer still confirms the root cause on site before acting.
 
 **How it works**
 
-- Define source, population, date and grouping.
-- Count and sort with stable ties.
-- Calculate cumulative count / eligible total.
-- Build and verify an editable dual-axis chart.
+- Choose the table and the column to analyse.
+- Count and sort from highest to lowest.
+- Add Share % and Cumulative %.
+- List the vital few that reach 80%.
 
 **Worked example**
 
-- Pump 18; Meter 12; Leak 8; Valve 8; Pipe 4: total 50.
-- Cumulative percentages are 36%, 60%, 76%, 92%, 100%.
-- Four of five categories first reach 80%; do not force an 80/20 conclusion.
+- All 120 work orders: Corrosion 42, Joint seal leak 30, Valve seat wear 22.
+- These 3 of 8 failure modes cause 78% of the work.
+- Overdue jobs only: Joint seal leak moves to the top (14 of 50).
 
 **Decision guide**
 
 | Use when | Avoid when |
 |---|---|
-| The count population and grouping are defined and auditable. | Categories are being called causes or zero-total shares treated as measured 0%. |
+| You need to decide which failure modes to tackle first. | A count is treated as a proven cause without checking on site. |
 
 **Authoritative references**
 
@@ -801,17 +837,17 @@ The Skill turns a recurring grouping-and-charting method into reusable instructi
 ---
 
 
-### Lab 5 · Custom Pareto Chart Skill — Use the Built-in Chart Skill, then Create a Custom Pareto Skill
+### Lab 5 · Custom Pareto Chart Skill — Find the Vital Few Failure Modes with a Pareto Skill
 
 Learning outcome: LO2: distinguish account Personalisation, workbook .Rules and reusable Skills; configure, apply and verify each using water-service evidence..
 
-Goal: Make a chart with Excel’s built-in @chart-design skill, then install a custom Pareto skill and use it twice.
+Goal: Engineers use Pareto charts to find the vital few failure modes behind most of the work. Make a chart with Excel’s built-in @chart-design skill, then install a custom Pareto skill that sorts failure modes from highest to lowest.
 
-Make a chart with Excel’s built-in @chart-design skill, then install a custom Pareto skill and use it twice.
+Engineers use Pareto charts to find the vital few failure modes behind most of the work. Make a chart with Excel’s built-in @chart-design skill, then install a custom Pareto skill that sorts failure modes from highest to lowest.
 
 **What you'll build**
 
-A ChartDesign_Demo sheet, a Pareto_Job_Category chart and a Pareto_Site chart.   (Tools: Excel Copilot · Microsoft 365 Copilot web · OneDrive (Skills folder only).)
+A ChartDesign_Demo sheet, a Pareto_Failure_Mode chart for all work orders and one for the overdue jobs.   (Tools: Excel Copilot · Microsoft 365 Copilot web · OneDrive (Skills folder only).)
 
 **Prerequisites**
 
@@ -827,11 +863,11 @@ A ChartDesign_Demo sheet, a Pareto_Job_Category chart and a Pareto_Site chart.  
    Turn on : chart-design (under Visualization)
    ```
 
-2. Use it. Choose Allow editing and send the prompt. Select Done to keep the change, or Undo to reverse it.
+2. Use it. Choose Allow editing and send the prompt. Select Done to keep the change, or Undo to reverse it. The bars run from highest to lowest, starting with Corrosion.
 
    ```text
    EXCEL - ALLOW EDITING:
-   @chart-design Make a bar chart of the overdue work orders by Job_Category on a new sheet named ChartDesign_Demo, biggest bar first. Overdue means not Closed or Cancelled and due before the date in Control!B2.
+   @chart-design Make a bar chart of the number of work orders for each Failure_Mode on a new sheet named ChartDesign_Demo, sorted from highest to lowest.
    ```
 
 3. Upload the skill to OneDrive. In Excel open Copilot and select Settings (...) > Manage plugins & skills > Custom skills. Turn Custom skills on and select Add in OneDrive (or Create OneDrive folder, then Open skills folder). OneDrive opens at your skills folder. Select Create or upload > Folder upload and choose the water-service-pareto folder in this lab’s data/templates folder.
@@ -840,24 +876,24 @@ A ChartDesign_Demo sheet, a Pareto_Job_Category chart and a Pareto_Site chart.  
    OneDrive : Documents > Copilot > Microsoft Excel > skills > water-service-pareto > SKILL.md
    ```
 
-4. Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-pareto on. Close the dialog and type @wat in the Copilot prompt box: water-service-pareto should appear. If it does not, wait a minute and select Refresh again.
+4. Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-pareto on. Close the dialog and type @wat in the Copilot prompt box: water-service-pareto should appear. If not, wait a minute and select Refresh again.
 
    ```text
-   Check : water-service-pareto appears when you type @wat
+   Check : water-service-pareto appears when you type @
    ```
 
-5. Make the Pareto chart. Select New chat, choose Allow editing, send the prompt and select Done. You should see 50 overdue jobs: Pump Service 18, Meter Service 12, Leak Repair 8, Valve Repair 8, Pipe Replacement 4, and a line rising 36%, 60%, 76%, 92%, 100%.
+5. Find the vital few. Select New chat, choose Allow editing, send the prompt and select Done. You should see Corrosion 42, Joint seal leak 30, Valve seat wear 22, Pump bearing wear 10, Pressure surge 8, Meter fault 4, Blockage 2, Third-party damage 2. The top 3 failure modes cause 78% of all work orders.
 
    ```text
    EXCEL - ALLOW EDITING:
-   @water-service-pareto Make a Pareto chart of the overdue work orders by Job_Category.
+   @water-service-pareto Make a Pareto chart of Failure_Mode for all work orders in tblWorkOrders.
    ```
 
-6. Use the skill again. Send the prompt and select Done. Pareto_Site also adds up to 50.
+6. Look at the overdue jobs. Send the prompt and select Done. Among the 50 overdue jobs the order changes: Joint seal leak 14, Corrosion 13, Valve seat wear 8, Pump bearing wear 7, Pressure surge 3, Blockage 2, Meter fault 2, Third-party damage 1. A Pareto shows where to look first; confirm the root cause on site.
 
    ```text
    EXCEL - ALLOW EDITING:
-   @water-service-pareto Now make the same Pareto chart by Site.
+   @water-service-pareto Now make the same Pareto chart for the overdue work orders only.
    ```
 
 
@@ -865,9 +901,9 @@ A ChartDesign_Demo sheet, a Pareto_Job_Category chart and a Pareto_Site chart.  
 
 | Check | Expected result |
 |---|---|
-| Built-in skill | chart-design turned on; ChartDesign_Demo created. |
-| Pareto by category | 50 jobs: 18, 12, 8, 8, 4; line 36%, 60%, 76%, 92%, 100%. |
-| Pareto by site | Pareto_Site also adds up to 50; the source data is unchanged. |
+| Built-in skill | chart-design turned on; ChartDesign_Demo sorted highest to lowest. |
+| All work orders | Corrosion 42, Joint seal leak 30, Valve seat wear 22, Pump bearing wear 10, Pressure surge 8, Meter fault 4, Blockage 2, Third-party damage 2; top 3 = 78%. |
+| Overdue only | Joint seal leak 14, Corrosion 13, Valve seat wear 8, Pump bearing wear 7, Pressure surge 3, Blockage 2, Meter fault 2, Third-party damage 1. |
 
 **Troubleshooting**
 
@@ -1024,17 +1060,17 @@ The same skill can improve Excel analysis and PowerPoint wording by preserving t
 ---
 
 
-### Lab 6 · Reporting Skill — Create, Use and Improve the Maintenance Reporting Skill
+### Lab 6 · Reporting Skill — Build a Maintenance Report with Two Skills
 
 Learning outcome: LO2: distinguish account Personalisation, workbook .Rules and reusable Skills; configure, apply and verify each using water-service evidence..
 
-Goal: Install the maintenance-reporting skill and use it in Excel and PowerPoint.
+Goal: Install two skills, water-service-pareto and maintenance-reporting, and use them together to build a maintenance report in Excel, then use the reporting skill in PowerPoint.
 
-Install the maintenance-reporting skill and use it in Excel and PowerPoint.
+Install two skills, water-service-pareto and maintenance-reporting, and use them together to build a maintenance report in Excel, then use the reporting skill in PowerPoint.
 
 **What you'll build**
 
-Maintenance_Summary and Assignment_Proposals sheets, and an improved Northstar_Initial_Update.pptx.   (Tools: Excel and PowerPoint Copilot · Microsoft 365 Copilot web · OneDrive (Skills folder only).)
+Maintenance_Summary with a failure-mode Pareto, Assignment_Proposals, and an improved Northstar_Initial_Update.pptx.   (Tools: Excel and PowerPoint Copilot · Microsoft 365 Copilot web · OneDrive (Skills folder only).)
 
 **Prerequisites**
 
@@ -1043,16 +1079,18 @@ Maintenance_Summary and Assignment_Proposals sheets, and an improved Northstar_I
 
 **Step-by-step**
 
-1. Upload the skill to OneDrive. In Excel open Copilot and select Settings (...) > Manage plugins & skills > Custom skills. Turn Custom skills on and select Add in OneDrive (or Create OneDrive folder, then Open skills folder). OneDrive opens at your skills folder. Select Create or upload > Folder upload and choose the maintenance-reporting folder in this lab’s data/templates folder.
+1. Upload the skill to OneDrive. In Excel open Copilot and select Settings (...) > Manage plugins & skills > Custom skills. Turn Custom skills on and select Add in OneDrive (or Create OneDrive folder, then Open skills folder). OneDrive opens at your skills folder. Select Create or upload > Folder upload and choose the water-service-pareto and maintenance-reporting folders in this lab’s data/templates folder.
 
    ```text
+   OneDrive : Documents > Copilot > Microsoft Excel > skills > water-service-pareto > SKILL.md
    OneDrive : Documents > Copilot > Microsoft Excel > skills > maintenance-reporting > SKILL.md
    ```
 
-2. Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn maintenance-reporting on. Close the dialog and type @main in the Copilot prompt box: maintenance-reporting should appear. If it does not, wait a minute and select Refresh again.
+2. Turn the skills on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-pareto and maintenance-reporting on. Close the dialog and type @ in the Copilot prompt box: water-service-pareto and maintenance-reporting should appear. If not, wait a minute and select Refresh again.
 
    ```text
-   Check : maintenance-reporting appears when you type @main
+   Check : water-service-pareto appears when you type @
+   Check : maintenance-reporting appears when you type @
    ```
 
 3. Build the summary. Open data/Northstar_Work_Orders.xlsx, select New chat, choose Allow editing and send the prompt. Select Done to keep the change, or Undo to reverse it. You should see 120 total, 48 closed, 12 cancelled, 60 backlog, 50 overdue, on-time 30/48 = 62.5% and cost S$35,827.50.
@@ -1062,18 +1100,18 @@ Maintenance_Summary and Assignment_Proposals sheets, and an improved Northstar_I
    @maintenance-reporting Build a Maintenance_Summary sheet for 30 September 2026 with the total, closed, cancelled, backlog, overdue, on-time closure rate and cost.
    ```
 
-4. Suggest owners. Send the prompt and select Done. Assignment_Proposals lists 6 jobs, each marked as a proposal, and Assigned_To on Work_Orders is unchanged. Save the workbook.
+4. Add the failure-mode Pareto. Send the prompt and select Done. The chart is sorted from highest to lowest: Corrosion 42, Joint seal leak 30, Valve seat wear 22, Pump bearing wear 10, Pressure surge 8, Meter fault 4, Blockage 2, Third-party damage 2.
+
+   ```text
+   EXCEL - ALLOW EDITING:
+   @water-service-pareto Make a Pareto chart of Failure_Mode for all work orders and place it on the Maintenance_Summary sheet, to the right of the numbers.
+   ```
+
+5. Suggest owners. Send the prompt and select Done. Assignment_Proposals lists 6 jobs, each marked as a proposal, and Assigned_To on Work_Orders is unchanged. Save the workbook.
 
    ```text
    EXCEL - ALLOW EDITING:
    @maintenance-reporting Add an Assignment_Proposals sheet for the backlog jobs with no owner. Suggest an owner from tblTechnicians with the same job category and free hours, and mark each one as a proposal. Don’t change Assigned_To.
-   ```
-
-5. Test it with no data. Open a new blank workbook, send the prompt and read the reply: a good skill asks you for the data instead of making up numbers. Close the blank workbook without saving.
-
-   ```text
-   EXCEL - CHAT ONLY:
-   @maintenance-reporting Prepare my maintenance report for last month.
    ```
 
 6. Use the skill in PowerPoint. Open data/Northstar_Initial_Update.pptx. In Copilot select + > Choose skills > Manage skills > Add skill and upload data/templates/maintenance-reporting/SKILL.md, then send the prompt. Every number must stay the same.
@@ -1089,8 +1127,8 @@ Maintenance_Summary and Assignment_Proposals sheets, and an improved Northstar_I
 | Check | Expected result |
 |---|---|
 | Summary | 120 total; 60 backlog; 50 overdue; 30/48 = 62.5%; S$35,827.50. |
+| Pareto | Corrosion 42, Joint seal leak 30, Valve seat wear 22, Pump bearing wear 10, Pressure surge 8, Meter fault 4, Blockage 2, Third-party damage 2. |
 | Proposals | 6 proposals; Assigned_To unchanged. |
-| No data | The skill asks for data instead of making up numbers. |
 | PowerPoint | 4 slides, same numbers, clearer headlines. |
 
 **Troubleshooting**
@@ -1103,13 +1141,130 @@ Maintenance_Summary and Assignment_Proposals sheets, and an improved Northstar_I
 
 **Challenge**
 
-Improve SKILL.md to v2 (for example a clearer rule for missing data), upload it again and repeat the no-data test.
+Open a new blank workbook and ask @maintenance-reporting for last month’s report: a good skill asks for the data instead of inventing numbers.
 
 **Reflection**
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
 > **Note:** The lab folder labs/lab-06-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/maintenance-reporting/SKILL.md (Reviewed reporting Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+
+---
+
+Concepts for Lab 7: PowerPoint Design Skill: From Plain to Professional.
+
+
+### PowerPoint Design Skill: From Plain to Professional
+
+A design skill holds your brand rules, fonts, colours, header bar, footer, KPI cards and spacing, as steps Copilot in PowerPoint follows. Called on a plain deck, it redesigns every slide the same way while keeping every slide, number and fact.
+
+Most decks start plain: black text, no header, no branding. Restyling slide by slide is slow and inconsistent. A design skill makes a professional look one prompt away and the same for every deck the team produces.
+
+**How it works**
+
+- Write the brand rules as a SKILL.md.
+- Add it with + > Choose skills > Manage skills > Add skill.
+- Call it on a plain deck.
+- Check every number is unchanged.
+
+**Worked example**
+
+- Title slide: navy background, white title, teal subtitle.
+- Content slides: navy header bar, KPI cards, footer with slide number.
+- Numbers such as 120 work orders and 50 overdue stay the same.
+
+**Decision guide**
+
+| Use when | Avoid when |
+|---|---|
+| Many decks need the same professional look. | The skill is allowed to change numbers or add facts. |
+
+**Authoritative references**
+
+- https://support.microsoft.com/en-us/powerpoint/copilot/copilot-in-powerpoint-skills
+
+---
+
+
+### Lab 7 · PowerPoint Design Skill — Create a PowerPoint Design Skill: From Plain to Professional
+
+Learning outcome: LO2: create and improve a reusable maintenance skill in Excel and PowerPoint.
+
+Goal: Northstar_Professional_Update.pptx, redesigned by your own northstar-deck-design skill.
+
+Turn a plain, unbranded PowerPoint deck into a professional Northstar deck by creating a design skill once and calling it with @.
+
+**What you'll build**
+
+Northstar_Professional_Update.pptx, redesigned by your own northstar-deck-design skill.   (Tools: Microsoft 365 Copilot · PowerPoint · Microsoft 365 Copilot web.)
+
+**Prerequisites**
+
+- Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
+- Desktop Excel on Windows or Mac. Download this lab folder and open the files straight from its data folder; save any new file in the same folder. All data is fictional.
+
+**Step-by-step**
+
+1. Look at the plain deck. Open data/Northstar_Plain_Update.pptx in PowerPoint and save it as Northstar_Professional_Update.pptx. The numbers are right, but the slides are plain: black text, no header, no branding.
+
+   ```text
+   Slides : 6
+   Look : plain black text, no colours, no header, no footer
+   ```
+
+2. Write the skill. Go to https://copilot.cloud.microsoft, start a new chat, paste the prompt and send it. Read the reply: it starts with --- and the name northstar-deck-design. Copy the whole reply.
+
+   ```text
+   MICROSOFT 365 COPILOT WEB:
+   Write a complete SKILL.md for a Copilot in PowerPoint skill named northstar-deck-design. Start with --- front matter: name: northstar-deck-design and description: Use when I ask to make a presentation look professional or apply the Northstar brand. Then write numbered steps: 1) Keep every slide, number and fact; change only the design. 2) Fonts: Segoe UI Semibold for titles, Segoe UI for body text. 3) Colours: navy #1F4E79, blue #2E75B6, teal #2A9D8F, light grey #F2F4F7 cards, white background. 4) Slide 1: navy background, large white title, teal subtitle. 5) Every other slide: a navy header bar with a white title and a thin teal line under it. 6) Turn key numbers into KPI cards with a big bold number and a short label. 7) At most 4 short bullets per slide, with plenty of white space. 8) A footer on every slide except slide 1: Northstar Water Services | 30 September 2026, and the slide number. 9) Check every slide and list anything you could not fix. Return only the SKILL.md text, starting with ---, without code fences.
+   ```
+
+3. Add the skill to PowerPoint. In PowerPoint open Copilot and select + > Choose skills > Manage skills > Add skill. Paste the reply into the form and select Add. Short of time? Open data/templates/northstar-deck-design/SKILL.md in Notepad or TextEdit, copy all of it and paste that instead.
+
+   ```text
+   Check : northstar-deck-design appears when you type @nor
+   ```
+
+4. Transform the deck. Send the prompt and watch every slide change: a navy title slide, a header bar on each slide, KPI cards for the numbers and a footer.
+
+   ```text
+   POWERPOINT COPILOT:
+   @northstar-deck-design Redesign this whole deck in the Northstar style. Keep every slide and every number.
+   ```
+
+5. Check the result. Send the prompt and fix anything it lists. The numbers must not change: 120 total, 60 backlog, 50 overdue and 6 unassigned, cost S$35,827.50. Save the deck.
+
+   ```text
+   POWERPOINT COPILOT:
+   @northstar-deck-design Check every slide against the skill. List any slide missing the header bar, footer, Northstar fonts or colours, and fix it. Do not change any number.
+   ```
+
+
+**Test it**
+
+| Check | Expected result |
+|---|---|
+| Skill | northstar-deck-design added in PowerPoint and called with @. |
+| Design | Navy title slide; header bar, KPI cards and footer on the other slides; Segoe UI fonts. |
+| Facts unchanged | 6 slides; 120 total, 60 backlog, 50 overdue and 6 unassigned; S$35,827.50. |
+
+**Troubleshooting**
+
+| If this happens | Fix |
+|---|---|
+| Copilot cannot see my file | In Excel, save the file and open Copilot again. In Word, PowerPoint or Outlook, upload the file with + > Upload images and files, and upload it again after you change it. |
+| A number is different from the lab | Clear any slicers or filters, check the table has no extra rows, then ask again in a new chat. |
+| A button or feature is missing | Check you are signed in with your course account and Microsoft 365 is up to date, then tell your trainer. |
+
+**Challenge**
+
+Add a reference file such as brand-colours.md to the skill folder in OneDrive, mention it in SKILL.md, and apply the skill to a plain deck of your own.
+
+**Reflection**
+
+Which evidence proves the output is correct, and which decision still needs a person?
+
+> **Note:** The lab folder labs/lab-07-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Plain_Update.pptx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -1137,7 +1292,7 @@ Create the Skill, build the dashboard and prove interactions
 - Interactions — Dropdowns and slicers filter every tile and chart.
 - Refresh — Known deltas in an isolated test copy.
 
-Concepts for Lab 7: Custom Dashboard Skill as a Reusable Contract, Dashboard Measures and Denominators, Visual Dashboard Design for Maintenance.
+Concepts for Lab 8: Custom Dashboard Skill as a Reusable Contract, Dashboard Measures and Denominators, Visual Dashboard Design for Maintenance.
 
 
 ### Custom Dashboard Skill as a Reusable Contract
@@ -1237,7 +1392,7 @@ Consistent chart scales, short labels, whitespace and limited accents help a man
 ---
 
 
-### Lab 7 · Custom Dashboard Skill — Create and Apply a Custom Interactive Dashboard Skill
+### Lab 8 · Custom Dashboard Skill — Build an Interactive Dashboard with a Custom Skill
 
 Learning outcome: LO3: build and validate an interactive Excel maintenance dashboard.
 
@@ -1262,10 +1417,10 @@ Northstar_Dashboard.xlsx with six KPI tiles, three charts and slicers.   (Tools:
    OneDrive : Documents > Copilot > Microsoft Excel > skills > water-service-dashboard > SKILL.md
    ```
 
-2. Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-dashboard on. Close the dialog and type @wat in the Copilot prompt box: water-service-dashboard should appear. If it does not, wait a minute and select Refresh again.
+2. Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-dashboard on. Close the dialog and type @wat in the Copilot prompt box: water-service-dashboard should appear. If not, wait a minute and select Refresh again.
 
    ```text
-   Check : water-service-dashboard appears when you type @wat
+   Check : water-service-dashboard appears when you type @
    ```
 
 3. Plan the dashboard. Open data/templates/Northstar_Dashboard_Starter.xlsx and save it as Northstar_Dashboard.xlsx. Select New chat, choose Plan and send the prompt. Read Copilot’s plan.
@@ -1321,11 +1476,11 @@ Ask Microsoft 365 Copilot on the web to write your own dashboard SKILL.md and co
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-07-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-dashboard/SKILL.md (Reviewed interactive dashboard Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-08-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-dashboard/SKILL.md (Reviewed interactive dashboard Skill fallback). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
-Concepts for Lab 8: One Filter Scope for Every Visual, Refresh Tests and Static Snapshots.
+Concepts for Lab 9: One Filter Scope for Every Visual, Refresh Tests and Static Snapshots.
 
 
 ### One Filter Scope for Every Visual
@@ -1393,7 +1548,7 @@ A correct dashboard today may fail after the next export if formulas reference a
 ---
 
 
-### Lab 8 · Interactive Filters and Refresh — Test Dashboard Filters and a Data Refresh
+### Lab 9 · Interactive Filters and Refresh — Test Dashboard Filters and a Data Refresh
 
 Learning outcome: LO3: build and validate an interactive Excel maintenance dashboard.
 
@@ -1479,7 +1634,7 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-08-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-dashboard/SKILL.md (Reviewed dashboard Skill for reruns). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-09-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx), plus data/templates/water-service-dashboard/SKILL.md (Reviewed dashboard Skill for reruns). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -1507,7 +1662,7 @@ Continue the dashboard into a decision pack
 - Refinement — Hierarchy, notes and actual rehearsal feedback.
 - Handoff — Reconciled pack and unsent communication.
 
-Concepts for Lab 9: From Dashboard Evidence to a Decision Story, Charts, Templates and Source Provenance.
+Concepts for Lab 10: From Dashboard Evidence to a Decision Story, Charts, Templates and Source Provenance.
 
 
 ### From Dashboard Evidence to a Decision Story
@@ -1577,7 +1732,7 @@ Approximate AI-generated charts can contradict source values while looking plaus
 ---
 
 
-### Lab 9 · Dashboard to presentation — Turn Dashboard Evidence into a Management Story
+### Lab 10 · Dashboard to presentation — Turn Dashboard Evidence into a Management Story
 
 Learning outcome: LO4: turn verified dashboard evidence into a professional management presentation.
 
@@ -1649,11 +1804,11 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-09-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-10-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
-Concepts for Lab 10: Professional Refinement and Rehearsal, Reviewed Handoff and Artifact Lifecycle.
+Concepts for Lab 11: Professional Refinement and Rehearsal, Reviewed Handoff and Artifact Lifecycle.
 
 
 ### Professional Refinement and Rehearsal
@@ -1721,7 +1876,7 @@ Updating one artifact without the others creates inconsistent communication. Rec
 ---
 
 
-### Lab 10 · Professional handoff — Refine and Present the Maintenance Decision Deck
+### Lab 11 · Professional handoff — Refine and Present the Maintenance Decision Deck
 
 Learning outcome: LO4: turn verified dashboard evidence into a professional management presentation.
 
@@ -1798,7 +1953,7 @@ Repeat the task for one different site and explain how the filter scope changes 
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-10-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-11-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/Northstar_Work_Orders.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
@@ -1826,7 +1981,7 @@ Build a work-order agent, then apply the whole workflow in groups
 - Instructions & Skills — Role, rules and a reusable work-order Q&A method.
 - Mini capstone — Groups turn safe data into a dashboard and decision deck.
 
-Concepts for Lab 11: What Is Agent Builder?.
+Concepts for Lab 12: What Is Agent Builder?.
 
 
 ### What Is Agent Builder?
@@ -1863,7 +2018,7 @@ An agent packages a recurring job, here answering work-order questions, so colle
 ---
 
 
-### Lab 11 · Copilot Agent Builder — Build a Work-Order Agent with Agent Builder
+### Lab 12 · Copilot Agent Builder — Build a Work-Order Agent with Agent Builder
 
 Learning outcome: LO5: build a grounded Copilot agent and apply the full workflow in a group capstone.
 
@@ -1934,10 +2089,6 @@ A private Northstar Work Order Assistant agent with two knowledge files.   (Tool
 | Limits | Refuses to approve or change records; phone number UNKNOWN. |
 | Private | The agent is not shared. |
 
-**If you get stuck**
-
-If Agent Builder is unavailable in your tenant, watch the trainer demonstration and practise the same instructions, knowledge and test prompts in Microsoft Copilot Chat with both files attached from this lab’s data/knowledge folder; record the route used.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -1954,11 +2105,11 @@ Add the work-order-qa skill: compress data/templates/work-order-qa into a .zip a
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-11-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/knowledge/Northstar_Service_Handbook.docx, data/knowledge/Northstar_Work_Orders_Clean.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-12-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (data/knowledge/Northstar_Service_Handbook.docx, data/knowledge/Northstar_Work_Orders_Clean.xlsx). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 
-Concepts for Lab 12: Mini Capstone: From Your Data to a Decision.
+Concepts for Lab 13: Mini Capstone: From Your Data to a Decision.
 
 
 ### Mini Capstone: From Your Data to a Decision
@@ -1995,7 +2146,7 @@ Repeating the workflow on unfamiliar data shows what transfers: definitions writ
 ---
 
 
-### Lab 12 · Mini Capstone — Mini Capstone: Group Dashboard and Decision Deck
+### Lab 13 · Mini Capstone — Mini Capstone: Group Dashboard and Decision Deck
 
 Learning outcome: LO5: build a grounded Copilot agent and apply the full workflow in a group capstone.
 
@@ -2065,10 +2216,6 @@ Per group: a dataset, a .Rules sheet, an interactive dashboard, a 5-slide deck a
 | Deck | Numbers match the dashboard; actions labelled proposed. |
 | Showcase | Three minutes, one live slicer click. |
 
-**If you get stuck**
-
-Short of time? Present the Lab 8 Northstar dashboard and your Lab 10 deck instead, and say so in the showcase.
-
 **Troubleshooting**
 
 | If this happens | Fix |
@@ -2085,7 +2232,7 @@ Turn your group’s .Rules and dashboard Skill into a reusable pair your team ca
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> **Note:** The lab folder labs/lab-12-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (Your own mock or sanitised dataset). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
+> **Note:** The lab folder labs/lab-13-*/ holds the instruction PDF with sample prompts, a data folder with the lab workbook and any templates (Your own mock or sanitised dataset). Northstar Water Services is a fictional water-pipe maintenance and service company. All service hubs, staff and work orders are synthetic. Use the fixed reporting date 2026-09-30; missing facts remain UNKNOWN. Proposals do not change real assignments. Training email drafts are never sent.
 
 ---
 

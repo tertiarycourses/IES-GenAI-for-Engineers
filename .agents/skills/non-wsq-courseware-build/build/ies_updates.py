@@ -158,7 +158,8 @@ def apply(labs, factory):
     # v2.4: short, self-contained steps for every lab (each lab works on its own data folder); runs last so it wins.
     import simple_labs
     simple_labs.apply(labs, THREAD, RULES_PROMPT, AGENT_INSTRUCTIONS)
-    assert [a['num'] for a in labs] == list(range(1, 13))
+    simple_labs.insert_design_lab(labs, factory)
+    assert [a['num'] for a in labs] == list(range(1, 14))
     return labs
 
 

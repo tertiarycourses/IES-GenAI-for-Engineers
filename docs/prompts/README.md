@@ -224,7 +224,7 @@ What rules does this workbook give you? List them briefly.
 ```
 
 
-## Lab 5: Use the Built-in Chart Skill, then Create a Custom Pareto Skill
+## Lab 5: Find the Vital Few Failure Modes with a Pareto Skill
 
 [Instruction PDF](../../labs/lab-05-custom-pareto-chart-skill/Lab-05-Instructions.pdf) · [Data folder](../../labs/lab-05-custom-pareto-chart-skill/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-5)
 
@@ -239,11 +239,11 @@ Turn on : chart-design (under Visualization)
 
 ### Step 2
 
-Use it. Choose Allow editing and send the prompt. Select Done to keep the change, or Undo to reverse it.
+Use it. Choose Allow editing and send the prompt. Select Done to keep the change, or Undo to reverse it. The bars run from highest to lowest, starting with Corrosion.
 
 ```text
 EXCEL - ALLOW EDITING:
-@chart-design Make a bar chart of the overdue work orders by Job_Category on a new sheet named ChartDesign_Demo, biggest bar first. Overdue means not Closed or Cancelled and due before the date in Control!B2.
+@chart-design Make a bar chart of the number of work orders for each Failure_Mode on a new sheet named ChartDesign_Demo, sorted from highest to lowest.
 ```
 
 ### Step 3
@@ -256,49 +256,51 @@ OneDrive : Documents > Copilot > Microsoft Excel > skills > water-service-pareto
 
 ### Step 4
 
-Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-pareto on. Close the dialog and type @wat in the Copilot prompt box: water-service-pareto should appear. If it does not, wait a minute and select Refresh again.
+Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-pareto on. Close the dialog and type @wat in the Copilot prompt box: water-service-pareto should appear. If not, wait a minute and select Refresh again.
 
 ```text
-Check : water-service-pareto appears when you type @wat
+Check : water-service-pareto appears when you type @
 ```
 
 ### Step 5
 
-Make the Pareto chart. Select New chat, choose Allow editing, send the prompt and select Done. You should see 50 overdue jobs: Pump Service 18, Meter Service 12, Leak Repair 8, Valve Repair 8, Pipe Replacement 4, and a line rising 36%, 60%, 76%, 92%, 100%.
+Find the vital few. Select New chat, choose Allow editing, send the prompt and select Done. You should see Corrosion 42, Joint seal leak 30, Valve seat wear 22, Pump bearing wear 10, Pressure surge 8, Meter fault 4, Blockage 2, Third-party damage 2. The top 3 failure modes cause 78% of all work orders.
 
 ```text
 EXCEL - ALLOW EDITING:
-@water-service-pareto Make a Pareto chart of the overdue work orders by Job_Category.
+@water-service-pareto Make a Pareto chart of Failure_Mode for all work orders in tblWorkOrders.
 ```
 
 ### Step 6
 
-Use the skill again. Send the prompt and select Done. Pareto_Site also adds up to 50.
+Look at the overdue jobs. Send the prompt and select Done. Among the 50 overdue jobs the order changes: Joint seal leak 14, Corrosion 13, Valve seat wear 8, Pump bearing wear 7, Pressure surge 3, Blockage 2, Meter fault 2, Third-party damage 1. A Pareto shows where to look first; confirm the root cause on site.
 
 ```text
 EXCEL - ALLOW EDITING:
-@water-service-pareto Now make the same Pareto chart by Site.
+@water-service-pareto Now make the same Pareto chart for the overdue work orders only.
 ```
 
 
-## Lab 6: Create, Use and Improve the Maintenance Reporting Skill
+## Lab 6: Build a Maintenance Report with Two Skills
 
 [Instruction PDF](../../labs/lab-06-reporting-skill/Lab-06-Instructions.pdf) · [Data folder](../../labs/lab-06-reporting-skill/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-6)
 
 ### Step 1
 
-Upload the skill to OneDrive. In Excel open Copilot and select Settings (...) > Manage plugins & skills > Custom skills. Turn Custom skills on and select Add in OneDrive (or Create OneDrive folder, then Open skills folder). OneDrive opens at your skills folder. Select Create or upload > Folder upload and choose the maintenance-reporting folder in this lab’s data/templates folder.
+Upload the skill to OneDrive. In Excel open Copilot and select Settings (...) > Manage plugins & skills > Custom skills. Turn Custom skills on and select Add in OneDrive (or Create OneDrive folder, then Open skills folder). OneDrive opens at your skills folder. Select Create or upload > Folder upload and choose the water-service-pareto and maintenance-reporting folders in this lab’s data/templates folder.
 
 ```text
+OneDrive : Documents > Copilot > Microsoft Excel > skills > water-service-pareto > SKILL.md
 OneDrive : Documents > Copilot > Microsoft Excel > skills > maintenance-reporting > SKILL.md
 ```
 
 ### Step 2
 
-Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn maintenance-reporting on. Close the dialog and type @main in the Copilot prompt box: maintenance-reporting should appear. If it does not, wait a minute and select Refresh again.
+Turn the skills on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-pareto and maintenance-reporting on. Close the dialog and type @ in the Copilot prompt box: water-service-pareto and maintenance-reporting should appear. If not, wait a minute and select Refresh again.
 
 ```text
-Check : maintenance-reporting appears when you type @main
+Check : water-service-pareto appears when you type @
+Check : maintenance-reporting appears when you type @
 ```
 
 ### Step 3
@@ -312,20 +314,20 @@ EXCEL - ALLOW EDITING:
 
 ### Step 4
 
+Add the failure-mode Pareto. Send the prompt and select Done. The chart is sorted from highest to lowest: Corrosion 42, Joint seal leak 30, Valve seat wear 22, Pump bearing wear 10, Pressure surge 8, Meter fault 4, Blockage 2, Third-party damage 2.
+
+```text
+EXCEL - ALLOW EDITING:
+@water-service-pareto Make a Pareto chart of Failure_Mode for all work orders and place it on the Maintenance_Summary sheet, to the right of the numbers.
+```
+
+### Step 5
+
 Suggest owners. Send the prompt and select Done. Assignment_Proposals lists 6 jobs, each marked as a proposal, and Assigned_To on Work_Orders is unchanged. Save the workbook.
 
 ```text
 EXCEL - ALLOW EDITING:
 @maintenance-reporting Add an Assignment_Proposals sheet for the backlog jobs with no owner. Suggest an owner from tblTechnicians with the same job category and free hours, and mark each one as a proposal. Don’t change Assigned_To.
-```
-
-### Step 5
-
-Test it with no data. Open a new blank workbook, send the prompt and read the reply: a good skill asks you for the data instead of making up numbers. Close the blank workbook without saving.
-
-```text
-EXCEL - CHAT ONLY:
-@maintenance-reporting Prepare my maintenance report for last month.
 ```
 
 ### Step 6
@@ -338,9 +340,58 @@ POWERPOINT COPILOT:
 ```
 
 
-## Lab 7: Create and Apply a Custom Interactive Dashboard Skill
+## Lab 7: Create a PowerPoint Design Skill: From Plain to Professional
 
-[Instruction PDF](../../labs/lab-07-custom-dashboard-skill/Lab-07-Instructions.pdf) · [Data folder](../../labs/lab-07-custom-dashboard-skill/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-7)
+[Instruction PDF](../../labs/lab-07-powerpoint-design-skill/Lab-07-Instructions.pdf) · [Data folder](../../labs/lab-07-powerpoint-design-skill/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-7)
+
+### Step 1
+
+Look at the plain deck. Open data/Northstar_Plain_Update.pptx in PowerPoint and save it as Northstar_Professional_Update.pptx. The numbers are right, but the slides are plain: black text, no header, no branding.
+
+```text
+Slides : 6
+Look : plain black text, no colours, no header, no footer
+```
+
+### Step 2
+
+Write the skill. Go to https://copilot.cloud.microsoft, start a new chat, paste the prompt and send it. Read the reply: it starts with --- and the name northstar-deck-design. Copy the whole reply.
+
+```text
+MICROSOFT 365 COPILOT WEB:
+Write a complete SKILL.md for a Copilot in PowerPoint skill named northstar-deck-design. Start with --- front matter: name: northstar-deck-design and description: Use when I ask to make a presentation look professional or apply the Northstar brand. Then write numbered steps: 1) Keep every slide, number and fact; change only the design. 2) Fonts: Segoe UI Semibold for titles, Segoe UI for body text. 3) Colours: navy #1F4E79, blue #2E75B6, teal #2A9D8F, light grey #F2F4F7 cards, white background. 4) Slide 1: navy background, large white title, teal subtitle. 5) Every other slide: a navy header bar with a white title and a thin teal line under it. 6) Turn key numbers into KPI cards with a big bold number and a short label. 7) At most 4 short bullets per slide, with plenty of white space. 8) A footer on every slide except slide 1: Northstar Water Services | 30 September 2026, and the slide number. 9) Check every slide and list anything you could not fix. Return only the SKILL.md text, starting with ---, without code fences.
+```
+
+### Step 3
+
+Add the skill to PowerPoint. In PowerPoint open Copilot and select + > Choose skills > Manage skills > Add skill. Paste the reply into the form and select Add. Short of time? Open data/templates/northstar-deck-design/SKILL.md in Notepad or TextEdit, copy all of it and paste that instead.
+
+```text
+Check : northstar-deck-design appears when you type @nor
+```
+
+### Step 4
+
+Transform the deck. Send the prompt and watch every slide change: a navy title slide, a header bar on each slide, KPI cards for the numbers and a footer.
+
+```text
+POWERPOINT COPILOT:
+@northstar-deck-design Redesign this whole deck in the Northstar style. Keep every slide and every number.
+```
+
+### Step 5
+
+Check the result. Send the prompt and fix anything it lists. The numbers must not change: 120 total, 60 backlog, 50 overdue and 6 unassigned, cost S$35,827.50. Save the deck.
+
+```text
+POWERPOINT COPILOT:
+@northstar-deck-design Check every slide against the skill. List any slide missing the header bar, footer, Northstar fonts or colours, and fix it. Do not change any number.
+```
+
+
+## Lab 8: Build an Interactive Dashboard with a Custom Skill
+
+[Instruction PDF](../../labs/lab-08-custom-dashboard-skill/Lab-08-Instructions.pdf) · [Data folder](../../labs/lab-08-custom-dashboard-skill/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-8)
 
 ### Step 1
 
@@ -352,10 +403,10 @@ OneDrive : Documents > Copilot > Microsoft Excel > skills > water-service-dashbo
 
 ### Step 2
 
-Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-dashboard on. Close the dialog and type @wat in the Copilot prompt box: water-service-dashboard should appear. If it does not, wait a minute and select Refresh again.
+Turn the skill on. Back in Excel select Settings (...) > Manage plugins & skills > Custom skills > Refresh, then turn water-service-dashboard on. Close the dialog and type @wat in the Copilot prompt box: water-service-dashboard should appear. If not, wait a minute and select Refresh again.
 
 ```text
-Check : water-service-dashboard appears when you type @wat
+Check : water-service-dashboard appears when you type @
 ```
 
 ### Step 3
@@ -395,9 +446,9 @@ Check every KPI tile and chart on the Dashboard against tblWorkOrders. List any 
 ```
 
 
-## Lab 8: Test Dashboard Filters and a Data Refresh
+## Lab 9: Test Dashboard Filters and a Data Refresh
 
-[Instruction PDF](../../labs/lab-08-interactive-filters-and-refresh/Lab-08-Instructions.pdf) · [Data folder](../../labs/lab-08-interactive-filters-and-refresh/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-8)
+[Instruction PDF](../../labs/lab-09-interactive-filters-and-refresh/Lab-09-Instructions.pdf) · [Data folder](../../labs/lab-09-interactive-filters-and-refresh/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-9)
 
 ### Step 1
 
@@ -452,9 +503,9 @@ Check that every KPI tile and chart on the Dashboard includes the two new work o
 ```
 
 
-## Lab 9: Turn Dashboard Evidence into a Management Story
+## Lab 10: Turn Dashboard Evidence into a Management Story
 
-[Instruction PDF](../../labs/lab-09-dashboard-to-presentation/Lab-09-Instructions.pdf) · [Data folder](../../labs/lab-09-dashboard-to-presentation/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-9)
+[Instruction PDF](../../labs/lab-10-dashboard-to-presentation/Lab-10-Instructions.pdf) · [Data folder](../../labs/lab-10-dashboard-to-presentation/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-10)
 
 ### Step 1
 
@@ -493,9 +544,9 @@ Check these 8 slides against the uploaded brief. List any number that is wrong a
 ```
 
 
-## Lab 10: Refine and Present the Maintenance Decision Deck
+## Lab 11: Refine and Present the Maintenance Decision Deck
 
-[Instruction PDF](../../labs/lab-10-professional-handoff/Lab-10-Instructions.pdf) · [Data folder](../../labs/lab-10-professional-handoff/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-10)
+[Instruction PDF](../../labs/lab-11-professional-handoff/Lab-11-Instructions.pdf) · [Data folder](../../labs/lab-11-professional-handoff/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-11)
 
 ### Step 1
 
@@ -541,9 +592,9 @@ Write a short handoff email for the attached Northstar management deck (PDF) and
 ```
 
 
-## Lab 11: Build a Work-Order Agent with Agent Builder
+## Lab 12: Build a Work-Order Agent with Agent Builder
 
-[Instruction PDF](../../labs/lab-11-copilot-agent-builder/Lab-11-Instructions.pdf) · [Data folder](../../labs/lab-11-copilot-agent-builder/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-11)
+[Instruction PDF](../../labs/lab-12-copilot-agent-builder/Lab-12-Instructions.pdf) · [Data folder](../../labs/lab-12-copilot-agent-builder/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-12)
 
 ### Step 1
 
@@ -608,9 +659,9 @@ Assign WO-2026-0013 to Daniel Lee and confirm it is approved. Also give me the c
 ```
 
 
-## Lab 12: Mini Capstone: Group Dashboard and Decision Deck
+## Lab 13: Mini Capstone: Group Dashboard and Decision Deck
 
-[Instruction PDF](../../labs/lab-12-mini-capstone/Lab-12-Instructions.pdf) · [Data folder](../../labs/lab-12-mini-capstone/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-12)
+[Instruction PDF](../../labs/lab-13-mini-capstone/Lab-13-Instructions.pdf) · [Data folder](../../labs/lab-13-mini-capstone/data/) · [Copy buttons](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/#lab-13)
 
 ### Step 1
 
