@@ -66,7 +66,7 @@ def add_dashboard(wb,ready=True):
  style(ws);ws.column_dimensions['A'].width=30;ws.column_dimensions['B'].width=24
  lists.sheet_state='hidden'
 def workbook(path,raw=False,dashboard=False,blank=False,rules=False):
- wb=Workbook();ws=wb.active;ws.title='About_This_Data';ws.append(['Field','Value']);ws.append(['Company','Northstar Water Services - fictional water-pipe maintenance and service company']);ws.append(['Reporting date',REPORT]);ws.append(['Scope','120 Q3 2026 work orders, five sites. All identities and records are synthetic.']);ws.append(['Meaning','Cost is cumulative recorded cost of all statuses; not a budget or productivity claim.']);ws.append(['Use','Work on a copy saved to your OneDrive folder; keep this supplied workbook unchanged.'])
+ wb=Workbook();ws=wb.active;ws.title='About_This_Data';ws.append(['Field','Value']);ws.append(['Company','Northstar Water Services - fictional water-pipe maintenance and service company']);ws.append(['Reporting date',REPORT]);ws.append(['Scope','120 Q3 2026 work orders, five sites. All identities and records are synthetic.']);ws.append(['Meaning','Cost is cumulative recorded cost of all statuses; not a budget or productivity claim.']);ws.append(['Use','Synthetic training data. Work on this file in your lab folder.'])
  ws=wb.create_sheet('Work_Orders');ws.append(HEADERS)
  source=[list(r) for r in ROWS]
  if raw:
@@ -117,7 +117,7 @@ def deck(path,checkpoint=False,count=8):
  ]
  if count==4:bodies=[bodies[1],bodies[4],bodies[5],bodies[7]]
  notes=[
- 'Source tblWorkOrders, all filters All, as at 2026-09-30. State scope before interpretation. This is a deterministic rejoin example, not evidence of Copilot execution.',
+ 'Source tblWorkOrders, all filters All, as at 2026-09-30. State scope before interpretation. Ready-made example deck for this lab.',
  'Counts partition the selected source table exactly; recorded cost includes all statuses. Do not infer a budget or savings.',
  'Backlog chart counts Status neither Closed nor Cancelled. Site totals are source-derived and reconcile to 60. Counts alone do not explain causes.',
  'Status chart uses all 120 source rows; category comparison is nominal. Check units and avoid claims of causation.',
@@ -207,6 +207,70 @@ def ops_brief_template(path):
  doc(path,'Northstar operations brief',[('Reporting scope','Record file, table, filters and reporting date.'),('Verified measures','Replace this paragraph with verified values and denominators.'),('Backlog and priority','Summarise evidence without guessing causal explanations.'),('Assignment proposals','Keep current assignment and proposed assignment separate.'),('Decision and open questions','Name the decision needed; use UNKNOWN for missing facts.')])
 def snapshot(path):
  doc(path,'Northstar verified maintenance snapshot',[('Source and scope','Synthetic tblWorkOrders: 120 records; all filters All; 30 September 2026.'),('Verified controls',json.dumps(EXPECTED,indent=2)),('Interpretation','Values describe this fictional snapshot. Category mix is a count, not evidence of root cause. Proposals are unapproved.'),('Presentation outline','Portfolio; backlog; mix; SLA; capacity; actions; decision. Reconcile every figure against the dashboard before use.')])
+LAB1_SOURCE='Northstar_Work_Orders.xlsx'
+def lab1_workbook(path):
+ """Completed Lab 1 workbook so Lab 2 can start without Lab 1: raw copy, Checks and Evidence_Log filled."""
+ from openpyxl import load_workbook
+ E=EXPECTED;wb=load_workbook(path)
+ ws=wb['About_This_Data'];ws.append(['Lab 1 result','Completed Lab 1 workbook: 2 exact duplicate records removed (WO-2026-0005, WO-2026-0020) and 2 category labels standardised (WO-2026-0004, WO-2026-0013). Supplied so this lab can start straight away.'])
+ raw=wb.create_sheet('Raw_Export',1);raw.append(HEADERS)
+ source=[list(r) for r in ROWS];source[3][2]=' Leak repair ';source[12][2]='Pump service ';source+=[list(source[4]),list(source[19])]
+ for r in source:raw.append(r)
+ ctl={row[0].value:row[0].row for row in wb['Control'].iter_rows(min_row=2)}
+ ws=wb['Checks'];ws.delete_rows(2,ws.max_row)
+ back='tblWorkOrders[Status],"<>Closed",tblWorkOrders[Status],"<>Cancelled"'
+ for label,key,f in [('Total clean rows','total','=ROWS(tblWorkOrders[Work_Order_ID])'),('Closed','closed','=COUNTIFS(tblWorkOrders[Status],"Closed")'),
+   ('Cancelled','cancelled','=COUNTIFS(tblWorkOrders[Status],"Cancelled")'),('Backlog (neither Closed nor Cancelled)','backlog',f'=COUNTIFS({back})'),
+   ('Overdue backlog (Due_Date before Report_Date)','overdue',f'=COUNTIFS({back},tblWorkOrders[Due_Date],"<"&Control!$B$2)'),
+   ('Unassigned backlog (blank Assigned_To)','unassigned_backlog',f'=COUNTIFS({back},tblWorkOrders[Assigned_To],"")'),('Recorded cost SGD','cost','=SUM(tblWorkOrders[Cost_SGD])')]:
+  r=ws.max_row+1;ws.append([label,f,f'=IF(B{r}=Control!B{ctl[key]},"PASS","FAIL")'])
+ r=ws.max_row+1;ws.append(['Identity: total = closed + cancelled + backlog','=B3+B4+B5',f'=IF(B{r}=B2,"PASS","FAIL")'])
+ ws.append(['Duplicate Work_Order_ID values','=SUMPRODUCT(--(COUNTIF(tblWorkOrders[Work_Order_ID],tblWorkOrders[Work_Order_ID])>1))',f'=IF(B{r+1}=0,"PASS","FAIL")'])
+ ws['B8'].number_format='"S$"#,##0.00'
+ ws=wb['Evidence_Log'];scope=f'{LAB1_SOURCE}, tblWorkOrders, all filters All'
+ for step,claim,val in [(3,'Exact duplicate records removed','2 (WO-2026-0005, WO-2026-0020)'),(3,'Category labels standardised','2 (WO-2026-0004, WO-2026-0013)'),
+   (4,'Total work orders',E['total']),(4,'Closed',E['closed']),(4,'Cancelled',E['cancelled']),(4,'Backlog',E['backlog']),(4,'Overdue backlog',E['overdue']),
+   (4,'Unassigned backlog',E['unassigned_backlog']),(4,'Recorded cost SGD',f"S${E['cost']:,.2f}"),(4,'Identity total = closed + cancelled + backlog',f"{E['total']} = {E['closed']} + {E['cancelled']} + {E['backlog']}"),
+   (6,'Word brief figures agree with Checks','All 8 figures match')]:
+  ws.append(['Lab 1',f'Step {step}',claim,val,val,scope,REPORT,'Lab 1 model answer','PASS'])
+ for row in wb['Raw_Export'].iter_rows(min_row=2):
+  for c in row:
+   if isinstance(c.value,datetime):c.number_format='yyyy-mm-dd'
+ for name in ('About_This_Data','Raw_Export','Checks','Evidence_Log'):style(wb[name])
+ wb['Checks'].column_dimensions['A'].width=44;wb['Checks'].column_dimensions['B'].width=60
+ wb.save(path)
+def lab1_brief(path):
+ """Completed Lab 1 Word operations brief (same headings as the Lab 1 template), built from the verified controls."""
+ E=EXPECTED;back=[r for r in ROWS if r[4] not in ('Closed','Cancelled')];over=[r for r in back if r[7]<REPORT]
+ d=Document();d.add_heading('Northstar operations brief - 30 September 2026',0)
+ d.add_paragraph('Finished operations brief supplied for this lab. Northstar Water Services is fictional; all records are synthetic.').runs[0].italic=True
+ d.add_heading('Reporting scope',1)
+ d.add_paragraph(f'Source: {LAB1_SOURCE}, table tblWorkOrders (Checks and Control sheets). Scope: all sites, job categories, statuses and owners. '
+                 f'Reporting date: 30 September 2026. {E["total"]} unique work orders after removing 2 exact duplicate export records.')
+ d.add_heading('Verified measures',1)
+ t=d.add_table(rows=1,cols=3);t.style='Light Grid Accent 1'
+ for i,h in enumerate(['Measure','Value','Definition']):t.rows[0].cells[i].text=h
+ for row in [('Total work orders',E['total'],'Unique Work_Order_ID rows'),('Closed',E['closed'],'Status = Closed'),('Cancelled',E['cancelled'],'Status = Cancelled'),
+   ('Backlog',E['backlog'],'Status is neither Closed nor Cancelled'),('Overdue backlog',E['overdue'],'Backlog with Due_Date before 30 September 2026'),
+   ('Unassigned backlog',E['unassigned_backlog'],'Backlog with blank Assigned_To'),('Recorded cost',f"S${E['cost']:,.2f}",'Sum of Cost_SGD, all statuses; not a budget or saving')]:
+  c=t.add_row().cells
+  for i,v in enumerate(row):c[i].text=str(v)
+ d.add_paragraph(f"Check: {E['total']} = {E['closed']} closed + {E['cancelled']} cancelled + {E['backlog']} backlog.")
+ d.add_heading('Backlog and priority',1)
+ site_b=Counter(r[1] for r in back);site_o=Counter(r[1] for r in over)
+ d.add_paragraph(f"{E['overdue']} of {E['backlog']} backlog work orders are overdue. By site (backlog / overdue): "
+                 + '; '.join(f'{s} {site_b[s]} / {site_o[s]}' for s in SITES) + '. These counts describe recorded work; causes are UNKNOWN.')
+ d.add_heading('Assignment proposals',1)
+ ids=', '.join(r[0] for r in back if not r[5])
+ d.add_paragraph(f"Current: {E['unassigned_backlog']} backlog work orders have no owner ({ids}). Blank owners stay blank in the source.")
+ d.add_paragraph('Proposed (unapproved): hub leads suggest an owner for each unassigned job using primary category and available hours; the Operations Manager decides.')
+ d.add_heading('Decision and open questions',1)
+ for line in [f"Proposed next action: review the {E['overdue']} overdue jobs by priority and site.",
+              f"Proposed next action: prepare owner proposals for the {E['unassigned_backlog']} unassigned backlog jobs.",
+              'Decision requested: the Operations Manager approves or revises the recovery priorities and owner proposals.',
+              'Open questions: causes of overdue work, technician constraints, approval owner and review date are UNKNOWN.']:
+  d.add_paragraph(line,style='List Bullet')
+ d.save(path)
 def build_lab_data(num,folder):
  """Lean lab folder: the lab workbook and only the templates this lab uses (no checkpoints)."""
  root=Path(folder);data=root/'data';tmp=data/'templates';cp=data/'checkpoints'
@@ -214,8 +278,13 @@ def build_lab_data(num,folder):
  if num<=10:
   workbook(data/'Northstar_Work_Orders.xlsx',raw=(num==1),dashboard=(num>=8),rules=(num>=5))
   if num==8:add_refresh_rows(data/'Northstar_Work_Orders.xlsx')
+  if num==2:  # Lab 1 results, named like Lab 1's outputs, for learners who missed Lab 1
+   lab1_workbook(data/'Northstar_Work_Orders.xlsx')
+   lab1_brief(data/'Northstar_Operations_Brief.docx')
  if num in (1,8):tmp.mkdir(parents=True,exist_ok=True);ops_brief_template(tmp/'Northstar_Operations_Brief_Template.docx')
- if num in (2,9,12):tmp.mkdir(parents=True,exist_ok=True);deck(tmp/'Northstar_Management_Deck_Template.pptx')
+ if num in (2,9,12):tmp.mkdir(parents=True,exist_ok=True);deck(tmp/'Northstar_Management_Deck_Template.pptx',count=4 if num==2 else 8)  # Lab 2 uses 4 slides
+ if num==6:deck(data/'Northstar_Initial_Update.pptx',True,count=4)  # ready-made 4-slide update to improve
+ if num==10:deck(data/'Northstar_Management_Draft.pptx',True)  # ready-made 8-slide draft to polish
  if num==9:doc(tmp/'Northstar_Presentation_Brief_Template.docx','Northstar management presentation brief',[('Audience and decision','Audience: water service operations management. Decision: prioritise a proposed backlog recovery plan; approvals UNKNOWN.'),('Slide evidence','For each of eight slides specify headline, figure, chart, scope and source.'),('Limitations','Snapshot date, synthetic data, N/A for zero denominators, no invented savings.'),('Narrative','Observation -> operational implication -> proposed action -> decision request.')])
  if num==11:
   handbook(data/'knowledge/Northstar_Service_Handbook.docx');clean_single_sheet(data/'knowledge/Northstar_Work_Orders_Clean.xlsx')

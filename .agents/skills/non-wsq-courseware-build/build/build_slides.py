@@ -887,9 +887,6 @@ def _lab_extras(num):
 # section is taught right before lab n, else 'TOPIC nn'.
 def _render_section(t,sec,accent,tag):
     _b=sec.get("brief")
-    if _b and sec.get("compare"):
-        _c=sec["compare"]
-        compare_table(_c.get("title",sec["title"]),_c["headers"],_c["rows"],kicker=f"{tag} · COMPARE",accent=accent)
     if _b:
         # Slide-ready brief: one 3-card concept slide + one "Try it" slide.
         # The full definition/why/how/example text lives in the Learner Guide.
@@ -904,6 +901,9 @@ def _render_section(t,sec,accent,tag):
             _t=sec["tiles"]
             tile_grid(_t["title"],_t["items"],kicker=f"{tag} · {_t.get('kicker','KEY POINTS')}",
                       cols=_t.get("cols",2),size=_t.get("size",15),accent=accent)
+        if sec.get("compare"):   # side-by-side comparison after the key-point tiles
+            _c=sec["compare"]
+            compare_table(_c.get("title",sec["title"]),_c["headers"],_c["rows"],kicker=f"{tag} · COMPARE",accent=accent)
         if _b.get("flow"):
             flow_h(_b["flow"]["title"],_b["flow"]["steps"],kicker=f"{tag} · HOW IT WORKS",color=accent)
         _chars=sum(len(x) for x in _b["prompts"])

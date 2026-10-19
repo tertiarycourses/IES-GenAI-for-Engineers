@@ -1,6 +1,6 @@
 # GenAI for Engineers
 
-**IES Academy · v2.3 · 18 October 2026**
+**IES Academy · v2.4 · 19 October 2026**
 
 ![GenAI for Engineers slide cover](screenshot.png)
 
@@ -10,14 +10,14 @@ One day with 7.5 instructional hours. Twelve connected labs use the same fiction
 
 ## Course materials
 
-- [Trainer slides](courseware/GenAI%20for%20Engineers-v2.3.pptx)
-- [Slides PDF](courseware/GenAI%20for%20Engineers-v2.3.pdf)
+- [Trainer slides](courseware/GenAI%20for%20Engineers-v2.4.pptx)
+- [Slides PDF](courseware/GenAI%20for%20Engineers-v2.4.pdf)
 - [Learner Guide Word](courseware/LG-GenAI%20for%20Engineers.docx) · [PDF](courseware/LG-GenAI%20for%20Engineers.pdf) · [Markdown](LG-GenAI%20for%20Engineers.md)
 - [Lesson Plan Word](courseware/LP-GenAI%20for%20Engineers.docx) · [PDF](courseware/LP-GenAI%20for%20Engineers.pdf)
 - [Copy-ready prompts, step by step (public page)](https://tertiarycourses.github.io/IES-GenAI-for-Engineers/prompts/) · [source](docs/prompts/index.html)
 - [Lab folders](labs/)
 
-On the prompts page pick a lab, follow each step and click **Copy** on the prompt under it. Every lab instruction PDF links to its own section of that page (for example `…/prompts/#lab-8`). Each lab folder holds only its instruction PDF and a `data/` folder with the lab workbook and the templates that lab uses; labs that build on earlier work use your own outputs from the previous lab. In Lab 11 you compress the supplied `work-order-qa` Skill folder into a .zip yourself before uploading it to Agent Builder.
+On the prompts page pick a lab, follow each step and click **Copy** on the prompt under it. Every lab instruction PDF links to its own section of that page (for example `…/prompts/#lab-8`). Every lab is self-contained: its folder holds the instruction PDF and a `data/` folder with every file that lab needs, so you can start any lab without finishing the one before. Open the files straight from the lab's `data/` folder and save new files in the same folder; there is no extra working folder and nothing to copy. Steps are short, with one prompt each and the exact numbers you should see. All Excel work runs in desktop Excel on local files, with no OneDrive upload. OneDrive is used only for the Excel custom Skills folder and the Lab 11 agent knowledge files. In Lab 11 you compress the supplied `work-order-qa` Skill folder into a .zip yourself before uploading it to Agent Builder.
 
 | Lab | Topic | Lab | Topic |
 |---|---|---|---|
@@ -42,4 +42,4 @@ All work orders, service hubs and staff are synthetic. Use the fixed reporting d
 
 ## Rebuilding
 
-Every artifact is generated from one source in [`.agents/skills/non-wsq-courseware-build/build/`](.agents/skills/non-wsq-courseware-build/build/) (`course_data.py`, the lab modules and `ies_updates.py`). Run `bash build_courseware.sh` there to regenerate the deck, Lesson Plan, Learner Guide, lab folders and prompt page together. Superseded materials are kept in [`archive/`](archive/): v2.2 in `archive/20261018-v2.2-superseded/` and the original package in `archive/20261014-before-c27-replacement/`.
+Every artifact is generated from one source in [`.agents/skills/non-wsq-courseware-build/build/`](.agents/skills/non-wsq-courseware-build/build/) (`course_data.py`, the lab modules, `ies_updates.py` and `simple_labs.py`, which holds the short lab steps). Run `bash build_courseware.sh` there to regenerate the deck, Lesson Plan, Learner Guide, lab folders and prompt page together. Superseded materials are kept in [`archive/`](archive/): v2.3 in `archive/20261019-v2.3-superseded/`, v2.2 in `archive/20261018-v2.2-superseded/` and the original package in `archive/20261014-before-c27-replacement/`.
